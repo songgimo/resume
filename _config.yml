@@ -75,18 +75,18 @@ content:
     content:
       - layout: right
         title: Cyber Command
-        sub_title: 
-        caption: 2019.02.25 -
+        sub_title: 정보보호병
+        caption: 2015.05 - 2017.02 
         link: Link to company (optional)
         quote: >
-          IT아웃소싱, 채용 및 SW거래 관련 플랫폼. 요즘IT라는 IT매거진도 운영
+          사이버 사령부에서 정보보호병으로 서버 운영 및 관련 python script 작성
         description: | # this will include new lines to allow paragraphs
           Description of role
 
       - layout: right
         title: Wishket
         sub_title: Software Developer
-        caption: 2019.02.25 -
+        caption: 2019.02 - 2022.01
         link: Link to company (optional)
         quote: >
           IT아웃소싱, 채용 및 SW거래 관련 플랫폼. 요즘IT라는 IT매거진도 운영
