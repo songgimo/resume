@@ -40,14 +40,10 @@ additional_links:
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.png
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+
+about_title: |
+  테스트
 
 content:
   - title: Projects # Title for the section
@@ -77,20 +73,18 @@ content:
         title: Cyber Command
         sub_title: 정보보호병
         caption: 2015.05 - 2017.02 
-        link: Link to company (optional)
-        quote: >
-          사이버 사령부에서 정보보호병으로 서버 운영 및 관련 python script 작성
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          15년 05월부터 17년 02월까지 사이버사령부에서 정보보호병으로 근무 |
+          서버 관리, 운영, 관리 및 운영과 관련된 python script 작성 등
 
       - layout: right
         title: Wishket
         sub_title: Software Developer
         caption: 2019.02 - 2022.01
-        link: Link to company (optional)
-        quote: >
-          IT아웃소싱, 채용 및 SW거래 관련 플랫폼. 요즘IT라는 IT매거진도 운영
+        link: wishket.com
         description: | # this will include new lines to allow paragraphs Description of role
+          19년 02월부터 개발자로 입사. |
+          python과 django를 베이스로 다양한 프로젝트를 작성하고 릴리즈
   - title: Education
     layout: list
     content:
