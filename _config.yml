@@ -19,19 +19,8 @@ website: https://github.com/songgimo
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+github_username:  gimosong
+linkedin_username: gimosong
 
 # Additional icon links
 additional_links:
@@ -50,7 +39,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -85,14 +74,23 @@ content:
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
+        title: Cyber Command
+        sub_title: 
+        caption: 2019.02.25 -
         link: Link to company (optional)
         quote: >
-          Short description of the company (optional)
+          IT아웃소싱, 채용 및 SW거래 관련 플랫폼. 요즘IT라는 IT매거진도 운영
         description: | # this will include new lines to allow paragraphs
           Description of role
+
+      - layout: right
+        title: Wishket
+        sub_title: Software Developer
+        caption: 2019.02.25 -
+        link: Link to company (optional)
+        quote: >
+          IT아웃소싱, 채용 및 SW거래 관련 플랫폼. 요즘IT라는 IT매거진도 운영
+        description: | # this will include new lines to allow paragraphs Description of role
   - title: Education
     layout: list
     content:
