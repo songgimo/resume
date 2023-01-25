@@ -52,7 +52,8 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: 암호화폐 재정거래 시스템 (CryptoCurrency Arbitrage Trader)
+        title: 암호화폐 재정거래 시스템
+        sub_title: CryptoCurrency Arbitrade Trader
         additional_links:
           - title:  ArbitradeTrader
             icon: fab fa-github
@@ -65,20 +66,24 @@ content:
     layout: list
     content:
       - layout: left
-        title: Cyber Command
-        sub_title: 정보보호병
+        title: 사이버사령부
+        sub_title: CyberCommand
         caption: 2015.05 - 2017.02
+        quote: >
+          정보보호병
         description: | # this will include new lines to allow paragraphs 
-          15년 05월부터 17년 02월까지 사이버사령부에서 정보보호병으로 근무 | #
+          15년 05월부터 17년 02월까지 사이버사령부에서 정보보호병으로 근무 <br/>
           서버 관리, 운영, 관리 및 운영과 관련된 python script 작성 등
 
       - layout: left
-        title: Wishket
-        sub_title: Software Developer
+        title: 위시켓
+        sub_title: Wishket
         caption: 2019.02 - 2022.01
         link: wishket.com
+        quote: >
+          Software Developer
         description: | # this will include new lines to allow paragraphs Description of role
-          19년 02월부터 개발자로 입사. | #
+          19년 02월부터 개발자로 입사. <br/>
           python과 django를 베이스로 다양한 프로젝트를 작성하고 릴리즈
   - title: Education
     layout: list
