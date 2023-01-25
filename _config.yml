@@ -42,8 +42,8 @@ additional_links:
 about_profile_image: images/profile.png
 
 
-about_title: |
-  테스트
+about_title: About Me
+  -
 
 content:
   - title: Projects # Title for the section
@@ -52,38 +52,33 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: 암호화폐 재정거래 시스템 (CryptoCurrency Arbitrage Trader)
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title:  ArbitradeTrader
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
+            url: https://github.com/songsb13/Difftrader
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          1. N개의 암호화폐 거래소의 차익을 이용한 재정거래 시스템
+          2. Binance, Upbit, Bithumb에 대한 API 통신 함수 생성
+          3. Python, MySQL, QT, Async, Threading, Websocket 등의 기술 사용
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: Cyber Command
         sub_title: 정보보호병
-        caption: 2015.05 - 2017.02 
-        description: | # this will include new lines to allow paragraphs
-          15년 05월부터 17년 02월까지 사이버사령부에서 정보보호병으로 근무 |
+        caption: 2015.05 - 2017.02
+        description: | # this will include new lines to allow paragraphs 
+          15년 05월부터 17년 02월까지 사이버사령부에서 정보보호병으로 근무 | #
           서버 관리, 운영, 관리 및 운영과 관련된 python script 작성 등
 
-      - layout: right
+      - layout: left
         title: Wishket
         sub_title: Software Developer
         caption: 2019.02 - 2022.01
         link: wishket.com
         description: | # this will include new lines to allow paragraphs Description of role
-          19년 02월부터 개발자로 입사. |
+          19년 02월부터 개발자로 입사. | #
           python과 django를 베이스로 다양한 프로젝트를 작성하고 릴리즈
   - title: Education
     layout: list
