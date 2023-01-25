@@ -52,12 +52,14 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: 암호화폐 재정거래 시스템
-        sub_title: CryptoCurrency Arbitrade Trader
+        title: 암호화폐 재정거래<br/>시스템
+        sub_title: CryptoCurrency Arbitrage Trader
         additional_links:
           - title:  ArbitradeTrader
             icon: fab fa-github
             url: https://github.com/songsb13/Difftrader
+        quote: >
+          Personal Project
         description: | # this will include new lines to allow paragraphs
           1. N개의 암호화폐 거래소의 차익을 이용한 재정거래 시스템
           2. Binance, Upbit, Bithumb에 대한 API 통신 함수 생성
@@ -88,14 +90,23 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+      - layout: left
+        title: 울산과학대학교
+        sub_title: Ulsan College
+        caption: 2013.02 - 2018.02
+        quote: |
+          공업전문학사, Associate of Science in Engineering Technology
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          컴퓨터 정보학과 수료
+      - layout: left
+        title: 학점은행제
+        sub_title: The Academic Credit Bank System
+        caption: 2018.07 - 2019.02
+        quote: |
+          공학사, Bachelor of Engineering
+        description: |
+          컴퓨터 공학과 수료
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
