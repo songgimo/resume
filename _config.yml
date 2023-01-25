@@ -46,24 +46,33 @@ about_title: About Me
   -
 
 content:
-  - title: Projects # Title for the section
+  - title: Personal Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
         title: 암호화폐 재정거래<br/>시스템
         sub_title: CryptoCurrency Arbitrage Trader
         additional_links:
           - title:  ArbitradeTrader
             icon: fab fa-github
             url: https://github.com/songsb13/Difftrader
-        quote: >
-          Personal Project
         description: | # this will include new lines to allow paragraphs
           1. N개의 암호화폐 거래소의 차익을 이용한 재정거래 시스템
           2. Binance, Upbit, Bithumb에 대한 API 통신 함수 생성
           3. Python, MySQL, QT, Async, Threading, Websocket 등의 기술 사용
+      - layout: left
+        border: weak
+        title: 암호화폐 보조지표 거래<br/>시스템
+        description: |
+          1. N개의 암호화폐 거래소 지표를 도출하고 거래를 지원하는 시스템
+          2. RSI, MACD, Stochastic, CCI 보조지표 도출 함수 작성
+          3. Python, QT, Tree, Queue, Threading 등의 기술 사용
+      - layout: left
+        border: weak
+        title: 키움증권 알고리즘 거래<br/>시스템
+        description: |
+
   - title: Experience
     layout: list
     content:
