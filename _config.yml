@@ -5,18 +5,14 @@ repository: Git repository where your resume will be hosted, only required if yo
 # Content configuration version
 version: 2
 
-# Personal info
 name: Gimo Song
 title: Software Developer
 email: goodmoskito@gmail.com
-# email_title: Email (Email title override)
 phone: 010-3714-4745
-# phone_title: Phone (Phone title override)
 website: https://github.com/songgimo
-# website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 github_username:  gimosong
@@ -27,18 +23,6 @@ additional_links:
 - title: Link name
   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
   url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.png
 
 
@@ -60,7 +44,7 @@ content:
         caption: 2019.02 - 현재
         link: wishket.com
         description: | # this will include new lines to allow paragraphs Description of role
-          ## 위시켓 어드민
+          #### 위시켓 어드민
           위시켓 내부에서 사용될 여러 어드민을 설계, 개발
           
           **Tech Stack**
@@ -70,9 +54,9 @@ content:
           
           **Description**
           
-          <br><br><br><br>
+          <br><br>
           
-          ## 요즘 IT 추가 기능 개발
+          #### 요즘 IT 추가 기능 개발
           기 개발된 요즘 IT 도메인의 기능을 개선하고, 개발했습니다.
           
           **Tech Stack**
@@ -83,18 +67,18 @@ content:
           - Threading
 
           **Description**
-          #### 요즘IT 검색 알고리즘 개선
+          요즘IT 검색 알고리즘 개선
           - OpenSearch 서버 구축 및 API 연동과 검색 알고리즘을 설계 및 개발
           - 속도와 정확도 개선, n개 검색어 조합 가능하게 수정
           <br>
           
-          #### 요즘IT 슬랙봇 구독 서비스 설계 및 개발
+          요즘IT 슬랙봇 구독 서비스 설계 및 개발
           - 슬랙 API 연동, 관련 MVP를 설계 및 개발
           - Threading을 적극적으로 사용해 발송 시간을 개선
           
-          <br><br><br><br>
+          <br><br>
           
-          ## 리뷰 2.0
+          #### 리뷰 2.0
           위시켓의 새로운 평가 시스템 설계 및 개발
           
           Tech Stack
@@ -110,13 +94,13 @@ content:
           - 기존 레거시를 걷어내야 하는 상황에서 개발 진행
           - 필터 로직, 평가 안내 SMS & 메일 서비스 추가 등
           
-          <br><br><br><br>
+          <br><br>
 
-          ## 스마트매칭 시스템
+          #### 스마트매칭 시스템
           
           
           
-          <br><br><br><br>
+          <br><br>
 
 #
 #          파트너의 프로젝트 선호를 개인화하고 서버에 저장하며, 매 일마다  프로젝트를 매칭해서 메일링해주는 프로젝트
@@ -134,16 +118,16 @@ content:
         caption: 2017.03 - 2019.01
         link:
         description: | # this will include new lines to allow paragraphs Description of role
-          ## 키움증권 종목탐지 및 자동 트레이딩 시스템 
+          #### 키움증권 종목탐지 및 자동 트레이딩 시스템 
           
           Tech Stack
           Python, QT, Threading, Lock, Queue 등
           
           Description
           
-          <br><br><br><br>
+          <br><br>
           
-          ## 암호화폐 재정거래 시스템
+          #### 암호화폐 재정거래 시스템
           "3개의 암호화폐 거래소 API 연동" 프로젝트에서 작성된 모듈을 바탕으로 
           거래소간 차익을 계산하고 입력한 차익에 도달했을 때 자동거래와 입출금까지를 하나의 시퀀스로 두는 프로그램
           
@@ -152,10 +136,10 @@ content:
           
           Description
           
-          <br><br><br><br>
+          <br><br>
 
           
-          ## 암호화폐 보조지표 거래 시스템
+          #### 암호화폐 보조지표 거래 시스템
           N개의 암호화페 거래소 차익을 이용한 재정거래 시스템 
           RSI, MACD, Stochastic, CCI 등 기존 보조지표를 구하는 함수를 생성하는 역할을 맡았습니다.
           
@@ -164,7 +148,7 @@ content:
           
           Description
           
-          <br><br><br><br>
+          <br><br>
           
           
           
@@ -176,7 +160,7 @@ content:
           
           Description
           
-          <br><br><br><br>
+          <br><br>
 
           
           
