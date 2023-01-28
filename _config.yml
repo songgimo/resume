@@ -51,9 +51,6 @@ content:
           description: >
             Description of role
 
-      description: >
-        Description of role
-
       - layout: top-left
         border: weak
         title: 위시켓
