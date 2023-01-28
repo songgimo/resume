@@ -43,8 +43,9 @@ about_profile_image: images/profile.png
 
 
 about_title: About Me
-  - 안녕하세요. 송기모입니다.
-    서울에서 5년차 웹 개발자로 근무하고 있습니다.
+
+about_contents: |
+    안녕하세요. 개발자 송기모입니다.
     개발자의 역량은 개발과 커뮤니케이션 그리고 목적을 잘 녹여내는 것에서 온다고 믿고 있습니다.
 
 
@@ -53,43 +54,86 @@ content:
     layout: list
     content:
       - layout: left
+        border: weak
         title: 위시켓
         sub_title: Software Developer
         caption: 2019.02 - 현재
         link: wishket.com
         description: | # this will include new lines to allow paragraphs Description of role
-          ## 사내 DevOps
-          사내에서 여러 DevOps를 진행하고 ReactJS로 작성하는 프로젝트를 진행했습니다.
+          ## 위시켓 어드민
+          위시켓 내부에서 사용될 여러 어드민을 설계, 개발
           
-          # 관련 스택
-          Python, Django, ReactJS
+          <br><br>
           
-          ## 버전업, 서버 이전
-          사내에서 Python 2.7 -> 3.5로 버전업을 진행했고
-          애저의 컨테이너에서 AWS S3로 데이터 마이그레이션 하는 작업을 진행했습니다.
+          #### Tech Stack
+          - Python
+          - Django
+          - NextJS
           
-          ## 요즘 IT 검색 알고리즘 개선
-          기존 Django에서 지원하는 필터링이 아닌 OpenSearch를 조합한 검색 알고리즘을 생성했습니다.
+          <br><br>
           
+          #### Description
+          
+          <br><br><br><br>
+          
+          ## 요즘 IT 추가 기능 개발
+          기 개발된 요즘 IT 도메인의 기능을 개선하고, 개발했습니다.
+          
+          <br><br>
+          
+          #### Tech Stack
+          - OpenSearch
+          - Slackbot
+          - Python
+          - Django
+          - Threading
+          
+          <br><br>
+
+          #### Description
+          요즘IT 검색 알고리즘 개선
+          - OpenSearch 서버 구축 및 API 연동과 검색 알고리즘을 설계 및 개발
+          - 속도와 정확도 개선, n개 검색어 조합 가능하게 수정
+          <br>
+          요즘IT 슬랙봇 구독 서비스 설계 및 개발
+          - 슬랙 API 연동, 관련 MVP를 설계 및 개발
+          - Threading을 적극적으로 사용해 발송 시간을 개선
+          
+          <br><br><br><br>
           
           ## 리뷰 2.0
-          기존 평가 시스템의 여러가지 구조적 문제가 있어 새로운 평가 시스템을 구축하는 프로젝트
+          위시켓의 새로운 평가 시스템 설계 및 개발
           
-          기존 평가 시스템은 평가 작성을 했을 때 상대방에게 바로 노출된다는 문제가 있었고, <br>
-          5개의 평가항목만 있어 상대방에 대한 정확한 평가가 되지 않는다는 문제 등 여러가지 구조적 문제를 수정했습니다.
+          <br><br>
           
-          # 관련 스택
-          Python, Django, Redis, Celery, MariaDB, jQuery 등
+          #### Tech Stack
+          - Python
+          - Django
+          - Redis
+          - Celery
+          - jQuery
+          - MariaDB
+
+          <br><br>
           
+          #### Description
+          새로운 평가 MVP 개발
+          - 기존 레거시를 걷어내야 하는 상황에서 개발 진행
+          - 필터 로직, 평가 안내 SMS & 메일 서비스 추가 등
+          
+          <br><br><br><br>
+
           ## 스마트매칭 시스템
-          파트너의 프로젝트 선호를 개인화하고 서버에 저장하며, 매 일마다  프로젝트를 매칭해서 메일링해주는 프로젝트
-          
-          기존 플랫폼에는 파트너의 프로젝트 선호를 개인화하고, 메일링하는 시스템이 없어<br>
-          "스마트매칭"이라는 파트너가 선호하는 프로젝트를 입력받는 페이지 및 백엔드 로직을 구성하고 <br>
-          메일링 알고리즘을 작성하였습니다.
-          
-          # 관련 스택
-          Python, DJango, Redis, Celery, MaraiDB, jQuery 등
+
+#
+#          파트너의 프로젝트 선호를 개인화하고 서버에 저장하며, 매 일마다  프로젝트를 매칭해서 메일링해주는 프로젝트
+#
+#          기존 플랫폼에는 파트너의 프로젝트 선호를 개인화하고, 메일링하는 시스템이 없어<br>
+#          "스마트매칭"이라는 파트너가 선호하는 프로젝트를 입력받는 페이지 및 백엔드 로직을 구성하고 <br>
+#          메일링 알고리즘을 작성하였습니다.
+#          <br>
+#          #### 관련 스택
+#          Python, DJango, Redis, Celery, MaraiDB, jQuery 등
 
       - layout: left
         title: 프리랜서
