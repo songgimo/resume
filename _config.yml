@@ -43,13 +43,9 @@ content:
       jobs:
         - title: Job title 1
           dates: February 2013 - December 2013
-          description: >
-            Description of role
 
         - title: Job title 2
           dates: June 2012 - February 2013
-          description: >
-            Description of role
 
       - layout: top-left
         border: weak
