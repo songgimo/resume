@@ -12,7 +12,7 @@ phone: 010-3714-4745
 website: https://github.com/songgimo
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 github_username:  gimosong
@@ -37,7 +37,24 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: left
+    - layout: top-right
+      border: weak
+      company: 위시켓
+      jobs:
+        - title: Job title 1
+          dates: February 2013 - December 2013
+          description: >
+            Description of role
+
+        - title: Job title 2
+          dates: June 2012 - February 2013
+          description: >
+            Description of role
+
+      description: >
+        Description of role
+
+      - layout: top-left
         border: weak
         title: 위시켓
         sub_title: Software Developer
@@ -45,7 +62,7 @@ content:
         link: wishket.com
         description: | # this will include new lines to allow paragraphs Description of role
           #### 위시켓 어드민
-          위시켓 내부에서 사용될 여러 어드민을 설계, 개발
+          위시켓 내부에서 사용될 어드민을 설계, 개발
           
           **Tech Stack**
           - Python
@@ -67,6 +84,7 @@ content:
           - Threading
 
           **Description**
+          <br>
           요즘IT 검색 알고리즘 개선
           - OpenSearch 서버 구축 및 API 연동과 검색 알고리즘을 설계 및 개발
           - 속도와 정확도 개선, n개 검색어 조합 가능하게 수정
@@ -81,7 +99,7 @@ content:
           #### 리뷰 2.0
           위시켓의 새로운 평가 시스템 설계 및 개발
           
-          Tech Stack
+          **Tech Stack**
           - Python
           - Django
           - Redis
@@ -89,7 +107,7 @@ content:
           - jQuery
           - MariaDB
           
-          Description
+          **Description**
           새로운 평가 MVP 개발
           - 기존 레거시를 걷어내야 하는 상황에서 개발 진행
           - 필터 로직, 평가 안내 SMS & 메일 서비스 추가 등
@@ -120,10 +138,10 @@ content:
         description: | # this will include new lines to allow paragraphs Description of role
           #### 키움증권 종목탐지 및 자동 트레이딩 시스템 
           
-          Tech Stack
+          **Tech Stack**
           Python, QT, Threading, Lock, Queue 등
           
-          Description
+          **Description**
           
           <br><br>
           
@@ -131,10 +149,10 @@ content:
           "3개의 암호화폐 거래소 API 연동" 프로젝트에서 작성된 모듈을 바탕으로 
           거래소간 차익을 계산하고 입력한 차익에 도달했을 때 자동거래와 입출금까지를 하나의 시퀀스로 두는 프로그램
           
-          Tech Stack
+          **Tech Stack**
           Python, Redis, MySQL, Threading, Processing, QT, Async 등
           
-          Description
+          **Description**
           
           <br><br>
 
@@ -143,10 +161,10 @@ content:
           N개의 암호화페 거래소 차익을 이용한 재정거래 시스템 
           RSI, MACD, Stochastic, CCI 등 기존 보조지표를 구하는 함수를 생성하는 역할을 맡았습니다.
           
-          Tech Stack
+          **Tech Stack**
           Python, Tree, QT
           
-          Description
+          **Description**
           
           <br><br>
           
@@ -155,10 +173,10 @@ content:
           ## 암호화폐 거래소 3종 API 연동
           Binance, Upbit, Bithumb 3개 거래소의 API 및 Websocket 연동
           
-          Tech Stack
+          **Tech Stack**
           Python, Tree, QT
           
-          Description
+          **Description**
           
           <br><br>
 
@@ -206,34 +224,34 @@ content:
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
-  - title: Other Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any
-        title: 암호화폐 재정거래<br/>시스템
-        sub_title: CryptoCurrency Arbitrage Trader
-        additional_links:
-          - title:  ArbitradeTrader
-            icon: fab fa-github
-            url: https://github.com/songsb13/Difftrader
-        description: | # this will include new lines to allow paragraphs
-          1. N개의 암호화폐 거래소의 차익을 이용한 재정거래 시스템
-          2. Binance, Upbit, Bithumb에 대한 API 통신 함수 생성
-          3. Python, MySQL, QT, Async, Threading, Websocket 등의 기술 사용
-      - layout: left
-        border: weak
-        title: 암호화폐 보조지표 거래<br/>시스템
-        description: |
-          1. N개의 암호화폐 거래소 지표를 도출하고 거래를 지원하는 시스템
-          2. RSI, MACD, Stochastic, CCI 보조지표 도출 함수 작성
-          3. Python, QT, Tree, Queue, Threading 등의 기술 사용
-      - layout: left
-        border: weak
-        title: 키움증권 알고리즘 거래<br/>시스템
-        description: |
-
+#
+#  - title: Other Experience # Title for the section
+#    layout: list # Type of content section (list/text)
+#    content:
+#      - layout: left
+#        border: weak  # Value of `weak` will display a weak border below this item. # Any
+#        title: 암호화폐 재정거래<br/>시스템
+#        sub_title: CryptoCurrency Arbitrage Trader
+#        additional_links:
+#          - title:  ArbitradeTrader
+#            icon: fab fa-github
+#            url: https://github.com/songsb13/Difftrader
+#        description: | # this will include new lines to allow paragraphs
+#          1. N개의 암호화폐 거래소의 차익을 이용한 재정거래 시스템
+#          2. Binance, Upbit, Bithumb에 대한 API 통신 함수 생성
+#          3. Python, MySQL, QT, Async, Threading, Websocket 등의 기술 사용
+#      - layout: left
+#        border: weak
+#        title: 암호화폐 보조지표 거래<br/>시스템
+#        description: |
+#          1. N개의 암호화폐 거래소 지표를 도출하고 거래를 지원하는 시스템
+#          2. RSI, MACD, Stochastic, CCI 보조지표 도출 함수 작성
+#          3. Python, QT, Tree, Queue, Threading 등의 기술 사용
+#      - layout: left
+#        border: weak
+#        title: 키움증권 알고리즘 거래<br/>시스템
+#        description: |
+#
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
