@@ -34,7 +34,9 @@ about_content: |
 
 
 content:
-  - content:
+  - title: Experience
+    layout: list
+    content:
       - layout: right
         company: Company 1
         link: https://google.com
@@ -57,10 +59,13 @@ content:
         jobs:
           - title: Job title 1
             dates: February 2013 - December 2013
+            description: >
+              Description of role
+
           - title: Job title 2
             dates: June 2012 - February 2013
-        description: >
-          Description of role
+            description: >
+              Description of role
 
 #content:
 #  - title: Experience
