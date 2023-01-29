@@ -29,86 +29,158 @@ about_profile_image: images/profile.png
 about_title: About Me
 
 about_content: |
-    안녕하세요. 개발자 송기모입니다. <br>
-    개발자의 역량은 개발과 커뮤니케이션 그리고 목적을 잘 녹여내는 것에서 온다고 믿고, 행동하려고 노력합니다.
+    # 안녕하세요. 개발자 송기모입니다.
 
 
 content:
+  - title: Summary
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      외주로부터 시작한 백엔드 개발, 스타트업에서의 웹 개발로 다양한 경험을 가지고 있습니다.<br>
+      Python, Linux, AWS, MySQL, MariaDB, Git 등으로 프로덕션 서비스를 설계 및 개발한 경험이 있고, 
+      코드의 확장과 유지보수가 수월한 백엔드 구조와 패턴에 대해 고민하고 개발하고 있습니다.
+      
+      대부분의 프로젝트에서 기획 단계부터 릴리즈까지의 단계에 참여해 제품 개발 사이클에 대한 이해가 있습니다.
+      
+
+      서비스 개발은 비단 코드를 잘 짜는 것 뿐만 아닌 기획과 도메인의 목적에 맞는 코드를 설계하고 개발해야 한다고 믿습니다.<br>
+      그렇기에 더 좋은 개발자로서 발전하기 위해 적극적인 커뮤니케이션으로 기획과 목적을 오해없이 동기화하고 코드에 녹여내고자 노력하고 있습니다.
+      
+
+  - title: Skill Highlights
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Python
+      - Django
+      - MySQL, MariaDB
+      - NextJS
+      - AWS OpenSearch
+      - Redis
+      - Celery
+      - Threading, MultiProcessing
+      - HTML, jQuery, SCSS 등
+
   - title: Experience
     layout: list
     content:
-      - layout: top-right
-        company: 위시켓
-        jobs:
-          - title: Software Developer
-            dates: February 2013 - December 2013
-            description: >
-              #### 요즘 IT 추가 기능 개발
-              기 개발된 요즘 IT 도메인의 기능을 개선하고, 개발했습니다.
-    
-              **Tech Stack**
-              - OpenSearch
-              - Slackbot
-              - Python
-              - Django
-              - Threading
-    
-              **Description**
-              <br>
-              요즘IT 검색 알고리즘 개선
-              - OpenSearch 서버 구축 및 API 연동과 검색 알고리즘을 설계 및 개발
-              - 속도와 정확도 개선, n개 검색어 조합 가능하게 수정
-              <br>
-    
-              요즘IT 슬랙봇 구독 서비스 설계 및 개발
-              - 슬랙 API 연동, 관련 MVP를 설계 및 개발
-              - Threading을 적극적으로 사용해 발송 시간을 개선
+      - layout: left-top
+        border: weak
+        title: 위시켓
+        sub_title: Software Developer
+        caption: 2019.02 - 현재
+        link: wishket.com
+        quote: >
+          프리랜서 아웃소싱 플랫폼
+        description: | # this will include new lines to allow paragraphs Description of role
+          - 내부 어드민 개선 및 레거시 제거
+          - 사용자가 요구하는 MVP 개발
+          - 레거시 제거 및 기존 비즈니스 로직에 대한 유지보수
+          - 개발팀 DevOps 구축 및 개선
+          - 내부 도메인 서비스  
+          - 리뷰 MVP 설계 및 개발, 유지보수
+          - 스마트매칭 MVP 설계 및 개발, 유지보수
+          - 개발팀 DevOps
+          - 사용한 스킬셋
+            - Python, Django, jQuery, NextJS, Redis, Celery, RESTFUL, MariaDB
+      - layout: left-top
+        title: 프리랜서 활동
+        sub_title: Software Developer
+        caption: 2017.02 - 2019.01
+        description: | # 
+          - 사이버 사령부 전역 후 동기와 프리랜서 활동
+          - 업비트 알고리즘 거래 시스템 개발
+          - 키움증권 시세추종 MVP 개발
+          - DB운용 서비스 개발 및 유지보수
+          - 기타 데이터 수집 자동화 앱 개발
+          
+          - 사용한 스킬셋
+            - Python, JavaScript, MySQL, MongoDB, SQLite, PHP, RESTFUL, QT, Selenium
+          <br><br>
+      - layout: left-top
+        title: 팀 프로젝트 활동
+        sub_title: Software Developer
+        caption: 2017.02 - 현재
+        description: | # 
+          - 사이버 사령부 전역 후 동기와 팀 프로젝트 활동
+          - 업비트, 빗썸, 바이낸스 3개 거래소 API, Websocket 연동
+          - 거래소 간 코인 가격 차이를 이용한 재정거래 시스템 개발
+          - MSI, CCI, Stochastic 등 N개의 보조지표를 조합하고 거래하는 시스템 개발
+          - 키움증권 알고리즘 거래 시스템 개발
+          - 사용한 스킬셋
+            - Python, MySQL, Flask, QT, Threading, Processing
+          <br><br>
 
-          - title: Software Developer
-            dates: June 2012 - February 2013
-            description: >
-              #### 리뷰 2.0
-              위시켓의 새로운 평가 시스템 설계 및 개발
-    
-              **Tech Stack**
-              - Python
-              - Django
-              - Redis
-              - Celery
-              - jQuery
-              - MariaDB
-    
-              **Description**
-              새로운 평가 MVP 개발
-              - 기존 레거시를 걷어내야 하는 상황에서 개발 진행
-              - 필터 로직, 평가 안내 SMS & 메일 서비스 추가 등
-    
-              <br><br>
+  - title: Projects
+    layout: list
+    content:
+      - layout: left-top
+        title: 위시켓 어드민 개발 및 운영
+        border: weak
+        sub_title: Software Developer
+        caption: 2019.02 - 현재
+        description: |
+          - 내부 프로세스 자동화를 위한 서비스 개선
+          - 기 개발된 레거시 청산 및 유지보수
 
-#content:
-#  - title: Experience
-#    layout: list
-#    content:
-#      - layout: top-left
-#        border: weak
-#        title: 위시켓
-#        sub_title: Software Developer
-#        caption: 2019.02 - 현재
-#        link: wishket.com
+      - layout: left-top
+        title: 위시켓 개발팀 DevOps
+        border: weak
+        sub_title: Software Developer
+        caption: 2019.02 - 현재
+        description: |
+
+      - layout: left-top
+        title: 요즘IT 슬랙봇 MVP
+        border: weak
+        sub_title: Software Developer
+        caption: 2019.02 - 현재
+        description: |
+
+      - layout: left-top
+        title: 요즘IT 검색 알고리즘 개선
+        border: weak
+        sub_title: Software Developer
+        caption: 2019.02 - 현재
+        description: |
+
+      - layout: left-top
+        title: 리뷰 도메인 설계 및 개발
+        border: weak
+        sub_title: Software Developer
+        caption: 2019.02 - 현재
+        description: |
+
+      - layout: left-top
+        title: 스마트매칭 도메인 설계 및 개발
+        border: weak
+        sub_title: Software Developer
+        caption: 2019.02 - 현재
+        description: |
+        
+
+          
+
 #        description: | # this will include new lines to allow paragraphs Description of role
-#          #### 위시켓 어드민
-#          위시켓 내부에서 사용될 어드민을 설계, 개발
+#          #### 위시켓 어드민 개발
+#          ## 2019.02 ~ 현재
 #
 #          **Tech Stack**
 #          - Python
 #          - Django
 #          - NextJS
+#          - Redis
+#          - Celery
 #
 #          **Description**
 #
+#          내부 서비스 자동화 및 편의성 개선과 로직 구현
+#          기존 개발된 레거시 청산 및 유지보수
+#
 #          <br><br>
 #
-#          #### 요즘 IT 추가 기능 개발
+#          #### 요즘 IT 기능 개발
+#
+#          기 개발된 요즘 IT의 검색 알고리즘을 개선하고 개발했습니다.
 #          기 개발된 요즘 IT 도메인의 기능을 개선하고, 개발했습니다.
 #
 #          **Tech Stack**
@@ -131,8 +203,9 @@ content:
 #
 #          <br><br>
 #
-#          #### 리뷰 2.0
-#          위시켓의 새로운 평가 시스템 설계 및 개발
+#          #### 리뷰 도메인 설계 및 개발
+#          위시켓의 새로운 평가 시스템 설계 및 개발과 지속적인 이터레이션을 진행했습니다.
+#
 #
 #          **Tech Stack**
 #          - Python
@@ -143,149 +216,151 @@ content:
 #          - MariaDB
 #
 #          **Description**
+#          <br>
 #          새로운 평가 MVP 개발
 #          - 기존 레거시를 걷어내야 하는 상황에서 개발 진행
 #          - 필터 로직, 평가 안내 SMS & 메일 서비스 추가 등
 #
+#          평가 이터레이션
+#
 #          <br><br>
 #
 #          #### 스마트매칭 시스템
-#
-#
-#
-#          <br><br>
-#
-##
-##          파트너의 프로젝트 선호를 개인화하고 서버에 저장하며, 매 일마다  프로젝트를 매칭해서 메일링해주는 프로젝트
-##
-##          기존 플랫폼에는 파트너의 프로젝트 선호를 개인화하고, 메일링하는 시스템이 없어<br>
-##          "스마트매칭"이라는 파트너가 선호하는 프로젝트를 입력받는 페이지 및 백엔드 로직을 구성하고 <br>
-##          메일링 알고리즘을 작성하였습니다.
-##          <br>
-##          ## ##  관련 스택
-##          Python, DJango, Redis, Celery, MaraiDB, jQuery 등
-#
-#      - layout: left
-#        title: 프리랜서
-#        sub_title: Software Developer
-#        caption: 2017.03 - 2019.01
-#        link:
-#        description: | # this will include new lines to allow paragraphs Description of role
-#          #### 키움증권 종목탐지 및 자동 트레이딩 시스템
+#          위시켓의 스마트매칭 시스템 설계 및 개발
 #
 #          **Tech Stack**
-#          Python, QT, Threading, Lock, Queue 등
+#          - Python
+#          - Django
+#          - Redis
+#          _ Celery
 #
-#          **Description**
 #
 #          <br><br>
+
 #
-#          #### 암호화폐 재정거래 시스템
-#          "3개의 암호화폐 거래소 API 연동" 프로젝트에서 작성된 모듈을 바탕으로
-#          거래소간 차익을 계산하고 입력한 차익에 도달했을 때 자동거래와 입출금까지를 하나의 시퀀스로 두는 프로그램
+#          파트너의 프로젝트 선호를 개인화하고 서버에 저장하며, 매 일마다  프로젝트를 매칭해서 메일링해주는 프로젝트
 #
-#          **Tech Stack**
-#          Python, Redis, MySQL, Threading, Processing, QT, Async 등
-#
-#          **Description**
-#
-#          <br><br>
-#
-#
-#          #### 암호화폐 보조지표 거래 시스템
-#          N개의 암호화페 거래소 차익을 이용한 재정거래 시스템
-#          RSI, MACD, Stochastic, CCI 등 기존 보조지표를 구하는 함수를 생성하는 역할을 맡았습니다.
-#
-#          **Tech Stack**
-#          Python, Tree, QT
-#
-#          **Description**
-#
-#          <br><br>
-#
-#
-#
-#          ## 암호화폐 거래소 3종 API 연동
-#          Binance, Upbit, Bithumb 3개 거래소의 API 및 Websocket 연동
-#
-#          **Tech Stack**
-#          Python, Tree, QT
-#
-#          **Description**
-#
-#          <br><br>
-#
-#
-#
-#
-#
-#
-#      - layout: left
-#        title: 사이버사령부
-#        sub_title: 정보보호병
-#        caption: 2015.05 - 2017.02
-#        description: | # this will include new lines to allow paragraphs
-#          국방망 등 여러 서버를 관리하고 Sh&Python 스크립트를 작성
-#
-#
-#
-#
-#
-#
-#
-#  - title: Education
-#    layout: list
-#    content:
-#      - layout: left
-#        title: 울산과학대학교
-#        sub_title: Ulsan College
-#        caption: 2013.02 - 2018.02
-#        quote: |
-#          공업전문학사, Associate of Science in Engineering Technology
-#        description: | # this will include new lines to allow paragraphs
-#          컴퓨터 정보학과 수료
-#      - layout: left
-#        title: 학점은행제
-#        sub_title: The Academic Credit Bank System
-#        caption: 2018.07 - 2019.02
-#        quote: |
-#          공학사, Bachelor of Engineering
-#        description: |
-#          컴퓨터 공학과 수료
-#
-#  - title: A Little More About Me
-#    layout: text
-#    content: | # this will include new lines to allow paragraphs
-#      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-#
-#      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-#
-#  - title: Other Experience # Title for the section
-#    layout: list # Type of content section (list/text)
-#    content:
-#      - layout: left
-#        border: weak  # Value of `weak` will display a weak border below this item. # Any
-#        title: 암호화폐 재정거래<br/>시스템
-#        sub_title: CryptoCurrency Arbitrage Trader
-#        additional_links:
-#          - title:  ArbitradeTrader
-#            icon: fab fa-github
-#            url: https://github.com/songsb13/Difftrader
-#        description: | # this will include new lines to allow paragraphs
-#          1. N개의 암호화폐 거래소의 차익을 이용한 재정거래 시스템
-#          2. Binance, Upbit, Bithumb에 대한 API 통신 함수 생성
-#          3. Python, MySQL, QT, Async, Threading, Websocket 등의 기술 사용
-#      - layout: left
-#        border: weak
-#        title: 암호화폐 보조지표 거래<br/>시스템
-#        description: |
-#          1. N개의 암호화폐 거래소 지표를 도출하고 거래를 지원하는 시스템
-#          2. RSI, MACD, Stochastic, CCI 보조지표 도출 함수 작성
-#          3. Python, QT, Tree, Queue, Threading 등의 기술 사용
-#      - layout: left
-#        border: weak
-#        title: 키움증권 알고리즘 거래<br/>시스템
-#        description: |
+#          기존 플랫폼에는 파트너의 프로젝트 선호를 개인화하고, 메일링하는 시스템이 없어<br>
+#          "스마트매칭"이라는 파트너가 선호하는 프로젝트를 입력받는 페이지 및 백엔드 로직을 구성하고 <br>
+#          메일링 알고리즘을 작성하였습니다.
+#          <br>
+#          ## ##  관련 스택
+#          Python, DJango, Redis, Celery, MaraiDB, jQuery 등
+
+      - layout: left
+        title: 프리랜서
+        sub_title: Software Developer
+        caption: 2017.03 - 2019.01
+        link:
+        description: | # this will include new lines to allow paragraphs Description of role
+          #### 키움증권 종목탐지 및 자동 트레이딩 시스템
+
+          **Tech Stack**
+          Python, QT, Threading, Lock, Queue 등
+
+          **Description**
+
+          <br><br>
+
+          #### 암호화폐 재정거래 시스템
+          "3개의 암호화폐 거래소 API 연동" 프로젝트에서 작성된 모듈을 바탕으로
+          거래소간 차익을 계산하고 입력한 차익에 도달했을 때 자동거래와 입출금까지를 하나의 시퀀스로 두는 프로그램
+
+          **Tech Stack**
+          Python, Redis, MySQL, Threading, Processing, QT, Async 등
+
+          **Description**
+
+          <br><br>
+
+
+          #### 암호화폐 보조지표 거래 시스템
+          N개의 암호화페 거래소 차익을 이용한 재정거래 시스템
+          RSI, MACD, Stochastic, CCI 등 기존 보조지표를 구하는 함수를 생성하는 역할을 맡았습니다.
+
+          **Tech Stack**
+          Python, Tree, QT
+
+          **Description**
+
+          <br><br>
+
+
+
+          ## 암호화폐 거래소 3종 API 연동
+          Binance, Upbit, Bithumb 3개 거래소의 API 및 Websocket 연동
+
+          **Tech Stack**
+          Python, Tree, QT
+
+          **Description**
+
+          <br><br>
+
+
+
+
+
+
+      - layout: left
+        title: 사이버사령부
+        sub_title: 정보보호병
+        caption: 2015.05 - 2017.02
+        description: | # this will include new lines to allow paragraphs
+          국방망 등 여러 서버를 관리하고 Sh&Python 스크립트를 작성
+
+
+
+
+
+
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: 울산과학대학교
+        sub_title: Ulsan College
+        caption: 2013.02 - 2018.02
+        quote: |
+          공업전문학사, Associate of Science in Engineering Technology
+        description: | # this will include new lines to allow paragraphs
+          컴퓨터 정보학과 수료
+      - layout: left
+        title: 학점은행제
+        sub_title: The Academic Credit Bank System
+        caption: 2018.07 - 2019.02
+        quote: |
+          공학사, Bachelor of Engineering
+        description: |
+          컴퓨터 공학과 수료
+
+  - title: Other Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+        title: 암호화폐 재정거래<br/>시스템
+        sub_title: CryptoCurrency Arbitrage Trader
+        additional_links:
+          - title:  ArbitradeTrader
+            icon: fab fa-github
+            url: https://github.com/songsb13/Difftrader
+        description: | # this will include new lines to allow paragraphs
+          1. N개의 암호화폐 거래소의 차익을 이용한 재정거래 시스템
+          2. Binance, Upbit, Bithumb에 대한 API 통신 함수 생성
+          3. Python, MySQL, QT, Async, Threading, Websocket 등의 기술 사용
+      - layout: left
+        border: weak
+        title: 암호화폐 보조지표 거래<br/>시스템
+        description: |
+          1. N개의 암호화폐 거래소 지표를 도출하고 거래를 지원하는 시스템
+          2. RSI, MACD, Stochastic, CCI 보조지표 도출 함수 작성
+          3. Python, QT, Tree, Queue, Threading 등의 기술 사용
+      - layout: left
+        border: weak
+        title: 키움증권 알고리즘 거래<br/>시스템
+        description: |
 #
 # Footer
 footer_show_references: true
