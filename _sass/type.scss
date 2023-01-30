@@ -2,8 +2,10 @@ body {
   color: #333;
   font-family: "Noto Sans CJK KR", sans-serif;
   font-feature-settings: "kern", "liga", "pnum";
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 29px;
+  word-break: keep-all;
+
 
   @media print {
     font-size: 0.9rem;
@@ -16,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto, sans-serif;
+  font-family: "Noto Sans CJK KR", sans-serif;
   font-size: 1rem;
   line-height: 1.2;
   margin: 0 0 0.75rem;
@@ -66,7 +68,7 @@ h4 {
 }
 
 p, ul {
-  font-size: 18px;
+  font-size: 15px;
   text-align: justify;
 }
 

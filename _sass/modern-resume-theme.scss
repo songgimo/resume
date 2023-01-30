@@ -14,6 +14,13 @@
   font-weight:500;
 }
 
+#skill-highlights + div {
+  ul {
+    li {
+    }
+  }
+}
+
 @media screen and (max-width: 767px) {
   .header-container div{
     text-align: center;

@@ -29,7 +29,8 @@ about_profile_image: images/profile.png
 about_title: About Me
 
 about_content: |
-    # 안녕하세요. 개발자 송기모입니다.
+    # 안녕하세요, 저는 개발자 송기모입니다. <br>
+  
 
 
 content:
@@ -69,8 +70,6 @@ content:
         sub_title: Software Developer
         caption: 2019.02 - 현재
         link: wishket.com
-        quote: >
-          IT 아웃소싱 플랫폼, 요즘IT 운영
         description: | # this will include new lines to allow paragraphs Description of role
           - 내부 어드민 개선 및 레거시 제거
           - 사용자가 요구하는 MVP 개발
@@ -130,7 +129,6 @@ content:
         description: |
           - 내부 프로세스 자동화를 위한 서비스 개선
           - 기 개발된 레거시 청산 및 유지보수
-          - 
 
       - layout: left-top
         title: 위시켓 개발팀 DevOps
