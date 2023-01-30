@@ -36,12 +36,12 @@ content:
   - title: Summary
     layout: text
     content: | # this will include new lines to allow paragraphs
-      외주로부터 시작한 백엔드 개발, 스타트업에서의 웹 개발로 다양한 경험을 가지고 있습니다.<br>
-      Python, Linux, AWS, MySQL, MariaDB, Git 등으로 프로덕션 서비스를 설계 및 개발한 경험이 있고, 
-      코드의 확장과 유지보수가 수월한 백엔드 구조와 패턴에 대해 고민하고 개발하고 있습니다.
+      백엔드 개발, 스타트업에서의 웹 개발로 다양한 경험을 가지고 있습니다.<br>
+      Python, Django, Linux, AWS, MariaDB, Git 등으로 웹 프로덕션 서비스를 설계 및 개발한 경험이 있고, 
+      외주로부터 Queue, Stack, Tree등의 자료구조를 적용하고 개발한 경험이 있습니다. <br>
       
+      코드의 확장과 유지보수가 수월한 백엔드 구조와 패턴에 대해 고민하고, 개발하고자 하며
       대부분의 프로젝트에서 기획 단계부터 릴리즈까지의 단계에 참여해 제품 개발 사이클에 대한 이해가 있습니다.
-      
 
       서비스 개발은 비단 코드를 잘 짜는 것 뿐만 아닌 기획과 도메인의 목적에 맞는 코드를 설계하고 개발해야 한다고 믿습니다.<br>
       그렇기에 더 좋은 개발자로서 발전하기 위해 적극적인 커뮤니케이션으로 기획과 목적을 오해없이 동기화하고 코드에 녹여내고자 노력하고 있습니다.
@@ -60,7 +60,7 @@ content:
       - Threading, MultiProcessing
       - HTML, jQuery, SCSS 등
 
-  - title: Experience
+  - title: Work Experience
     layout: list
     content:
       - layout: left-top
@@ -70,7 +70,7 @@ content:
         caption: 2019.02 - 현재
         link: wishket.com
         quote: >
-          프리랜서 아웃소싱 플랫폼
+          IT 아웃소싱 플랫폼, 요즘IT 운영
         description: | # this will include new lines to allow paragraphs Description of role
           - 내부 어드민 개선 및 레거시 제거
           - 사용자가 요구하는 MVP 개발
@@ -80,9 +80,13 @@ content:
           - 리뷰 MVP 설계 및 개발, 유지보수
           - 스마트매칭 MVP 설계 및 개발, 유지보수
           - 개발팀 DevOps
-          - 사용한 스킬셋
+          - 사용 스킬셋
             - Python, Django, jQuery, NextJS, Redis, Celery, RESTFUL, MariaDB
+  - title: Other Experience
+    layout: list
+    content:
       - layout: left-top
+        border: weak
         title: 프리랜서 활동
         sub_title: Software Developer
         caption: 2017.02 - 2019.01
@@ -93,23 +97,28 @@ content:
           - DB운용 서비스 개발 및 유지보수
           - 기타 데이터 수집 자동화 앱 개발
           
-          - 사용한 스킬셋
+          - 사용 스킬셋
             - Python, JavaScript, MySQL, MongoDB, SQLite, PHP, RESTFUL, QT, Selenium
           <br><br>
       - layout: left-top
+        border: weak
         title: 팀 프로젝트 활동
         sub_title: Software Developer
         caption: 2017.02 - 현재
         description: | # 
-          - 사이버 사령부 전역 후 동기와 팀 프로젝트 활동
+          - 사이버사령부 전역 후 동기와 팀 프로젝트 활동
           - 업비트, 빗썸, 바이낸스 3개 거래소 API, Websocket 연동
           - 거래소 간 코인 가격 차이를 이용한 재정거래 시스템 개발
           - MSI, CCI, Stochastic 등 N개의 보조지표를 조합하고 거래하는 시스템 개발
           - 키움증권 알고리즘 거래 시스템 개발
           - 사용한 스킬셋
             - Python, MySQL, Flask, QT, Threading, Processing
-          <br><br>
-
+      - layout: left-top
+        title: 사이버사령부
+        sub_title: 정보보호병
+        caption: 2015.07 - 2017.02
+        description: | #
+          -
   - title: Projects
     layout: list
     content:
@@ -121,6 +130,7 @@ content:
         description: |
           - 내부 프로세스 자동화를 위한 서비스 개선
           - 기 개발된 레거시 청산 및 유지보수
+          - 
 
       - layout: left-top
         title: 위시켓 개발팀 DevOps
@@ -130,31 +140,31 @@ content:
         description: |
 
       - layout: left-top
-        title: 요즘IT 슬랙봇 MVP
+        title: 요즘IT 서비스 개선
         border: weak
         sub_title: Software Developer
-        caption: 2019.02 - 현재
+        caption: 2022.02 - 현재
         description: |
 
       - layout: left-top
         title: 요즘IT 검색 알고리즘 개선
         border: weak
         sub_title: Software Developer
-        caption: 2019.02 - 현재
-        description: |
-
-      - layout: left-top
-        title: 리뷰 도메인 설계 및 개발
-        border: weak
-        sub_title: Software Developer
-        caption: 2019.02 - 현재
+        caption: 2022.02 - 현재
         description: |
 
       - layout: left-top
         title: 스마트매칭 도메인 설계 및 개발
         border: weak
         sub_title: Software Developer
-        caption: 2019.02 - 현재
+        caption: 2020.02 - 현재
+        description: |
+
+      - layout: left-top
+        title: 리뷰 도메인 설계 및 개발
+        border: weak
+        sub_title: Software Developer
+        caption: 2020.02 - 현재
         description: |
         
 
