@@ -48,7 +48,6 @@ content:
       그렇기에 더 좋은 개발자로서 발전하기 위해 적극적인 커뮤니케이션으로 기획과 목적을 오해없이 동기화하고 코드에 녹여내고자 노력하고 있습니다.
       
 
-
   - title: Skill Highlights
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -74,12 +73,13 @@ content:
         description: | # this will include new lines to allow paragraphs Description of role
           - 내부 어드민 개선 및 레거시 제거
           - 사용자가 요구하는 MVP 개발
-          - 레거시 제거 및 기존 비즈니스 로직에 대한 유지보수
+          - 기존 비즈니스 로직에 대한 유지보수
           - 개발팀 DevOps 구축 및 개선
-          - 내부 도메인 서비스  
-          - 리뷰 MVP 설계 및 개발, 유지보수
-          - 스마트매칭 MVP 설계 및 개발, 유지보수
-          - 개발팀 DevOps
+          - 내부 도메인 서비스 개선
+          - 리뷰 MVP 설계 및 개발
+          - 스마트매칭 MVP 설계 및 개발
+          - 요즘IT 검색 알고리즘 개선
+          - 스마트매칭 매칭 알고리즘 개발
           - 사용 스킬셋
             - Python, Django, jQuery, NextJS, Redis, Celery, RESTFUL, MariaDB
   - title: Other Experience
@@ -91,7 +91,6 @@ content:
         sub_title: Software Developer
         caption: 2017.02 - 2019.01
         description: | # 
-          - 사이버 사령부 전역 후 동기와 프리랜서 활동
           - 업비트 알고리즘 거래 시스템 개발
           - 키움증권 시세추종 MVP 개발
           - DB운용 서비스 개발 및 유지보수
@@ -105,7 +104,6 @@ content:
         sub_title: Software Developer
         caption: 2017.02 - 현재
         description: | # 
-          - 사이버사령부 전역 후 동기와 팀 프로젝트 활동
           - 업비트, 빗썸, 바이낸스 3개 거래소 API, Websocket 연동
           - 거래소 간 코인 가격 차이를 이용한 재정거래 시스템 개발
           - MSI, CCI, Stochastic 등 N개의 보조지표를 조합하고 거래하는 시스템 개발
@@ -117,6 +115,8 @@ content:
         sub_title: 정보보호병
         caption: 2015.07 - 2017.02
         description: | #
+          - 서버 관리 및 운영
+          - 암호 변경 스크립트 및 서버 상태 확인 스크립트 등 작성
   - title: Projects
     layout: list
     content:
@@ -125,13 +125,13 @@ content:
         sub_title: Software Developer
         caption: 2019.02 - 현재
         description: |
-          내부 프로세스를 자동화하기 위한 어드민 기능들을 추가하고 개선하고 있습니다.
+          위시켓에서 프로세스 자동화 요청이나 기타 효율 개선을 요청하는 경우 혹은 새로운 도메인이 발생한 경우에
+          어드민 기능들을 추가, 개선하고 유지보수를 진행하고 있습니다.
           <br>
           - 유저 관리 어드민 추가
           - 평가 어드민 추가
           - 기존 어드민 NextJS로 전환
           - 기존 레거시 유지보수 등
-          
 
       - layout: left-top
         title: 요즘IT 슬랙봇 구독 서비스 설계 및 개발
@@ -139,8 +139,9 @@ content:
         sub_title: Software Developer
         caption: 2022.02 - 현재
         description: |
-          - 슬랙 API 연동, MVP를 설계 및 개발
-          - Threading으로 발송 시간 개선
+          슬랙봇 구독 서비스를 통해 유저에게 발행된 컨텐츠를 바로 안내하고 페이지로 후킹하기 위해 시작된 프로젝트입니다.
+          슬랙 Message API로 슬랙과 연동했고, Threading, Redis를 이용해 오버헤드 없이 컨텐츠를 받아볼 수 있게 처리했습니다.
+          - RESTFUL, Redis, Threading, Python, Django
 
       - layout: left-top
         title: 요즘IT 검색 알고리즘 개선
@@ -148,19 +149,32 @@ content:
         sub_title: Software Developer
         caption: 2022.02 - 현재
         description: |
-          - OpenSearch 서버 구축 및 API 연동과 검색 알고리즘을 설계 및 개발
-          - 속도와 정확도 개선, n개 검색어 조합 가능하게 수정
+          요즘IT의 검색기능이 제한적이고 정확한 컨텐츠를 검색하지 못하는 배경에서 시작한 프로젝트입니다.
+          AWS OpenSearch의 서버를 구축하고 위시켓DB를 연동했으며 검색 알고리즘을 설계하고 개발했습니다.
+          속도 및 정확도가 개선되었고, 기획에서 요구하던 특정 문자열을 Split하여 검색어 조합이 가능하게 했습니다.
+          - RESTFUL, Redis, Celery, OpenSearch
 
       - layout: left-top
-        title: 스마트매칭 도메인 설계 및 개발
+        title: 스마트매칭 매칭 알고리즘 개발
         border: weak
         sub_title: Software Developer
         caption: 2020.02 - 현재
         description: |
-          위시켓의 스마트매칭 시스템 설계 및 개발
+          개인화된 스마트매칭 유저 데이터를 바탕으로 프로젝트를 메일링 해주는 서비스입니다.
 
       - layout: left-top
-        title: 리뷰 도메인 설계 및 개발
+        title: 스마트매칭 도메인 설계 및 개발, 유지보수
+        border: weak
+        sub_title: Software Developer
+        caption: 2020.02 - 현재
+        description: |
+          유저가 필요로 하는 프로젝트를 개인화 하고 데이터를 저장하는 것에서 시작한 프로젝트입니다.
+          스마트매칭이라는 페이지의 MVP를 설계 및 개발했습니다.
+          
+          - 위시켓의 스마트매칭 시스템 설계 및 개발
+
+      - layout: left-top
+        title: 리뷰 도메인 설계 및 개발, 유지보수
         border: weak
         sub_title: Software Developer
         caption: 2020.02 - 현재
@@ -172,187 +186,15 @@ content:
         sub_title: Software Developer
         caption: 2020.03 - 2020.04
         description: |
-          local과 staging 서버를 동기화하기 위해 Github Action으로 CI/CD 프로세스를 구현했습니다.
-          <br>
-          - Github Action으로 CI/CD 프로세스 검증 및 구현 
-
-
-          
-
-#        description: | # this will include new lines to allow paragraphs Description of role
-#          #### 위시켓 어드민 개발
-#          ## 2019.02 ~ 현재
-#
-#          **Tech Stack**
-#          - Python
-#          - Django
-#          - NextJS
-#          - Redis
-#          - Celery
-#
-#          **Description**
-#
-#          내부 서비스 자동화 및 편의성 개선과 로직 구현
-#          기존 개발된 레거시 청산 및 유지보수
-#
-#          <br><br>
-#
-#          #### 요즘 IT 기능 개발
-#
-#          기 개발된 요즘 IT의 검색 알고리즘을 개선하고 개발했습니다.
-#          기 개발된 요즘 IT 도메인의 기능을 개선하고, 개발했습니다.
-#
-#          **Tech Stack**
-#          - OpenSearch
-#          - Slackbot
-#          - Python
-#          - Django
-#          - Threading
-#
-#          **Description**
-#          <br>
-#          요즘IT 검색 알고리즘 개선
-#          - OpenSearch 서버 구축 및 API 연동과 검색 알고리즘을 설계 및 개발
-#          - 속도와 정확도 개선, n개 검색어 조합 가능하게 수정
-#          <br>
-#
-#          요즘IT 슬랙봇 구독 서비스 설계 및 개발
-#          - 슬랙 API 연동, 관련 MVP를 설계 및 개발
-#          - Threading을 적극적으로 사용해 발송 시간을 개선
-#
-#          <br><br>
-#
-#          #### 리뷰 도메인 설계 및 개발
-#          위시켓의 새로운 평가 시스템 설계 및 개발과 지속적인 이터레이션을 진행했습니다.
-#
-#
-#          **Tech Stack**
-#          - Python
-#          - Django
-#          - Redis
-#          - Celery
-#          - jQuery
-#          - MariaDB
-#
-#          **Description**
-#          <br>
-#          새로운 평가 MVP 개발
-#          - 기존 레거시를 걷어내야 하는 상황에서 개발 진행
-#          - 필터 로직, 평가 안내 SMS & 메일 서비스 추가 등
-#
-#          평가 이터레이션
-#
-#          <br><br>
-#
-#          #### 스마트매칭 시스템
-#          위시켓의 스마트매칭 시스템 설계 및 개발
-#
-#          **Tech Stack**
-#          - Python
-#          - Django
-#          - Redis
-#          _ Celery
-#
-#
-#          <br><br>
-
-#
-#          파트너의 프로젝트 선호를 개인화하고 서버에 저장하며, 매 일마다  프로젝트를 매칭해서 메일링해주는 프로젝트
-#
-#          기존 플랫폼에는 파트너의 프로젝트 선호를 개인화하고, 메일링하는 시스템이 없어<br>
-#          "스마트매칭"이라는 파트너가 선호하는 프로젝트를 입력받는 페이지 및 백엔드 로직을 구성하고 <br>
-#          메일링 알고리즘을 작성하였습니다.
-#          <br>
-#          ## ##  관련 스택
-#          Python, DJango, Redis, Celery, MaraiDB, jQuery 등
-
-      - layout: left
-        title: 프리랜서
-        sub_title: Software Developer
-        caption: 2017.03 - 2019.01
-        link:
-        description: | # this will include new lines to allow paragraphs Description of role
-          #### 키움증권 종목탐지 및 자동 트레이딩 시스템
-
-          **Tech Stack**
-          Python, QT, Threading, Lock, Queue 등
-
-          **Description**
-
-          <br><br>
-
-          #### 암호화폐 재정거래 시스템
-          "3개의 암호화폐 거래소 API 연동" 프로젝트에서 작성된 모듈을 바탕으로
-          거래소간 차익을 계산하고 입력한 차익에 도달했을 때 자동거래와 입출금까지를 하나의 시퀀스로 두는 프로그램
-
-          **Tech Stack**
-          Python, Redis, MySQL, Threading, Processing, QT, Async 등
-
-          **Description**
-
-          <br><br>
-
-
-          #### 암호화폐 보조지표 거래 시스템
-          N개의 암호화페 거래소 차익을 이용한 재정거래 시스템
-          RSI, MACD, Stochastic, CCI 등 기존 보조지표를 구하는 함수를 생성하는 역할을 맡았습니다.
-
-          **Tech Stack**
-          Python, Tree, QT
-
-          **Description**
-
-          <br><br>
-
-
-
-          ## 암호화폐 거래소 3종 API 연동
-          Binance, Upbit, Bithumb 3개 거래소의 API 및 Websocket 연동
-
-          **Tech Stack**
-          Python, Tree, QT
-
-          **Description**
-
-          <br><br>
-
-
-
-
-
+          - Local과 Staging 서버 동기화 CI/CD process 구현 (Github Action)
+          - 메인서버 자동 배포 스크립트 구현
 
       - layout: left
         title: 사이버사령부
         sub_title: 정보보호병
         caption: 2015.05 - 2017.02
         description: | # this will include new lines to allow paragraphs
-          국방망 등 여러 서버를 관리하고 Sh&Python 스크립트를 작성
-
-
-
-
-
-
-
-  - title: Education
-    layout: list
-    content:
-      - layout: left
-        title: 울산과학대학교
-        sub_title: Ulsan College
-        caption: 2013.02 - 2018.02
-        quote: |
-          공업전문학사, Associate of Science in Engineering Technology
-        description: | # this will include new lines to allow paragraphs
-          컴퓨터 정보학과 수료
-      - layout: left
-        title: 학점은행제
-        sub_title: The Academic Credit Bank System
-        caption: 2018.07 - 2019.02
-        quote: |
-          공학사, Bachelor of Engineering
-        description: |
-          컴퓨터 공학과 수료
+          - 국방망 등 여러 서버를 관리하고 Shell&Python 스크립트를 작성
 
   - title: Other Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -380,7 +222,29 @@ content:
         border: weak
         title: 키움증권 알고리즘 거래<br/>시스템
         description: |
-#
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: 울산과학대학교
+        sub_title: Ulsan College
+        caption: 2013.02 - 2018.02
+        quote: |
+          공업전문학사, Associate of Science in Engineering Technology
+        description: | # this will include new lines to allow paragraphs
+          컴퓨터 정보학과 수료
+      - layout: left
+        title: 학점은행제
+        sub_title: The Academic Credit Bank System
+        caption: 2018.07 - 2019.02
+        quote: |
+          공학사, Bachelor of Engineering
+        description: |
+          컴퓨터 공학과 수료
+
+
+
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
