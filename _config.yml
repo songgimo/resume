@@ -23,13 +23,13 @@ additional_links:
 - title: Link name
   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
   url: Link url (eg. https://google.com)
-about_profile_image: images/profile.png
+about_profile_image: images/gm.jpg
 
 
 about_title: About Me
 
 about_content: |
-    # 안녕하세요, 저는 개발자 송기모입니다. <br>
+    # 안녕하세요, 저는 4년차 개발자 송기모입니다. <br>
   
 
 
@@ -141,7 +141,7 @@ content:
         description: |
           슬랙봇 구독 서비스를 통해 유저에게 발행된 컨텐츠를 바로 안내하고 페이지로 후킹하기 위해 시작된 프로젝트입니다.
           슬랙 Message API로 슬랙과 연동했고, Threading, Redis를 이용해 오버헤드 없이 컨텐츠를 받아볼 수 있게 처리했습니다.
-          - RESTFUL, Redis, Threading, Python, Django
+          - RESTFUL, Redis, Threading, Python, Django 등
 
       - layout: left-top
         title: 요즘IT 검색 알고리즘 개선
@@ -152,33 +152,49 @@ content:
           요즘IT의 검색기능이 제한적이고 정확한 컨텐츠를 검색하지 못하는 배경에서 시작한 프로젝트입니다.
           AWS OpenSearch의 서버를 구축하고 위시켓DB를 연동했으며 검색 알고리즘을 설계하고 개발했습니다.
           속도 및 정확도가 개선되었고, 기획에서 요구하던 특정 문자열을 Split하여 검색어 조합이 가능하게 했습니다.
-          - RESTFUL, Redis, Celery, OpenSearch
+          - RESTFUL, Redis, Celery, OpenSearch 등
 
       - layout: left-top
         title: 스마트매칭 매칭 알고리즘 개발
         border: weak
         sub_title: Software Developer
-        caption: 2020.02 - 현재
+        caption: 2020.06 - 2020.08
         description: |
           개인화된 스마트매칭 유저 데이터를 바탕으로 프로젝트를 메일링 해주는 서비스입니다.
+          기획의 요구에 따라 유저가 저장한 스마트매칭 데이터와 N%일치하고, N개가 일치하는 경우 발송하도록 알고리즘을 설계하고 개발했습니다.
+          항목이 추가되고 삭제되는 경우가 많아 확장성있게 설계되었습니다.
+          - Celery, Redis, RESTFUL, Python, Django 등
 
       - layout: left-top
-        title: 스마트매칭 도메인 설계 및 개발, 유지보수
+        title: 스마트매칭 도메인 설계 및 개발
         border: weak
         sub_title: Software Developer
-        caption: 2020.02 - 현재
+        caption: 2020.02 - 2020.04
         description: |
           유저가 필요로 하는 프로젝트를 개인화 하고 데이터를 저장하는 것에서 시작한 프로젝트입니다.
           스마트매칭이라는 페이지의 MVP를 설계 및 개발했습니다.
-          
-          - 위시켓의 스마트매칭 시스템 설계 및 개발
+          데이터를 저장하고 시스템 측면에서 가공하고 처리하는데는 적합했으나, 데이터를 추출하는 측면에선 좋지않았어서 개인적으로 아쉬운 프로젝트였습니다.
+          - Python, Django, jQuery, MariaDB 등
 
       - layout: left-top
-        title: 리뷰 도메인 설계 및 개발, 유지보수
+        title: 평가 필터링 로직 추가
         border: weak
         sub_title: Software Developer
         caption: 2020.02 - 현재
         description: |
+          평가를 필터링하는 로직을 추가했습니다.
+          차순별, 평가
+          - Python, Django, jQuery, MariaDB 등
+
+      - layout: left-top
+        title: 평가 도메인 설계 및 개발
+        border: weak
+        sub_title: Software Developer
+        caption: 2020.02 - 현재
+        description: |
+          기존 평가가 유효하지 않고, 수집이 잘 되지 않는다는 문제점에서 시작한 프로젝트입니다.
+          기존 레거시 대부분 걷어내고, 새로운 평가 MVP를 개발했으며 유저에게 SMS, Mail 발송 로직을 개발하는 테스크를 진행했습니다.
+          - Celery, Redis, Python, jQuery, MariaDB 등
 
       - layout: left-top
         title: 위시켓 개발팀 DevOps
@@ -186,17 +202,17 @@ content:
         sub_title: Software Developer
         caption: 2020.03 - 2020.04
         description: |
-          - Local과 Staging 서버 동기화 CI/CD process 구현 (Github Action)
-          - 메인서버 자동 배포 스크립트 구현
+          - 로컬과 스테이징 서버를 동기화하는 CI/CD를 Github Action으로 구현했습니다.
+          - 메인 서버 코드를 배포하는 스크립트를 작성했습니다.
 
       - layout: left
         title: 사이버사령부
         sub_title: 정보보호병
         caption: 2015.05 - 2017.02
         description: | # this will include new lines to allow paragraphs
-          - 국방망 등 여러 서버를 관리하고 Shell&Python 스크립트를 작성
+          - 국방망 등 여러 서버를 관리하고 Shell&Python 스크립트를 작성했습니다.
 
-  - title: Other Experience # Title for the section
+  - title: Other Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
