@@ -207,53 +207,53 @@ content:
             개별적으로 동작하도록 수정했고, 모호한 기능들을 분리하고 정리했습니다.
             - Python, Redis, Processing, Threading, RESTFUL, Websocket
 
-      - layout: left
-        title: 키움증권 알고리즘 거래<br/>시스템
-        sub_title: Software Developer
-        caption: 2018.11 - 2019.01
-        description: |
-          - 
+        - layout: left
+          title: 키움증권 알고리즘 거래<br/>시스템
+          sub_title: Software Developer
+          caption: 2018.11 - 2019.01
+          description: |
+            - 
 
-      - layout: left
-        border: weak
-        title: 암호화폐 보조지표 거래<br/>시스템
-        sub_title: Software Developer
-        caption: 2018.10 - 2019.01
-        description: |
-          RSI, MACD, Stochastic, CCI 보조지표를 조합하고 거래를 해보자는 의미에서 시작한 프로젝트입니다.
-          API로 연동된 거래소 로직과 보조지표를 각 오브젝트로 형성하고 후에 and or 조건에 따라 거래 여부를 정하는 방식으로 개발되었습니다.
-          이후 암호화폐의 특성상 변동성이 높아 제대로 된 보조지표를 형성할 수 없다고 판단해 추가 개선은 하지 않았습니다.
-          Python, QT, Tree, Queue, Threading 등
+        - layout: left
+          border: weak
+          title: 암호화폐 보조지표 거래<br/>시스템
+          sub_title: Software Developer
+          caption: 2018.10 - 2019.01
+          description: |
+            RSI, MACD, Stochastic, CCI 보조지표를 조합하고 거래를 해보자는 의미에서 시작한 프로젝트입니다.
+            API로 연동된 거래소 로직과 보조지표를 각 오브젝트로 형성하고 후에 and or 조건에 따라 거래 여부를 정하는 방식으로 개발되었습니다.
+            이후 암호화폐의 특성상 변동성이 높아 제대로 된 보조지표를 형성할 수 없다고 판단해 추가 개선은 하지 않았습니다.
+            Python, QT, Tree, Queue, Threading 등
 
-      - layout: left
-        title: 암호화폐 재정거래 프로그램 개발
-        sub_title: Software Developer
-        caption: 2018.04 - 2018.09
-        additional_links:
-          - title:  ArbitradeTrader
-            icon: fab fa-github
-            url: https://github.com/songsb13/DiffTrader
-        description: | # this will include new lines to allow paragraphs
-          개발 당시 발생하던 국내외 프리미엄을 이용한 재정거래를 해보자는 의미에서 시작한 프로젝트입니다.
-          국내 거래소인 Bithumb, Upbit와 국외 거래소인 Binance에 대한 통신 함수를 작성했고
-          입력한 2개의 거래소의 차익이 n%를 초과하면 자동으로 거래가 되도록 개발했습니다.
-          
-          - Python, Redis, Processing, Threading, RESTFUL, Websocket
+        - layout: left
+          title: 암호화폐 재정거래 프로그램 개발
+          sub_title: Software Developer
+          caption: 2018.04 - 2018.09
+          additional_links:
+            - title:  ArbitradeTrader
+              icon: fab fa-github
+              url: https://github.com/songsb13/DiffTrader
+          description: | # this will include new lines to allow paragraphs
+            개발 당시 발생하던 국내외 프리미엄을 이용한 재정거래를 해보자는 의미에서 시작한 프로젝트입니다.
+            국내 거래소인 Bithumb, Upbit와 국외 거래소인 Binance에 대한 통신 함수를 작성했고
+            입력한 2개의 거래소의 차익이 n%를 초과하면 자동으로 거래가 되도록 개발했습니다.
+            
+            - Python, Redis, Processing, Threading, RESTFUL, Websocket
 
-      - layout: left
-        title: 암호화폐 거래소 연동 (Upbit, Binance, Bithumb)
-        sub_title: Software Developer
-        caption: 2018.01 - 2018.04
-        additional_links:
-          - title:  ArbitradeTrader
-            icon: fab fa-github
-            url: https://github.com/songsb13/DiffTrader
-        description: | # this will include new lines to allow paragraphs
-          개발 당시 발생하던 국내외 프리미엄을 이용한 재정거래를 해보자는 의미에서 시작한 프로젝트입니다.
-          국내 거래소인 Bithumb, Upbit와 국외 거래소인 Binance에 대한 통신 함수를 작성했고
-          입력한 2개의 거래소의 차익이 n%를 초과하면 자동으로 거래가 되도록 개발했습니다.
-          
-          - Python, Redis, Processing, Threading, RESTFUL, Websocket
+        - layout: left
+          title: 암호화폐 거래소 연동 (Upbit, Binance, Bithumb)
+          sub_title: Software Developer
+          caption: 2018.01 - 2018.04
+          additional_links:
+            - title:  ArbitradeTrader
+              icon: fab fa-github
+              url: https://github.com/songsb13/DiffTrader
+          description: | # this will include new lines to allow paragraphs
+            개발 당시 발생하던 국내외 프리미엄을 이용한 재정거래를 해보자는 의미에서 시작한 프로젝트입니다.
+            국내 거래소인 Bithumb, Upbit와 국외 거래소인 Binance에 대한 통신 함수를 작성했고
+            입력한 2개의 거래소의 차익이 n%를 초과하면 자동으로 거래가 되도록 개발했습니다.
+            
+            - Python, Redis, Processing, Threading, RESTFUL, Websocket
 
   - title: Education
     layout: list
