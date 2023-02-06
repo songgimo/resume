@@ -3,7 +3,7 @@ body {
   font-family: "Noto Sans CJK KR", sans-serif;
   font-feature-settings: "kern", "liga", "pnum";
   font-size: 15px;
-  line-height: 29px;
+  line-height: 1.4;
   word-break: keep-all;
 
 
@@ -20,7 +20,7 @@ h5,
 h6 {
   font-family: "Noto Sans CJK KR", sans-serif;
   font-size: 1rem;
-  line-height: 1.2;
+  line-height: 1.4;
   margin: 0 0 0.75rem;
 }
 
@@ -75,12 +75,25 @@ a i {
   font-size:1.6rem;
 }
 
+.highlights {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    li {
+      display: flow-root list-item;
+      width: 30%;
+      font-size: 20px;
+      //&:before {
+      //  content: '\00B7';
+      //}
+    }
+}
+
 mark {
-  padding: 2px 4px;
-  font-size: 90%;
+  padding: 4px 8px;
+  font-size: 80%;
   color: #fff;
-  background-color: #333;
+  background-color: #2099bb;
   border-radius: 3px;
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
-  box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
+  font-weight: bold;
 }
