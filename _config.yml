@@ -162,6 +162,27 @@ content:
     border: weak
     content:
       - layout: left-top
+        title: 리뷰 도메인 개선
+        border: weak
+        sub_title: Software Developer
+        caption: 2022.12 -
+        description: |
+          <div class="custom-title">Description.</div>
+          리뷰가 일반 외주 프로젝트에 대해서만 설계가 되어있어 상주 프로젝트에 대한 파트너의 평가가 정확치 않다는 문제에서 시작된 프로젝트입니다.
+          리뷰와 관련된 레거시들을 정리하고 상주 프로젝트에 대한 평가 MTV를 설계하고 개발하고 있습니다.
+          <div class="custom-title">FootPrint.</div>
+          - 기존 레거시 제거, 중복 함수 클린업
+          - 새로운 리뷰 MTV 개발
+          - 필터 로직 개선
+          <div class="custom-title">Tech Stack.</div>
+          <mark>Python</mark>
+          <mark>Django</mark>
+          <mark>Celery</mark>
+          <mark>Redis</mark>
+          <mark>ChartJS</mark>
+          <mark>jQuery</mark>
+
+      - layout: left-top
         title: 요즘IT 검색 알고리즘 개선
         border: weak
         sub_title: Software Developer
@@ -228,11 +249,10 @@ content:
         caption: 2020.07 - 2020.10
         description: |
           <div class="custom-title">Description.</div>
-          유저가 필요로 하는 프로젝트를 개인화 하고 데이터를 저장하는 것에서 시작한 프로젝트입니다.
-          스마트매칭이라는 도메인을 설계 및 개발했습니다.
-          데이터를 저장하고 시스템 측면에서 가공하고 처리하는데는 적합했으나, 데이터를 추출하는 측면에선 좋지않았어서 개인적으로 아쉬운 프로젝트였습니다.
+          유저가 필요로 하는 프로젝트를 개인화 하고 데이터를 저장하자는 배경에서 시작한 프로젝트입니다.
+          스마트매칭이라는 페이지와 로직을 개발했으며 해당 페이지를 통해 데이터를 입력받는 MTV모델을 설계했습니다.
           <div class="custom-title">FootPrint.</div>
-          - 유저의 개인화된 프로젝트 데이터를 받을 수 있게 페이지 및 로직 개발
+          - 유저의 개인화된 프로젝트 데이터를 받을 수 있게 MTV설계 및 로직 개발
           <div class="custom-title">Tech Stack.</div>
           <mark>Python</mark>
           <mark>Django</mark>
