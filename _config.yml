@@ -327,12 +327,22 @@ content:
             <mark>Websocket</mark>
 
         - layout: left
-          title: 키움증권 알고리즘 거래<br/>시스템
+          title: 증권사 API 연동
           sub_title: Software Developer
           caption: 2018.11 - 2019.01
           description: |
-            
-            - 
+            <div class="custom-title">Description.</div>
+            외주에서 여러번 요구하던 키움증권과 신한i에 대한 API 모듈을 작성했습니다.
+            <div class="custom-title">FootPrint.</div>
+            - 신한i에 대한 API 모듈 작성
+            - 키움증권에 대한 API 모듈 작성
+            <div class="custom-title">Tech Stack.</div>
+            <mark>Python</mark>
+            <mark>QT</mark>
+            <mark>Queue</mark>
+            <mark>OpenAPI</mark>
+            <mark>Win32</mark>
+            <mark>Threading</mark>
 
         - layout: left
           border: weak
@@ -375,7 +385,6 @@ content:
             <mark>Async</mark>
             <mark>QT</mark>
             <mark>Threading</mark>
-            
 
         - layout: left
           title: 암호화폐 거래소 연동 (Upbit, Binance, Bithumb)
