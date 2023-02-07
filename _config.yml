@@ -385,8 +385,8 @@ content:
             <div class="custom-title">Tech Stack.</div>
             <mark>Python</mark>
             <mark>Async</mark>
-            <mark>QT</mark>
             <mark>Threading</mark>
+            <mark>Queue</mark>
 
         - layout: left
           title: 암호화폐 거래소 API 연동
@@ -403,8 +403,7 @@ content:
             - Upbit, Binance, Bithumb API 모듈 개발
             <div class="custom-title">Tech Stack.</div>
             <mark>Python</mark>
-            <mark>Redis</mark>
-            <mark>Processing</mark>
+            <mark>Async</mark>
             <mark>Threading</mark>
             <mark>RESTFUL</mark>
             <mark>Websocket</mark>
