@@ -70,16 +70,16 @@ content:
         link: wishket.com
         description: | # this will include new lines to allow paragraphs Description of role
           <div class="custom-title">Description.</div>
-          2019년부터 위시켓에 근무하면서 각종 웹 개발을 포함하여 다양한 MVP를 설계 및 개발하며 유지보수하고 있습니다.
+          2019년부터 위시켓에 근무하면서 각종 웹 개발을 포함하여 다양한 기능을 설계 및 개발하며 유지보수하고 있습니다.
           
           <div class="custom-title">FootPrint.</div>
           - 내부 어드민 개선 및 레거시 제거
-          - 사용자가 요구하는 MVP 개발
+          - 회사가 요구하는 MVP 개발
           - 기존 비즈니스 로직에 대한 유지보수
           - 개발팀 DevOps 구축 및 개선
-          - 내부 도메인 서비스 개선
-          - 리뷰 MVP 설계 및 개발
-          - 스마트매칭 MVP 설계 및 개발
+          - 내부 도메인 서비스 개선 및 유지보수
+          - 리뷰 도메인 설계 및 개발
+          - 스마트매칭 도메인 설계 및 개발
           - 요즘IT 검색 알고리즘 개선
           - 스마트매칭 매칭 알고리즘 개발
           
@@ -105,7 +105,7 @@ content:
           2017년부터 사이버사령부 동기 한명과 함께 프리랜서 활동을 하며 다양한 스택으로 개발을 진행했습니다.
           <div class="custom-title">FootPrint.</div>
           - 업비트 알고리즘 거래 시스템 개발
-          - 키움증권 시세추종 MVP 개발
+          - 키움증권 시세추종 프로그램 개발
           - DB운용 서비스 개발 및 유지보수
           - 기타 데이터 수집 자동화 앱 개발
           
@@ -130,7 +130,7 @@ content:
           <div class="custom-title">FootPrint.</div>
           - 업비트, 빗썸, 바이낸스 3개 거래소 API, Websocket 연동
           - 거래소 간 코인 가격 차이를 이용한 재정거래 시스템 개발
-          - MSI, CCI, Stochastic 등 N개의 보조지표를 조합하고 거래하는 시스템 개발
+          - MSI, CCI, Stochastic 등 N개의 지표를 조합하고 거래하는 시스템 개발
           - 키움증권 알고리즘 거래 시스템 개발
           
           <div class="custom-title">Tech Stack.</div>
@@ -191,7 +191,7 @@ content:
           슬랙봇 구독 서비스를 통해 유저에게 발행된 컨텐츠를 바로 안내하고 페이지로 후킹하기 위해 시작된 프로젝트입니다.
           슬랙 Message API로 슬랙과 연동했고, Threading, Redis를 이용해 오버헤드 없이 컨텐츠를 받아볼 수 있게 처리했습니다.
           <div class="custom-title">FootPrint.</div>
-          - 슬랙봇 연동 MVP 개발로 슬랙봇 구독 유도
+          - 슬랙봇 연동 로직 개발로 슬랙봇 구독 유도
           - 유저가 외부에서 바로 컨텐츠를 유입할 수 있도록 개선
           - Threading, Redis를 이용해 오버헤드 없이 컨텐츠를 바로 Delivery할 수 있게 처리
           <div class="custom-title">Tech Stack.</div>
@@ -229,10 +229,10 @@ content:
         description: |
           <div class="custom-title">Description.</div>
           유저가 필요로 하는 프로젝트를 개인화 하고 데이터를 저장하는 것에서 시작한 프로젝트입니다.
-          스마트매칭이라는 페이지의 MVP를 설계 및 개발했습니다.
+          스마트매칭이라는 도메인을 설계 및 개발했습니다.
           데이터를 저장하고 시스템 측면에서 가공하고 처리하는데는 적합했으나, 데이터를 추출하는 측면에선 좋지않았어서 개인적으로 아쉬운 프로젝트였습니다.
           <div class="custom-title">FootPrint.</div>
-          - 유저의 개인화된 프로젝트 데이터를 받을 수 있게 페이지 MVP 개발
+          - 유저의 개인화된 프로젝트 데이터를 받을 수 있게 페이지 및 로직 개발
           <div class="custom-title">Tech Stack.</div>
           <mark>Python</mark>
           <mark>Django</mark>
@@ -247,7 +247,7 @@ content:
         description: |
           <div class="custom-title">Description.</div>
           기존 평가가 유효하지 않고, 수집이 잘 되지 않는다는 문제점에서 시작한 프로젝트입니다.
-          기존 레거시 대부분 걷어내고, 새로운 평가 MVP를 개발했으며 유저에게 SMS, Mail 발송 로직을 개발하는 테스크를 진행했습니다.
+          기존 레거시 대부분 걷어내고, 새로운 평가 도메인을 개발했으며 유저에게 SMS, Mail 발송 로직을 개발하는 테스크를 진행했습니다.
           <div class="custom-title">FootPrint.</div>
           - 평가 항목을 확장하고 비공개 평가를 도입해 평가 신뢰성 개선
           - 외부 채널 안내로(Mail, Kakao) 평가를 유도하고 평가를 확보하도록 개발됨
@@ -310,28 +310,49 @@ content:
               icon: fab fa-github
               url: https://github.com/songsb13/DiffTrader
           description: | # this will include new lines to allow paragraphs
+            <div class="custom-title">Description.</div>
             18년 당시 개발된 재정거래 프로그램의 문제점을 개선하고자 시작한 프로젝트입니다.
             기존에 사용되던 QT, 종속적으로 동작하던 프로그램을 걷어내고, Processing을 통해
             개별적으로 동작하도록 수정했고, 모호한 기능들을 분리하고 정리했습니다.
-            - Python, Redis, Processing, Threading, RESTFUL, Websocket
+            <div class="custom-title">FootPrint.</div>
+            - 기존 QT 기반 레거시 코드 제거 및 CLI로 변경해 코드 복잡성 개선
+            - Threading 기반의 코드에서 Processing으로 변경하여 코드 종속성 개선
+            - 모호한 기능을 분리해 명확성 확보 등
+            <div class="custom-title">Tech Stack.</div>
+            <mark>Python</mark>
+            <mark>Redis</mark>
+            <mark>Processing</mark>
+            <mark>Threading</mark>
+            <mark>RESTFUL</mark>
+            <mark>Websocket</mark>
 
         - layout: left
           title: 키움증권 알고리즘 거래<br/>시스템
           sub_title: Software Developer
           caption: 2018.11 - 2019.01
           description: |
+            
             - 
 
         - layout: left
           border: weak
-          title: 암호화폐 보조지표 거래<br/>시스템
+          title: 암호화폐 지표 거래<br/>시스템
           sub_title: Software Developer
           caption: 2018.10 - 2019.01
           description: |
-            RSI, MACD, Stochastic, CCI 보조지표를 조합하고 거래를 해보자는 의미에서 시작한 프로젝트입니다.
-            API로 연동된 거래소 로직과 보조지표를 각 오브젝트로 형성하고 후에 and or 조건에 따라 거래 여부를 정하는 방식으로 개발되었습니다.
-            이후 암호화폐의 특성상 변동성이 높아 제대로 된 보조지표를 형성할 수 없다고 판단해 추가 개선은 하지 않았습니다.
-            Python, QT, Tree, Queue, Threading 등
+            <div class="custom-title">Description.</div>
+            RSI, MACD, Stochastic, CCI 지표를 조합하고 거래를 해보자는 의미에서 시작한 프로젝트입니다.
+            API로 연동된 거래소 로직과 지표를 각 오브젝트로 형성하고 후에 and or 조건에 따라 거래 여부를 정하는 방식으로 개발되었습니다.
+            이후 암호화폐의 특성상 변동성이 높아 제대로 된 지표를 형성할 수 없다고 판단해 추가 개선은 하지 않았습니다.
+            <div class="custom-title">FootPrint.</div>
+            - RSI, MACD, Stochastic, CCI에 대한 지표 함수 개발
+            - QT로 지표를 조합할 수 있는 GUI 개발
+            <div class="custom-title">Tech Stack.</div>
+            <mark>Python</mark>
+            <mark>QT</mark>
+            <mark>Tree</mark>
+            <mark>Queue</mark>
+            <mark>Threading</mark>
 
         - layout: left
           title: 암호화폐 재정거래 프로그램 개발
@@ -342,11 +363,19 @@ content:
               icon: fab fa-github
               url: https://github.com/songsb13/DiffTrader
           description: | # this will include new lines to allow paragraphs
+            <div class="custom-title">Description.</div>
             개발 당시 발생하던 국내외 프리미엄을 이용한 재정거래를 해보자는 의미에서 시작한 프로젝트입니다.
-            국내 거래소인 Bithumb, Upbit와 국외 거래소인 Binance에 대한 통신 함수를 작성했고
-            입력한 2개의 거래소의 차익이 n%를 초과하면 자동으로 거래가 되도록 개발했습니다.
+            이전 프로젝트인 "암호화폐 거래소 연동"에서 개발된 함수들을 기반으로 거래소와 요구 차익률등을 입력받고
+            시장을 감시하다가 조건을 충족하면 거래하는 형태의 프로그램입니다.
+            <div class="custom-title">FootPrint.</div>
+            - QT로 현재의 트레이딩 상태 로그, 입력 받는 인풋 등 GUI 위젯 개발
+            - 거래소 차익률을 도출하고 비교하는 함수 개발
+            <div class="custom-title">Tech Stack.</div>
+            <mark>Python</mark>
+            <mark>Async</mark>
+            <mark>QT</mark>
+            <mark>Threading</mark>
             
-            - Python, Redis, Processing, Threading, RESTFUL, Websocket
 
         - layout: left
           title: 암호화폐 거래소 연동 (Upbit, Binance, Bithumb)
@@ -357,16 +386,24 @@ content:
               icon: fab fa-github
               url: https://github.com/songsb13/DiffTrader
           description: | # this will include new lines to allow paragraphs
+            <div class="custom-title">Description.</div>
             개발 당시 발생하던 국내외 프리미엄을 이용한 재정거래를 해보자는 의미에서 시작한 프로젝트입니다.
             국내 거래소인 Bithumb, Upbit와 국외 거래소인 Binance에 대한 통신 함수를 작성했고
             입력한 2개의 거래소의 차익이 n%를 초과하면 자동으로 거래가 되도록 개발했습니다.
-            
-            - Python, Redis, Processing, Threading, RESTFUL, Websocket
+            <div class="custom-title">FootPrint.</div>
+            <div class="custom-title">Tech Stack.</div>
+            <mark>Python</mark>
+            <mark>Redis</mark>
+            <mark>Processing</mark>
+            <mark>Threading</mark>
+            <mark>RESTFUL</mark>
+            <mark>Websocket</mark>
 
   - title: Education
     layout: list
     content:
       - layout: left
+        border: weak
         title: 울산과학대학교
         sub_title: Ulsan College
         caption: 2013.02 - 2018.02
