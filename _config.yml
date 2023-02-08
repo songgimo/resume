@@ -8,7 +8,7 @@ version: 2
 name: Gimo Song
 title: Software Developer
 email: goodmoskito@gmail.com
-phone: 이메일로 문의 부탁 드립니다.
+#phone: 이메일로 문의 부탁 드립니다.
 website: https://github.com/songgimo
 
 # Dark Mode (true/false/never)
@@ -24,14 +24,14 @@ about_profile_image: images/gm.jpg
 about_title: About Me
 
 about_content: |
-    # 안녕하세요, <br> 개발자 송기모입니다. <br>
+    # 안녕하세요, <br> 개발자 송기모입니다.
   
 content:
   - title: Summary
     layout: text
     content: | # this will include new lines to allow paragraphs
       ## 저는 4년차 개발자로, 백엔드와 웹 개발을 하고 있습니다.
-      ## 서비스 개발은 기획과 도메인 목적 그리고 코드의 기능을 트레이드오프하고 조율하는 것이라고 믿으며, 개발하고 있습니다. 
+      ## 서비스 개발은 기획과 도메인 목적 그리고 코드의 기능을 트레이드오프하고 조율하는 것이라고 믿으며 개발하고 있습니다. 
 
   - title: Skill Highlights
     layout: text
