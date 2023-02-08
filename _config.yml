@@ -335,6 +335,7 @@ content:
             - 기존 QT 기반 레거시 코드 제거 및 CLI로 변경해 코드 복잡성 개선
             - Threading 기반의 코드에서 Processing으로 변경하여 코드 종속성 개선
             - 모호한 기능을 분리해 명확성 확보 등
+            - 거래소 API 모듈 개선 
             <div class="custom-title">Tech Stack.</div>
             <mark>Python</mark>
             <mark>Redis</mark>
