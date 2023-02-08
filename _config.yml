@@ -31,7 +31,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       ## 저는 4년차 개발자로, 백엔드와 웹 개발을 하고 있습니다.
-      ## 서비스 개발은 기획과 도메인 목적 그리고 코드 설계를 트레이드오프를 조율하는 것이라고 믿으며, 개발하고 있습니다. 
+      ## 서비스 개발은 기획과 도메인 목적 그리고 코드의 기능을 트레이드오프하고 조율하는 것이라고 믿으며, 개발하고 있습니다. 
 
   - title: Skill Highlights
     layout: text
