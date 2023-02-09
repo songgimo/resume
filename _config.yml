@@ -31,7 +31,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       ## 저는 4년차 개발자로, 백엔드와 웹 개발을 하고 있습니다.
-      ## 서비스 개발은 기획과 도메인 목적 그리고 코드의 기능을 트레이드오프하고 조율하는 것이라고 믿으며 개발하고 있습니다. 
+      ## 서비스 개발은 기획과 도메인 목적 그리고 코드의 기능을 커뮤니케이션으로 트레이드오프하고 조율하는 것이라고 믿으며 개발하고 있습니다. 
 
   - title: Skill Highlights
     layout: text
@@ -391,7 +391,7 @@ content:
           additional_links:
             - title:  ArbitradeTrader
               icon: fab fa-github
-              url: https://gitfront.io/r/user-9704218/3vmzNJnykXKS/DiffTrader/
+              url: https://github.com/songsb13/DiffTrader
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
             개발 당시 발생하던 국내외 프리미엄을 이용한 재정거래를 해보자는 의미에서 시작한 프로젝트입니다.
@@ -413,7 +413,7 @@ content:
           additional_links:
             - title:  ArbitradeTrader
               icon: fab fa-github
-              url: https://gitfront.io/r/user-9704218/kGDpLdJFJKUy/Exchanges/
+              url: https://github.com/songsb13/Exchanges
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
             국내 거래소인 Bithumb과 Upbit, 국외거래소인 Binance에 대한 API 모듈을 작성했습니다.
