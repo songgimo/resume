@@ -48,9 +48,8 @@ content:
       <li>Celery</li>
       <li>Threading</li>
       <li>MultiProcessing</li>
-      <li>AsyncIO</li>
+      <li>Async</li>
       <li>AWS EC2</li>
-      <li>AWS RDS</li>
       <li>AWS OpenSearch</li>
       <li>HTML</li>
       <li>jQuery</li>
@@ -67,18 +66,18 @@ content:
         link: wishket.com
         description: | # this will include new lines to allow paragraphs Description of role
           <div class="custom-title">Description.</div>
-          2019년부터 위시켓에 근무하면서 각종 웹 개발을 포함하여 다양한 기능을 설계 및 개발하며 유지보수하고 있습니다.
+          IT 아웃소싱 1위 플랫폼 기업인 위시켓에서 웹 개발을 포함한 기능 설계/개발/운영을 담당하고 있음.
           
           <div class="custom-title">FootPrint.</div>
-          - 내부 어드민 개선 및 레거시 제거
+          - 스마트매칭 도메인 MTV 설계/개발/운영
+          - 스마트매칭 알고리즘 설계/개발
+          - 평가 도메인 MTV 설계/개발/운영
+          - 요즘IT OpenSearch 연동 및 검색 알고리즘 설계/개발
+          - 요즘IT 슬랙봇 구독 서비스 MTV 설계/개발
+          - 내부 어드민 설계/개발/개선
           - 회사가 요구하는 MVP 개발
-          - 기존 비즈니스 로직에 대한 유지보수
-          - 개발팀 DevOps 구축 및 개선
-          - 내부 도메인 서비스 개선 및 유지보수
-          - 리뷰 도메인 설계 및 개발
-          - 스마트매칭 도메인 설계 및 개발
-          - 요즘IT 검색 알고리즘 개선
-          - 스마트매칭 매칭 알고리즘 개발
+          - 기존 비즈니스 로직에 대한 개발/유지보수
+          - DevOps 툴 서칭/개발/운영
           
           <div class="custom-title">Tech Stack.</div>
           <mark>Python</mark>
@@ -89,6 +88,7 @@ content:
           <mark>Celery</mark>
           <mark>RESTFUL</mark>
           <mark>MariaDB</mark>
+
   - title: Other Experience
     layout: list
     content:
@@ -99,7 +99,7 @@ content:
         caption: 2017.02 - 2019.01
         description: | # 
           <div class="custom-title">Description.</div>
-          2017년부터 사이버사령부 동기 한명과 함께 프리랜서 활동을 하며 다양한 스택으로 개발을 진행했습니다.
+          크몽에서 사이버 사령부 동기와 함께 팀 단위 프리랜서 활동을 했으며 다양한 스택으로 개발을 진행함.
           <div class="custom-title">FootPrint.</div>
           - 업비트 알고리즘 거래 시스템 개발
           - 키움증권 시세추종 프로그램 개발
@@ -109,13 +109,14 @@ content:
           <div class="custom-title">Tech Stack.</div>
           <mark>Python</mark>
           <mark>MySQL</mark>
-          <mark>MongoDB</mark>
-          <mark>AsyncIO</mark>
+          <mark>Async</mark>
           <mark>SQLite</mark>
-          <mark>PHP</mark>
           <mark>RESTFUL</mark>
+          <mark>Flask</mark>
+          <mark>Websocket</mark>
           <mark>QT</mark>
           <mark>Selenium</mark>
+
       - layout: left-top
         border: weak
         title: 팀 프로젝트 활동
@@ -123,19 +124,19 @@ content:
         caption: 2017.02 -
         description: | # 
           <div class="custom-title">Description.</div>
-          2017년부터 사이버사령부 동기 두명과 함께 개인적인 프로젝트 활동을 진행했으며, Async, Threading 등 다양한 스택을 사용해 프로그램을 설계 및 개발했습니다.
+          사이버사령부 동기와 개인 프로젝트 활동을 했으며 암호화폐 API모듈/재정거래/지표거래 프로그램을 개발하고 운영했음.
           <div class="custom-title">FootPrint.</div>
           - 업비트, 빗썸, 바이낸스 3개 거래소 API, Websocket 모듈 개발
-          - 거래소 간 코인 차익을 이용한 재정거래 시스템 개발
-          - MSI, CCI, Stochastic 등 암호화폐 지표거래 시스템 개발
-          - 키움증권 알고리즘 거래 시스템 개발
+          - 거래소 간 코인 차익을 이용한 재정거래 프로그램 개발
+          - MSI, CCI, Stochastic 등 암호화폐 지표거래 프로그램 개발
           
           <div class="custom-title">Tech Stack.</div>
           <mark>Python</mark> 
           <mark>MySQL</mark>
           <mark>Flask</mark>
           <mark>QT</mark>
-          <mark>AsyncIO</mark>
+          <mark>Redis</mark>
+          <mark>Async</mark>
           <mark>Threading</mark>
           <mark>Processing</mark>
 
@@ -145,7 +146,7 @@ content:
         caption: 2015.07 - 2017.02
         description: | #
           <div class="custom-title">Description.</div>
-          사이버사령부에 정보보호병으로 근무했으며, 전반적으로 서버관리 및 운영 및 업무를 했으며 필요시 Python, Sh 스크립트 작성을 진행했습니다.
+          대한민국 국직부대 사이버사령부에서 정보보호병으로 근무했으며 서버 관리/운영과 스크립트 작성을 진행했었음.
           <div class="custom-title">FootPrint.</div>
           - 서버 관리 및 운영
           - 암호 변경 스크립트 및 서버 상태 확인 스크립트 등 작성
@@ -165,8 +166,8 @@ content:
         caption: 2022.12 -
         description: |
           <div class="custom-title">Description.</div>
-          리뷰가 일반 외주 프로젝트에 대해서만 설계가 되어있어 상주 프로젝트에 대한 파트너의 평가가 정확치 않다는 문제에서 시작된 프로젝트입니다.
-          리뷰와 관련된 레거시들을 정리하고 상주 프로젝트에 대한 평가 MTV를 설계하고 개발하고 있습니다.
+          일반 프로젝트 뿐만이 아닌 상주 프로젝트로 확장되기 시작함에 따라 평가의 분리가 필요하다는 문제에서 시작한 프로젝트.
+          리뷰 관련 레거시를 정리하고 상주 프로젝트에 대한 평가 MTV를 설계 및 개발 중.
           <div class="custom-title">FootPrint.</div>
           - 기존 레거시 제거, 중복 함수 클린업
           - 새로운 리뷰 MTV 개발
@@ -180,18 +181,20 @@ content:
           <mark>jQuery</mark>
 
       - layout: left-top
-        title: 요즘IT 검색 알고리즘 개선
+        title: 요즘IT 검색 알고리즘 설계 및 개발
         border: weak
         sub_title: Software Developer
         caption: 2022.08 - 2022.10
         description: |
           <div class="custom-title">Description.</div>
-          요즘IT의 검색기능이 제한적이고 정확한 컨텐츠를 검색하지 못하는 배경에서 시작한 프로젝트입니다.
-          AWS OpenSearch의 서버를 구축하고 위시켓DB를 연동했으며 검색 알고리즘을 설계하고 개발했습니다.
-          속도 및 정확도가 개선되었고, 기획에서 요구하던 특정 문자열을 Split하여 검색어 조합이 가능하게 했습니다.
+          요즘IT의 검색 기능을 커스텀하고 정확한 컨텐츠를 검색해야하는 상황에서 시작한 프로젝트.
+          AWS OpenSearch로 서버를 구축하여 검색 속도와 정확성을 개선했으며,
+          특정 키워드에 대해 커스터마이징하고 검색되고, 검색어 조합이 가능하게 하는 등 알고리즘을 추가로 개발함.
           <div class="custom-title">FootPrint.</div>
-          - 기존 Django ORM 기반 검색을 OpenSearch로 개선
-          - 검색어 인덱스 기반으로 일치율 높은 결과 값을 우선하게 개선
+          - 기존 Django ORM 기반 검색을 OpenSearch로 수정
+          - 제목과 내용뿐만 아니라 작가명도 포함하도록 수정
+          - 일치율이 높은 결과 값이 우선되도록 개선
+          - 특정 키워드에 대해 커스터마이징하고, 검색되도록 개선
           - 검색어 조합이 가능하게 개선
           <div class="custom-title">Tech Stack.</div>
           <mark>RESTFUL</mark>
@@ -206,12 +209,13 @@ content:
         caption: 2022.05 - 2022.08
         description: |
           <div class="custom-title">Description.</div>
-          슬랙봇 구독 서비스를 통해 유저에게 발행된 컨텐츠를 바로 안내하고 페이지로 후킹하기 위해 시작된 프로젝트입니다.
-          슬랙 Message API로 슬랙과 연동했고, Threading, Redis를 이용해 오버헤드 없이 컨텐츠를 받아볼 수 있게 처리했습니다.
+          요즘IT 플랫폼으로 유저를 후킹하고 컨텐츠 조회 수를 늘리기 위해 시작된 프로젝트.
+          슬랙 연동 MTV 설계하고 개발하여 구독 서비스 런칭
           <div class="custom-title">FootPrint.</div>
-          - 슬랙봇 연동 로직 개발로 슬랙봇 구독 유도
-          - 유저가 외부에서 바로 컨텐츠를 유입할 수 있도록 개선
-          - Threading, Redis를 이용해 오버헤드 없이 컨텐츠를 바로 Delivery할 수 있게 처리
+          - 약 550개의 구독 채널을 확보하고 있으며 구독 컨텐츠를 발송
+          - 슬랙봇 MTV 설계 및 개발
+          - 슬랙봇 Webhook, API 연동
+          - 병렬처리로 컨텐츠 발송 속도 개선
           <div class="custom-title">Tech Stack.</div>
           <mark>RESTFUL</mark>
           <mark>Redis</mark>
@@ -219,19 +223,18 @@ content:
           <mark>Python</mark>
           <mark>Django</mark>
       - layout: left-top
-        title: 스마트매칭 매칭 알고리즘 개발
+        title: 매칭 알고리즘 개발
         border: weak
         sub_title: Software Developer
         caption: 2021.08 - 2021.11
         description: |
           <div class="custom-title">Description.</div>
-          개인화된 스마트매칭 유저 데이터를 바탕으로 프로젝트를 메일링 해주는 서비스입니다.
-          기획의 요구에 따라 유저가 저장한 스마트매칭 데이터와 N%일치하고, N개가 일치하는 경우 발송하도록 알고리즘을 설계하고 개발했습니다.
-          항목이 추가되고 삭제되는 경우가 많아 확장성있게 설계되었습니다.
+          전일 등록된 프로젝트와 파트너가 입력한 매칭 데이터를 기반으로 등록 프로젝트를 안내해주는 서비스
+          매칭 알고리즘 개발하고 메일링 시스템을 개발해 파트너를 플랫폼으로 후킹, 프로젝트 조회 수 및 지원률을 개선
           <div class="custom-title">FootPrint.</div>
-          - 데이터와 프로젝트 매칭 알고리즘 개발
-          - 유저가 외부에서 프로젝트로 바로 접근할 수 있도록 개선
-          - 매칭되는 항목이 추가되고 삭제되는 경우가 잦아 확장성 있게 설계됨.
+          - 매칭 데이터와 등록 프로젝트의 유사성을 비교하는 알고리즘 개발
+          - 메일링 시스템을 개발하여 파트너를 플랫폼으로 후킹하고 조회 수 및 지원률을 개선
+          - 약 10,000건의 매칭 데이터와 프로젝트 매칭이 발생하고 있음.
           <div class="custom-title">Tech Stack.</div>
           <mark>Celery</mark>
           <mark>Redis</mark>
@@ -246,10 +249,11 @@ content:
         caption: 2020.07 - 2020.10
         description: |
           <div class="custom-title">Description.</div>
-          유저가 필요로 하는 프로젝트를 개인화 하고 데이터를 저장하자는 배경에서 시작한 프로젝트입니다.
-          스마트매칭이라는 페이지와 로직을 개발했으며 해당 페이지를 통해 데이터를 입력받는 MTV모델을 설계했습니다.
+          파트너의 프로젝트 개인화된 프로젝트 니즈 데이터 정립이 필요하다는 문제인식에서 시작한 프로젝트.
+          스마트매칭 MTV를 설계 및 개발하여 매칭 데이터를 저장함.
           <div class="custom-title">FootPrint.</div>
-          - 유저의 개인화된 프로젝트 데이터를 받을 수 있게 MTV설계 및 로직 개발
+          - 스마트매칭 MTV 설계 및 개발
+          - 약 53,000건의 매칭 데이터 확보
           <div class="custom-title">Tech Stack.</div>
           <mark>Python</mark>
           <mark>Django</mark>
@@ -263,19 +267,19 @@ content:
         caption: 2020.06 - 2020.10
         description: |
           <div class="custom-title">Description.</div>
-          기존 평가가 유효하지 않고, 수집이 잘 되지 않는다는 문제점에서 시작한 프로젝트입니다.
-          기존 레거시 대부분 걷어내고, 새로운 평가 도메인을 개발했으며 유저에게 SMS, Mail 발송 로직을 개발하는 테스크를 진행했습니다.
+          기존 평가가 유효하지 않고 평가 작성이 잘 이루어지지 않는다는 문제인식에서 시작한 프로젝트.
+          평가 MTV 설계 및 개발하여 유저 판단 근거인 평가 신뢰성 및 작성률을 개선함.
           <div class="custom-title">FootPrint.</div>
-          - 평가 항목을 확장하고 비공개 평가를 도입해 평가 신뢰성 개선
-          - 외부 채널 안내로(Mail, Kakao) 평가를 유도하고 평가를 확보하도록 개발됨
-          - 기존 문제가 있는 레거시를 걷어내 코드 복잡성을 개선
+          - 평가 항목을 확장하고 비공개 평가를 도입해 평가의 신뢰성 개선
+          - 평가 상태에 따른 알림 발송을 자동화해 파트너를 후킹하고 평가 작성률을 개선
+          - 기존 문제가 있는 레거시를 걷어내 코드 복잡성 개선
           <div class="custom-title">Tech Stack.</div>
           <mark>Celery</mark>
           <mark>Redis</mark>
           <mark>Python</mark>
           <mark>jQuery</mark>
           <mark>MariaDB</mark>
-
+#          3000
       - layout: left-top
         title: 위시켓 개발팀 DevOps
         border: weak
@@ -283,11 +287,10 @@ content:
         caption: 2019.02 -
         description: |
           <div class="custom-title">Description.</div>
-          입사 이후 개발팀 내부에서 DevOps 관련 스크립트 및 툴을 서칭하고 구현했습니다.
+          DevOps 관련 스크립트 및 툴을 서칭하고 도입 및 구현
           <div class="custom-title">FootPrint.</div>
-          - 로컬과 스테이징 서버를 동기화하는 CI/CD를 Github Action으로 구현했습니다.
-          - 메인 서버 코드를 배포하는 스크립트를 작성했습니다.
-          - Azure를 S3로 이전하는 작업을 진행했습니다.
+          - Github Action을 이용한 스테이징 배포 자동화
+          - 메인 서버 배포 자동화로 효율성을 획기적으로 개선함.
           <div class="custom-title">Tech Stack.</div>
           <mark>S3</mark>
           <mark>Github Action</mark>
@@ -300,13 +303,10 @@ content:
         caption: 2019.02 -
         description: |
           <div class="custom-title">Description.</div>
-          위시켓에서 프로세스 자동화 요청이나 기타 효율 개선을 요청하는 경우 혹은 새로운 도메인이 발생한 경우에
-          어드민 기능들을 추가, 개선하고 유지보수를 진행하고 있습니다.
+          위시켓 프로세스 자동화 및 어드민 기능 추가 개선, 유지보수 진행
           <div class="custom-title">FootPrint.</div>
-          - 유저 관리 어드민 추가
-          - 평가 어드민 추가
-          - 기존 어드민 NextJS로 전환
-          - 기존 레거시 유지보수 등
+          - 밴 유저 관리 어드민 설계/개발로 유저 관리 업무를 자동화해 CRM팀의 업무 효율성을 개선함.
+          - 평가 어드민 설계/개발로 평가를 일괄하고 자동화해 CS팀의 업무 효율성을 개선함.
           <div class="custom-title">Tech Stack.</div>
           <mark>NextJS</mark>
           <mark>Django</mark>
@@ -323,18 +323,18 @@ content:
           sub_title: Software Developer
           caption: 2022.02 - 2022.10
           additional_links:
-            - title: ArbitradeTrader
+            - title: ArbitrageTrader
               icon: fab fa-github
               url: https://github.com/songsb13/DiffTrader
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
-            18년 당시 개발된 재정거래 프로그램의 문제점을 개선하고자 시작한 프로젝트입니다.
-            기존에 사용되던 QT, 종속적으로 동작하던 프로그램을 걷어내고, Processing을 통해
-            개별적으로 동작하도록 수정했고, 모호한 기능들을 분리하고 정리했습니다.
+            18년 개발된 재정거래 프로그램의 리뉴얼
+            QT 기반의 GUI방식에서 CLI형태로 변경하고 Processing 처리로 종속성을 제거하고 전반적인 기능을 리뉴얼함.
             <div class="custom-title">FootPrint.</div>
-            - 기존 QT 기반 레거시 코드 제거 및 CLI로 변경해 코드 복잡성 개선
-            - Threading 기반의 코드에서 Processing으로 변경하여 코드 종속성 개선
-            - 모호한 기능을 분리해 명확성 확보 등
+            - QT기반 GUI 코드 제거 및 CLI 형태로 개선 및 코드 복잡성 개선
+            - Threading -> Processing으로 변경하고 각 프로세스별 코드 종속성을 제거
+            - Redis를 도입해 프로세스간 통신하고 발생하는 오버헤드를 최소화하도록 변경
+            - 모호한 기능을 분리해 명확성 확보
             - 거래소 API 모듈 개선 
             <div class="custom-title">Tech Stack.</div>
             <mark>Python</mark>
@@ -343,25 +343,25 @@ content:
             <mark>Threading</mark>
             <mark>RESTFUL</mark>
             <mark>Websocket</mark>
-
-        - layout: left
-          title: 증권사 API 연동
-          sub_title: Software Developer
-          border: weak
-          caption: 2018.11 - 2019.01
-          description: |
-            <div class="custom-title">Description.</div>
-            외주에서 여러번 요구하던 키움증권과 신한i에 대한 API 모듈을 작성했습니다.
-            <div class="custom-title">FootPrint.</div>
-            - 신한i에 대한 API 모듈 작성
-            - 키움증권에 대한 API 모듈 작성
-            <div class="custom-title">Tech Stack.</div>
-            <mark>Python</mark>
-            <mark>QT</mark>
-            <mark>Queue</mark>
-            <mark>OpenAPI</mark>
-            <mark>Win32</mark>
-            <mark>Threading</mark>
+#
+#        - layout: left
+#          title: 증권사 API 연동
+#          sub_title: Software Developer
+#          border: weak
+#          caption: 2018.11 - 2019.01
+#          description: |
+#            <div class="custom-title">Description.</div>
+#            외주에서 여러번 요구하던 키움증권과 신한i에 대한 API 모듈을 작성했습니다.
+#            <div class="custom-title">FootPrint.</div>
+#            - 신한i에 대한 API 모듈 작성
+#            - 키움증권에 대한 API 모듈 작성
+#            <div class="custom-title">Tech Stack.</div>
+#            <mark>Python</mark>
+#            <mark>QT</mark>
+#            <mark>Queue</mark>
+#            <mark>OpenAPI</mark>
+#            <mark>Win32</mark>
+#            <mark>Threading</mark>
 
         - layout: left
           border: weak
@@ -370,9 +370,8 @@ content:
           caption: 2018.10 - 2019.01
           description: |
             <div class="custom-title">Description.</div>
-            RSI, MACD, Stochastic, CCI 지표를 조합하고 거래를 해보자는 의미에서 시작한 프로젝트입니다.
-            API로 연동된 거래소 로직과 지표를 각 오브젝트로 형성하고 후에 and or 조건에 따라 거래 여부를 정하는 방식으로 개발되었습니다.
-            이후 암호화폐의 특성상 변동성이 높아 제대로 된 지표를 형성할 수 없다고 판단해 추가 개선은 하지 않았습니다.
+            각종 지표의 조합을 통한 거래를 해보자는 의미에서 시작한 프로젝트
+            지표를 오브젝트로 형성하고 입력한 조건에 부합한다면 거래를 하는 방식으로 개발됨.
             <div class="custom-title">FootPrint.</div>
             - RSI, MACD, Stochastic, CCI에 대한 지표 함수 개발
             - QT로 지표를 조합할 수 있는 GUI 개발
@@ -389,14 +388,13 @@ content:
           sub_title: Software Developer
           caption: 2018.04 - 2018.09
           additional_links:
-            - title:  ArbitradeTrader
+            - title: ArbitrageTrader
               icon: fab fa-github
               url: https://github.com/songsb13/DiffTrader
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
-            개발 당시 발생하던 국내외 프리미엄을 이용한 재정거래를 해보자는 의미에서 시작한 프로젝트입니다.
-            이전 프로젝트인 "암호화폐 거래소 연동"에서 개발된 함수들을 기반으로 거래소와 요구 차익률등을 입력받고
-            시장을 감시하다가 조건을 충족하면 거래하는 형태의 프로그램입니다.
+            국내외 암호화폐 거래소의 프리미엄을 통한 재정거래를 해보자는 의미에서 시작된 프로젝트.
+            거래소와 요구 차익률을 받고 시장을 지속적으로 감시 & 차익 조건이 충족되면 거래되는 형태의 프로그램.
             <div class="custom-title">FootPrint.</div>
             - QT로 현재의 트레이딩 상태 로그, 입력 받는 인풋 등 GUI 위젯 개발
             - 거래소 차익률을 도출하고 비교하는 함수 개발
@@ -411,12 +409,12 @@ content:
           sub_title: Software Developer
           caption: 2018.01 - 2018.04
           additional_links:
-            - title:  ArbitradeTrader
+            - title: exchanges
               icon: fab fa-github
               url: https://github.com/songsb13/Exchanges
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
-            국내 거래소인 Bithumb과 Upbit, 국외거래소인 Binance에 대한 API 모듈을 작성했습니다.
+            국내 거래소인 Bithumb과 Upbit, 국외거래소인 Binance에 대한 API 모듈을 작성함.
             <div class="custom-title">FootPrint.</div>
             - Upbit, Binance, Bithumb API 모듈 개발
             <div class="custom-title">Tech Stack.</div>
