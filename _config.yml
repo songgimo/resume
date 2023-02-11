@@ -212,10 +212,10 @@ content:
           요즘IT 플랫폼으로 유저를 후킹하고 컨텐츠 조회 수를 늘리기 위해 시작된 프로젝트.
           슬랙 연동 MTV 설계하고 개발하여 구독 서비스 런칭
           <div class="custom-title">FootPrint.</div>
-          - 약 550개의 구독 채널을 확보하고 있으며 구독 컨텐츠를 발송
           - 슬랙봇 MTV 설계 및 개발
           - 슬랙봇 Webhook, API 연동
           - 병렬처리로 컨텐츠 발송 속도 개선
+          - 시스템 구축 후 약 550개의 구독 채널을 확보하고 유저를 후킹하고 있음.
           <div class="custom-title">Tech Stack.</div>
           <mark>RESTFUL</mark>
           <mark>Redis</mark>
@@ -234,7 +234,7 @@ content:
           <div class="custom-title">FootPrint.</div>
           - 매칭 데이터와 등록 프로젝트의 유사성을 비교하는 알고리즘 개발
           - 메일링 시스템을 개발하여 파트너를 플랫폼으로 후킹하고 조회 수 및 지원률을 개선
-          - 약 10,000건의 매칭 데이터와 프로젝트 매칭이 발생하고 있음.
+          - 시스템 구축 후 매일 약 13,000건의 매칭 데이터와 프로젝트 매칭이 발생하고 지원을 유도
           <div class="custom-title">Tech Stack.</div>
           <mark>Celery</mark>
           <mark>Redis</mark>
@@ -252,8 +252,7 @@ content:
           파트너의 프로젝트 개인화된 프로젝트 니즈 데이터 정립이 필요하다는 문제인식에서 시작한 프로젝트.
           스마트매칭 MTV를 설계 및 개발하여 매칭 데이터를 저장함.
           <div class="custom-title">FootPrint.</div>
-          - 스마트매칭 MTV 설계 및 개발
-          - 약 53,000건의 매칭 데이터 확보
+          - 스마트매칭 MTV 설계 및 개발하여 53,000건의 매칭 데이터를 확보함.
           <div class="custom-title">Tech Stack.</div>
           <mark>Python</mark>
           <mark>Django</mark>
@@ -271,7 +270,7 @@ content:
           평가 MTV 설계 및 개발하여 유저 판단 근거인 평가 신뢰성 및 작성률을 개선함.
           <div class="custom-title">FootPrint.</div>
           - 평가 항목을 확장하고 비공개 평가를 도입해 평가의 신뢰성 개선
-          - 평가 상태에 따른 알림 발송을 자동화해 파트너를 후킹하고 평가 작성률을 개선
+          - 평가 상태에 따른 알림 발송을 자동화해 파트너를 후킹하고 평가를 유도
           - 기존 문제가 있는 레거시를 걷어내 코드 복잡성 개선
           <div class="custom-title">Tech Stack.</div>
           <mark>Celery</mark>
