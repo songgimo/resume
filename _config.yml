@@ -30,7 +30,7 @@ content:
   - title: Summary
     layout: text
     content: | # this will include new lines to allow paragraphs
-      ## 저는 4년차 개발자로, 백엔드와 웹 개발을 하고 있습니다.
+      ## 저는 4년 차 개발자로, 백엔드와 웹 개발을 하고 있습니다.
       ## 서비스 개발은 기획과 도메인 목적 그리고 코드의 기능을 커뮤니케이션으로 트레이드오프하고 조율하는 것이라고 믿으며 개발하고 있습니다. 
 
   - title: Skill Highlights
@@ -127,7 +127,7 @@ content:
           사이버사령부 동기와 개인 프로젝트 활동을 했으며 암호화폐 API모듈/재정거래/지표거래 프로그램을 개발하고 운영했음.
           <div class="custom-title">FootPrint.</div>
           - 업비트, 빗썸, 바이낸스 3개 거래소 API, Websocket 모듈 개발
-          - 거래소 간 코인 차익을 이용한 재정거래 프로그램 개발
+          - 암호화폐 재정거래 프로그램 개발
           - MSI, CCI, Stochastic 등 암호화폐 지표거래 프로그램 개발
           
           <div class="custom-title">Tech Stack.</div>
@@ -166,7 +166,7 @@ content:
         caption: 2022.12 -
         description: |
           <div class="custom-title">Description.</div>
-          일반 프로젝트 뿐만이 아닌 상주 프로젝트로 확장되기 시작함에 따라 평가의 분리가 필요하다는 문제에서 시작한 프로젝트.
+          일반 프로젝트뿐만이 아닌 상주 프로젝트로 확장되기 시작함에 따라 평가의 분리가 필요하다는 문제에서 시작한 프로젝트.
           리뷰 관련 레거시를 정리하고 상주 프로젝트에 대한 평가 MTV를 설계 및 개발 중.
           <div class="custom-title">FootPrint.</div>
           - 기존 레거시 제거, 중복 함수 클린업
@@ -187,7 +187,7 @@ content:
         caption: 2022.08 - 2022.10
         description: |
           <div class="custom-title">Description.</div>
-          요즘IT의 검색 기능을 커스텀하고 정확한 컨텐츠를 검색해야하는 상황에서 시작한 프로젝트.
+          요즘IT의 검색 기능을 커스텀하고 정확한 컨텐츠를 검색해야 하는 상황에서 시작한 프로젝트.
           AWS OpenSearch로 서버를 구축하여 검색 속도와 정확성을 개선했으며,
           특정 키워드에 대해 커스터마이징하고 검색되고, 검색어 조합이 가능하게 하는 등 알고리즘을 추가로 개발함.
           <div class="custom-title">FootPrint.</div>
@@ -215,7 +215,7 @@ content:
           - 슬랙봇 MTV 설계 및 개발
           - 슬랙봇 Webhook, API 연동
           - 병렬처리로 컨텐츠 발송 속도 개선
-          - 시스템 구축 후 약 550개의 구독 채널을 확보하고 유저를 후킹하고 있음.
+          - 시스템 구축 후 약 550개의 구독 채널을 확보하고 컨텐츠를 발행하고 유저를 후킹하고 있음.
           <div class="custom-title">Tech Stack.</div>
           <mark>RESTFUL</mark>
           <mark>Redis</mark>
@@ -230,10 +230,10 @@ content:
         description: |
           <div class="custom-title">Description.</div>
           전일 등록된 프로젝트와 파트너가 입력한 매칭 데이터를 기반으로 등록 프로젝트를 안내해주는 서비스
-          매칭 알고리즘 개발하고 메일링 시스템을 개발해 파트너를 플랫폼으로 후킹, 프로젝트 조회 수 및 지원률을 개선
+          매칭 알고리즘 개발하고 메일링 시스템을 개발해 파트너를 플랫폼으로 후킹, 프로젝트 조회 수 및 지원율 개선
           <div class="custom-title">FootPrint.</div>
           - 매칭 데이터와 등록 프로젝트의 유사성을 비교하는 알고리즘 개발
-          - 메일링 시스템을 개발하여 파트너를 플랫폼으로 후킹하고 조회 수 및 지원률을 개선
+          - 메일링 시스템을 개발하여 파트너를 플랫폼으로 후킹하고 조회 수 및 지원율 개선
           - 시스템 구축 후 매일 약 13,000건의 매칭 데이터와 프로젝트 매칭이 발생하고 지원을 유도
           <div class="custom-title">Tech Stack.</div>
           <mark>Celery</mark>
@@ -249,7 +249,7 @@ content:
         caption: 2020.07 - 2020.10
         description: |
           <div class="custom-title">Description.</div>
-          파트너의 프로젝트 개인화된 프로젝트 니즈 데이터 정립이 필요하다는 문제인식에서 시작한 프로젝트.
+          파트너의 프로젝트 개인화된 프로젝트 니즈 데이터 정립이 필요하다는 문제 인식에서 시작한 프로젝트.
           스마트매칭 MTV를 설계 및 개발하여 매칭 데이터를 저장함.
           <div class="custom-title">FootPrint.</div>
           - 스마트매칭 MTV 설계 및 개발하여 53,000건의 매칭 데이터를 확보함.
@@ -266,11 +266,12 @@ content:
         caption: 2020.06 - 2020.10
         description: |
           <div class="custom-title">Description.</div>
-          기존 평가가 유효하지 않고 평가 작성이 잘 이루어지지 않는다는 문제인식에서 시작한 프로젝트.
-          평가 MTV 설계 및 개발하여 유저 판단 근거인 평가 신뢰성 및 작성률을 개선함.
+          기존 평가가 유효하지 않고 평가 작성이 잘 이루어지지 않는다는 문제 인식에서 시작한 프로젝트.
+          평가 MTV 설계 및 개발하여 유저 판단 근거인 평가 신뢰성 및 작성율을 개선함.
           <div class="custom-title">FootPrint.</div>
-          - 평가 항목을 확장하고 비공개 평가를 도입해 평가의 신뢰성 개선
-          - 평가 상태에 따른 알림 발송을 자동화해 파트너를 후킹하고 평가를 유도
+          - 평가 항목을 확장하고 비공개 평가와 하자보수 평가를 도입해 평가의 신뢰성 개선
+          - 필터링 알고리즘 개발
+          - 평가 상태에 따른 알림 시스템 개발하여 파트너를 후킹하고 평가를 유도
           - 기존 문제가 있는 레거시를 걷어내 코드 복잡성 개선
           <div class="custom-title">Tech Stack.</div>
           <mark>Celery</mark>
@@ -328,11 +329,11 @@ content:
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
             18년 개발된 재정거래 프로그램의 리뉴얼
-            QT 기반의 GUI방식에서 CLI형태로 변경하고 Processing 처리로 종속성을 제거하고 전반적인 기능을 리뉴얼함.
+            QT 기반의 GUI 방식에서 CLI 방식으로 변경하고 Processing 처리로 종속성을 제거하고 전반적인 기능을 리뉴얼함.
             <div class="custom-title">FootPrint.</div>
-            - QT기반 GUI 코드 제거 및 CLI 형태로 개선 및 코드 복잡성 개선
-            - Threading -> Processing으로 변경하고 각 프로세스별 코드 종속성을 제거
-            - Redis를 도입해 프로세스간 통신하고 발생하는 오버헤드를 최소화하도록 변경
+            - QT 기반 GUI 코드 제거 및 CLI 형태로 개선 및 코드 복잡성 개선
+            - Threading -> Processing으로 변경하고 프로세스별 코드 종속성을 제거
+            - Redis를 도입해 프로세스 간 통신하도록 변경
             - 모호한 기능을 분리해 명확성 확보
             - 거래소 API 모듈 개선 
             <div class="custom-title">Tech Stack.</div>
@@ -370,7 +371,7 @@ content:
           description: |
             <div class="custom-title">Description.</div>
             각종 지표의 조합을 통한 거래를 해보자는 의미에서 시작한 프로젝트
-            지표를 오브젝트로 형성하고 입력한 조건에 부합한다면 거래를 하는 방식으로 개발됨.
+            지표를 오브젝트로 형성하고 입력한 조건에 부합한다면 거래하는 방식으로 개발됨.
             <div class="custom-title">FootPrint.</div>
             - RSI, MACD, Stochastic, CCI에 대한 지표 함수 개발
             - QT로 지표를 조합할 수 있는 GUI 개발
@@ -393,9 +394,9 @@ content:
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
             국내외 암호화폐 거래소의 프리미엄을 통한 재정거래를 해보자는 의미에서 시작된 프로젝트.
-            거래소와 요구 차익률을 받고 시장을 지속적으로 감시 & 차익 조건이 충족되면 거래되는 형태의 프로그램.
+            거래소와 요구 차익률을 받고 시장을 지속해서 감시 & 차익 조건이 충족되면 거래되는 형태의 프로그램.
             <div class="custom-title">FootPrint.</div>
-            - QT로 현재의 트레이딩 상태 로그, 입력 받는 인풋 등 GUI 위젯 개발
+            - QT로 현재의 트레이딩 상태 로그, 입력받는 인풋 등 GUI 위젯 개발
             - 거래소 차익률을 도출하고 비교하는 함수 개발
             <div class="custom-title">Tech Stack.</div>
             <mark>Python</mark>
