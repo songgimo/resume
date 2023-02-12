@@ -148,7 +148,7 @@ content:
           <mark>Python</mark>
           <mark>Linux</mark>
 
-  - title: Projects.
+  - title: Project.
     layout: list
     content:
       - layout: left-top
@@ -299,7 +299,7 @@ content:
           <mark>Python</mark>
 
 
-  - title: Other Projects. # Title for the section
+  - title: Other Project. # Title for the section
     layout: list # Type of content section (list/text)
     content:
         - layout: left
