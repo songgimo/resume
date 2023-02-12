@@ -1,4 +1,7 @@
 # Site
+name: Gimo Song
+title: 목적으로 향하는 개발자
+
 #repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
@@ -46,7 +49,7 @@ content:
         <li>FrontEnd: Javascript, jQuery, Next.js, HTML/CSS</li>
         <li>BackEnd: Python, Django, AWS(EC2/OpenSearch/S3)</li>
         <li>Database: MySQL, MariaDB, Redis</li>
-        <li>Tool: RestAPI, Thread, Process, Async, Celery</li>
+        <li>Tool: RestAPI, Thread, Process, async, Celery</li>
       </ul>
 
   - title: Work Experience.
@@ -97,7 +100,7 @@ content:
           <div class="custom-title">Tech Stack.</div>
           <mark>Python</mark>
           <mark>MySQL</mark>
-          <mark>Async</mark>
+          <mark>async</mark>
           <mark>SQLite</mark>
           <mark>RESTFUL</mark>
           <mark>Flask</mark>
@@ -126,7 +129,7 @@ content:
           <mark>Flask</mark>
           <mark>QT</mark>
           <mark>Redis</mark>
-          <mark>Async</mark>
+          <mark>async</mark>
           <mark>Threading</mark>
           <mark>Processing</mark>
 
@@ -378,7 +381,7 @@ content:
             - 거래소 차익률을 도출하고 비교하는 함수 개발
             <div class="custom-title">Tech Stack.</div>
             <mark>Python</mark>
-            <mark>Async</mark>
+            <mark>async</mark>
             <mark>QT</mark>
             <mark>Threading</mark>
 
@@ -397,7 +400,7 @@ content:
             - Upbit, Binance, Bithumb API 모듈 개발
             <div class="custom-title">Tech Stack.</div>
             <mark>Python</mark>
-            <mark>Async</mark>
+            <mark>async</mark>
             <mark>Queue</mark>
             <mark>RESTFUL</mark>
             <mark>Websocket</mark>
