@@ -304,7 +304,7 @@ content:
           <mark>Python</mark>
 
 
-  - title: Other Projects # Title for the section
+  - title: Other Projects. # Title for the section
     layout: list # Type of content section (list/text)
     content:
         - layout: left
@@ -413,7 +413,7 @@ content:
             <mark>RESTFUL</mark>
             <mark>Websocket</mark>
 
-  - title: Education
+  - title: Education.
     layout: list
     content:
       - layout: left
