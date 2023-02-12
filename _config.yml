@@ -24,42 +24,32 @@ about_profile_image: images/gm.jpg
 about_title: About Me
 
 about_content: |
-    # 안녕하세요, <br> 개발자 송기모입니다.
-  
+  ## 4년 차, 목적으로 향하는 개발자 송기모입니다.
 content:
-  - title: Summary
+  - title: Introduce.
     layout: text
     content: | # this will include new lines to allow paragraphs
-      ## 저는 4년 차 개발자로, 백엔드와 웹 개발을 하고 있습니다.
-      ## 서비스 개발은 기획과 도메인 목적 그리고 코드의 기능을 커뮤니케이션으로 트레이드오프하고 조율하는 것이라고 믿으며 개발하고 있습니다. 
+      4년차 개발자로 위시켓에서 웹과 백엔드 서비스를 설계/개발/운영하였습니다. 주로 웹 서비스 개발을 했으며,
+      필요에 따라 개발팀의 DevOps도 겸했습니다. 27명 규모의 회사에 입사하여 55명 규모의 회사로 성장할 때까지 여러 도메인을 담당하고 책임진 경험이 있습니다.
+      <br><br>
+      비즈니스 목적에 따른 개발하는 것을 우선적으로 생각합니다. 그렇기에 혼자 개발하는 것이 아닌 기획과 디자인이 함께하는 것이라고 생각하기에
+      다양한 직무의 구성원들과 적극적으로 커뮤니케이션하고 질문하며 협업해왔습니다.
 
-  - title: Skill Highlights
+  - title: Skill.
     layout: text
     content: | # this will include new lines to allow paragraphs
       <ul class="highlights">
-      <li>Python</li>
-      <li>Django</li>
-      <li>Git</li>
-      <li>Linux</li>
-      <li>MySQL</li>
-      <li>MariaDB</li>
-      <li>NextJS</li>
-      <li>Redis</li>
-      <li>Celery</li>
-      <li>Threading</li>
-      <li>MultiProcessing</li>
-      <li>Async</li>
-      <li>AWS EC2</li>
-      <li>AWS OpenSearch</li>
-      <li>HTML</li>
-      <li>jQuery</li>
-      <li>CSS</li>
+      <li>FrontEnd: Javascript, jQuery, React.js, Next.js, HTML/CSS</li>
+      <li>BackEnd: Python, AWS(EC2/OpenSearch/S3)</li>
+      <li>DataBase: MySQL, MariaDB, Redis
+      <li>Library: Thread, Process, Async, Celery
+      <li>Tool: Git, Slack
       </ul>
 
-  - title: Work Experience
+  - title: Work Experience.
     layout: list
     content:
-      - layout: left-top
+      - layout: right-top
         title: 위시켓
         sub_title: Software Developer
         caption: 2019.02 -
@@ -89,10 +79,10 @@ content:
           <mark>RESTFUL</mark>
           <mark>MariaDB</mark>
 
-  - title: Other Experience
+  - title: Other Experience.
     layout: list
     content:
-      - layout: left-top
+      - layout: right-top
         border: weak
         title: 프리랜서 활동
         sub_title: Software Developer
@@ -117,7 +107,7 @@ content:
           <mark>QT</mark>
           <mark>Selenium</mark>
 
-      - layout: left-top
+      - layout: right-top
         border: weak
         title: 팀 프로젝트 활동
         sub_title: Software Developer
@@ -380,7 +370,6 @@ content:
             <mark>QT</mark>
             <mark>Tree</mark>
             <mark>Queue</mark>
-            <mark>Threading</mark>
 
         - layout: left
           title: 암호화폐 재정거래 프로그램 개발
