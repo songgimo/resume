@@ -34,7 +34,15 @@ a {
 a:active,
 a:focus,
 a:hover {
-color: #355e98;
+color: #616161;
+}
+
+a {
+  color: #616161;
+  text-decoration: underline;
+  &.no-under {
+    text-decoration: none;
+  }
 }
 
 h1 {
@@ -49,12 +57,12 @@ h2 {
 }
 
 h3 {
-  font-weight: 300;
+  font-weight: bold;
   font-size: 3rem;
-  text-align: center;
-  border-bottom: dashed 2px #CCCCCC;
+  text-align: left;
+  border-bottom: 1px solid #eee;
   padding-bottom: 10px;
-  margin-bottom:40px;
+  margin-bottom: 20px;
 
   @media print {
     margin-bottom: 20px;
@@ -68,7 +76,8 @@ h4 {
 }
 
 p, ul {
-  font-size: 15px;
+  font-size: 18px;
+  line-height: 32px;
 }
 
 a i {
@@ -76,13 +85,10 @@ a i {
 }
 
 .highlights {
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 8px 16px;
     li {
-      display: flow-root list-item;
-      width: 30%;
+      width: 100%;
       font-size: 20px;
+      margin-bottom: 4px;
       //&:before {
       //  content: '\00B7';
       //}
