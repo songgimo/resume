@@ -26,19 +26,17 @@ about_content: |
   <br>
   <div class="custom-title">Contact&Channel.</div>
   Email. goodmoskito@gmail.com <br>
-  Github. <a href="https://github.com/songgimo" target="_blank"> https://github.com/songgimo </a>
+  Github. <a class="no-under" href="https://github.com/songgimo" target="_blank"> https://github.com/songgimo </a>
 
 content:
   - title: Introduce.
     layout: text
     content: | # this will include new lines to allow paragraphs
-      4년차 개발자로 위시켓에서 웹과 백엔드 서비스를 설계/개발/운영하였습니다. 주로 웹 서비스 개발을 했으며,
+      4년 차 개발자로 위시켓에서 웹과 백엔드 서비스를 설계/개발/운영하였습니다. 주로 웹 서비스 개발을 했으며,
       필요에 따라 개발팀의 DevOps도 겸했습니다. 27명 규모의 회사에 입사하여 55명 규모의 회사로 성장할 때까지 여러 도메인을 담당하고 책임진 경험이 있습니다.
       <br><br>
       도메인 목적에 따른 개발을 생각합니다. 이를 위해 도메인과 출발점인 유저를 이해하는 역량을 쌓고자 노력해왔습니다.
       또한 비즈니스는 혼자가 아닌 다양한 직무의 구성원들과 함꼐하는 것이라고 생각하기에 적극적으로 커뮤니케이션하며 협업해왔습니다.
-      <br><br>
-      
       
 
   - title: Skill.
@@ -58,10 +56,9 @@ content:
         title: 위시켓
         sub_title: Software Developer
         caption: 2019.02 -
-        link: wishket.com
         description: | # this will include new lines to allow paragraphs Description of role
           <div class="custom-title">Description.</div>
-          IT 아웃소싱 1위 플랫폼 기업인 위시켓에서 웹 개발을 포함한 기능 설계/개발/운영을 담당하고 있습니다.
+          IT 아웃소싱 플랫폼 기업인 <a href="wishket.com" target="_blank">위시켓</a>에서 웹 개발을 포함한 기능 설계/개발/운영을 담당하고 있습니다.
           
           <div class="custom-title">FootPrint.</div>
           - 스마트매칭 도메인 MTV 설계/개발/운영
@@ -114,7 +111,10 @@ content:
         caption: 2017.02 -
         description: | # 
           <div class="custom-title">Description.</div>
-          사이버사령부 동기와 개인 프로젝트 활동을 했으며 암호화폐 API모듈/재정거래/지표거래 프로그램을 개발하고 운영했습니다.
+          사이버사령부 동기와 개인 프로젝트 활동을 했으며 암호화폐 
+          <a href="https://github.com/songsb13/Exchanges" target="_blank">API모듈</a>과
+          <a href="https://github.com/songsb13/DiffTrader" target="_blank">재정거래</a>, 
+          지표거래 프로그램을 개발하고 운영했습니다.
           <div class="custom-title">FootPrint.</div>
           - 업비트, 빗썸, 바이낸스 3개 거래소 API, Websocket 모듈 개발
           - 암호화폐 재정거래 프로그램 개발

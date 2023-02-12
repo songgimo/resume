@@ -39,6 +39,10 @@ color: #616161;
 
 a {
   color: #616161;
+  text-decoration: underline;
+  &.no-under {
+    text-decoration: none;
+  }
 }
 
 h1 {
