@@ -49,7 +49,8 @@ content:
         <li>FrontEnd: Javascript, jQuery, Next.js, HTML/CSS</li>
         <li>BackEnd: Python, Django, AWS(EC2/OpenSearch/S3)</li>
         <li>Database: MySQL, MariaDB, Redis</li>
-        <li>Tool: RestAPI, Thread, Process, async, Celery</li>
+        <li>OS: Async, Thread, Process<li>
+        <li>ETC: RESTAPI, Celery </li>
       </ul>
 
   - title: Work Experience.
@@ -100,7 +101,7 @@ content:
           <div class="custom-title">Tech Stack.</div>
           <mark>Python</mark>
           <mark>MySQL</mark>
-          <mark>async</mark>
+          <mark>Async</mark>
           <mark>SQLite</mark>
           <mark>RESTFUL</mark>
           <mark>Flask</mark>
@@ -129,7 +130,7 @@ content:
           <mark>Flask</mark>
           <mark>QT</mark>
           <mark>Redis</mark>
-          <mark>async</mark>
+          <mark>Async</mark>
           <mark>Threading</mark>
           <mark>Processing</mark>
 
@@ -380,7 +381,7 @@ content:
             - 거래소 차익률을 도출하고 비교하는 함수 개발
             <div class="custom-title">Tech Stack.</div>
             <mark>Python</mark>
-            <mark>async</mark>
+            <mark>Async</mark>
             <mark>QT</mark>
             <mark>Threading</mark>
 
@@ -399,7 +400,7 @@ content:
             - Upbit, Binance, Bithumb API 모듈 개발
             <div class="custom-title">Tech Stack.</div>
             <mark>Python</mark>
-            <mark>async</mark>
+            <mark>Async</mark>
             <mark>Queue</mark>
             <mark>RESTFUL</mark>
             <mark>Websocket</mark>
@@ -408,13 +409,13 @@ content:
     layout: list
     content:
       - layout: left
-          title: 학점은행제
-          sub_title: The Academic Credit Bank System
-          caption: 2018.07 - 2019.02
-          quote: |
-            공학사, Bachelor of Engineering
-          description: |
-            3년제 졸업 후 학사 학위를 취득하고자 6개월 가량 학점은행제를 이용했고 컴퓨터 공학을 수료했습니다.
+        title: 학점은행제
+        sub_title: The Academic Credit Bank System
+        caption: 2018.07 - 2019.02
+        quote: |
+          공학사, Bachelor of Engineering
+        description: |
+          3년제 졸업 후 학사 학위를 취득하고자 6개월 가량 학점은행제를 이용했고 컴퓨터 공학을 수료했습니다.
       - layout: left
         title: 울산과학대학교
         sub_title: Ulsan College
