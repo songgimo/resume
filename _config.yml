@@ -55,7 +55,7 @@ content:
   - title: Work Experience.
     layout: list
     content:
-      - layout: right-top
+      - layout: left
         title: 위시켓
         sub_title: Software Developer
         caption: 2019.02 -
@@ -84,7 +84,7 @@ content:
   - title: Other Experience.
     layout: list
     content:
-      - layout: right-top
+      - layout: left
         title: 프리랜서 활동
         sub_title: Software Developer
         caption: 2017.02 - 2019.01
@@ -108,7 +108,7 @@ content:
           <mark>QT</mark>
           <mark>Selenium</mark>
 
-      - layout: right-top
+      - layout: left
         title: 팀 프로젝트 활동
         sub_title: Software Developer
         caption: 2017.02 -
@@ -133,16 +133,15 @@ content:
           <mark>Threading</mark>
           <mark>Processing</mark>
 
-      - layout: left-top
+      - layout: left
         title: 사이버사령부
         sub_title: 정보보호병
         caption: 2015.07 - 2017.02
         description: | #
           <div class="custom-title">Description.</div>
-          대한민국 국직부대 사이버사령부에서 정보보호병으로 근무했으며 서버 관리/운영과 스크립트 작성을 진행했습니다.
+          대한민국 국직부대 사이버사령부에서 정보보호병으로 근무했으며 국방망 서버 및 네트워크 관리, 필요에 따라 스크립트 작성을 했습니다.
           <div class="custom-title">FootPrint.</div>
-          - 서버 관리 및 운영
-          - 암호 변경 스크립트 및 서버 상태 확인 스크립트 등 작성
+          - 국방망 서버 및 네트워크 관리 & 운영
           
           <div class="custom-title">Tech Stack.</div>
           <mark>Python</mark>
@@ -151,7 +150,7 @@ content:
   - title: Project.
     layout: list
     content:
-      - layout: left-top
+      - layout: left
         title: 리뷰 도메인 개선
         sub_title: Software Developer
         caption: 2022.12 -
@@ -171,7 +170,7 @@ content:
           <mark>ChartJS</mark>
           <mark>jQuery</mark>
 
-      - layout: left-top
+      - layout: left
         title: 요즘IT 검색 알고리즘 설계 및 개발
         sub_title: Software Developer
         caption: 2022.08 - 2022.10
@@ -192,7 +191,7 @@ content:
           <mark>Celery</mark>
           <mark>OpenSearch</mark>
 
-      - layout: left-top
+      - layout: left
         title: 요즘IT 슬랙봇 구독 서비스 설계 및 개발
         sub_title: Software Developer
         caption: 2022.05 - 2022.08
@@ -211,7 +210,7 @@ content:
           <mark>Threading</mark>
           <mark>Python</mark>
           <mark>Django</mark>
-      - layout: left-top
+      - layout: left
         title: 매칭 알고리즘 개발
         sub_title: Software Developer
         caption: 2021.08 - 2021.11
@@ -230,7 +229,7 @@ content:
           <mark>Python</mark>
           <mark>Django</mark>
 
-      - layout: left-top
+      - layout: left
         title: 스마트매칭 도메인 설계 및 개발
         sub_title: Software Developer
         caption: 2020.07 - 2020.10
@@ -246,7 +245,7 @@ content:
           <mark>jQuery</mark>
           <mark>MariaDB</mark>
 
-      - layout: left-top
+      - layout: left
         title: 평가 도메인 설계 및 개발
         sub_title: Software Developer
         caption: 2020.06 - 2020.10
@@ -266,7 +265,7 @@ content:
           <mark>jQuery</mark>
           <mark>MariaDB</mark>
 #          3000
-      - layout: left-top
+      - layout: left
         title: 위시켓 개발팀 DevOps
         sub_title: Software Developer
         caption: 2019.02 -
@@ -282,7 +281,7 @@ content:
           <mark>Docker</mark>
           <mark>Node.js</mark>
 
-      - layout: left-top
+      - layout: left
         title: 위시켓 내부 시스템 개선
         sub_title: Software Developer
         caption: 2019.02 -
@@ -409,6 +408,14 @@ content:
     layout: list
     content:
       - layout: left
+          title: 학점은행제
+          sub_title: The Academic Credit Bank System
+          caption: 2018.07 - 2019.02
+          quote: |
+            공학사, Bachelor of Engineering
+          description: |
+            3년제 졸업 후 학사 학위를 취득하고자 6개월 가량 학점은행제를 이용했고 컴퓨터 공학을 수료했습니다.
+      - layout: left
         title: 울산과학대학교
         sub_title: Ulsan College
         caption: 2013.02 - 2018.02
@@ -416,14 +423,6 @@ content:
           공업전문학사, Associate of Science in Engineering Technology
         description: | # this will include new lines to allow paragraphs
           컴퓨터 정보학을 수료했으며 공업 전문학사 학위를 취득했습니다.
-      - layout: left
-        title: 학점은행제
-        sub_title: The Academic Credit Bank System
-        caption: 2018.07 - 2019.02
-        quote: |
-          공학사, Bachelor of Engineering
-        description: |
-          3년제 졸업 후 학사 학위를 취득하고자 6개월 가량 학점은행제를 이용했고 컴퓨터 공학을 수료했습니다.
 
 
 
