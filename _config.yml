@@ -49,7 +49,7 @@ content:
         <li>FrontEnd: Javascript, jQuery, Next.js, HTML/CSS</li>
         <li>BackEnd: Python, Django, AWS(EC2/OpenSearch/S3)</li>
         <li>Database: MySQL, MariaDB, Redis</li>
-        <li>OS: Async, Thread, Process<li>
+        <li>OS: Async, Thread, Process</li>
         <li>ETC: RESTAPI, Celery </li>
       </ul>
 
