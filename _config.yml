@@ -47,7 +47,7 @@ content:
     content: | # this will include new lines to allow paragraphs
       <ul class="highlights">
         <li>FrontEnd: Javascript, jQuery, Next.js, HTML/CSS</li>
-        <li>BackEnd: Python, Django, AWS(EC2/OpenSearch/S3)</li>
+        <li>BackEnd: Python, Django, Flask, AWS(EC2/OpenSearch/S3)</li>
         <li>Database: MySQL, MariaDB, Redis</li>
         <li>OS: Async, Thread, Process</li>
         <li>ETC: RESTAPI, Celery </li>
