@@ -75,6 +75,7 @@ content:
           <div class="custom-title">Tech Stack.</div>
           <mark>Python</mark>
           <mark>Django</mark> 
+          <mark>Docker</mark> 
           <mark>jQuery</mark>
           <mark>NextJS</mark>
           <mark>Redis</mark>
