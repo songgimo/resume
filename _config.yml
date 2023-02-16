@@ -307,10 +307,6 @@ content:
           title: 암호화폐 재정거래 프로그램 개선
           sub_title: Software Developer
           caption: 2022.02 - 2022.10
-          additional_links:
-            - title: ArbitrageTrader
-              icon: fab fa-github
-              url: https://github.com/songsb13/DiffTrader
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
             18년 개발된 재정거래 프로그램의 리뉴얼
@@ -369,10 +365,6 @@ content:
           title: 암호화폐 재정거래 프로그램 개발
           sub_title: Software Developer
           caption: 2018.04 - 2018.09
-          additional_links:
-            - title: ArbitrageTrader
-              icon: fab fa-github
-              url: https://github.com/songsb13/DiffTrader
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
             국내외 암호화폐 거래소의 프리미엄을 통한 재정거래를 해보자는 의미에서 시작된 프로젝트.
@@ -390,10 +382,6 @@ content:
           title: 암호화폐 거래소 API 연동
           sub_title: Software Developer
           caption: 2018.01 - 2018.04
-          additional_links:
-            - title: exchanges
-              icon: fab fa-github
-              url: https://github.com/songsb13/Exchanges
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
             국내 거래소인 Bithumb과 Upbit, 국외거래소인 Binance에 대한 API 모듈을 작성함.
