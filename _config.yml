@@ -113,7 +113,7 @@ content:
       - layout: left
         title: 팀 프로젝트 활동
         sub_title: Software Developer
-        caption: 2017.02 -
+        caption: 2017.02 - 2019.01
         description: | # 
           <div class="custom-title">Description.</div>
           사이버사령부 동기와 개인 프로젝트 활동을 했으며 암호화폐 
@@ -237,7 +237,7 @@ content:
         caption: 2020.10 - 2020.12
         description: |
           <div class="custom-title">Description.</div>
-          파트너의 프로젝트 개인화된 프로젝트 니즈 데이터 정립이 필요하다는 문제 인식에서 시작한 프로젝트.
+          파트너의 프로젝트 개인화된 프로젝트 요구 데이터 정립이 필요하다는 문제 인식에서 시작한 프로젝트.
           스마트매칭 MTV를 설계 및 개발하여 매칭 데이터를 저장함.
           <div class="custom-title">FootPrint.</div>
           - 스마트매칭 MTV 설계 및 개발하여 53,000건의 매칭 데이터를 확보함.
