@@ -35,11 +35,14 @@ content:
   - title: Introduce.
     layout: text
     content: | # this will include new lines to allow paragraphs
-      4년 차 개발자로 위시켓에서 웹과 백엔드 서비스를 설계/개발/운영하였습니다. 주로 웹 서비스 개발을 했으며,
+      4년 차 개발자로 위시켓에서 웹과 백엔드 서비스를 설계/개발/운영하였습니다. 주로 Django를 베이스로 한 웹 서비스 개발을 했으며,
       필요에 따라 개발팀의 DevOps도 겸했습니다. 27명 규모의 회사에 입사하여 55명 규모의 회사로 성장할 때까지 여러 도메인을 담당하고 책임진 경험이 있습니다.
       <br><br>
-      도메인 목적에 따른 개발을 생각합니다. 이를 위해 도메인과 출발점인 유저를 이해하는 역량을 쌓고자 노력해왔습니다.
-      또한 비즈니스는 혼자가 아닌 다양한 직무의 구성원들과 함께하는 것이라고 생각하기에 적극적으로 커뮤니케이션하며 협업해왔습니다.
+      팀 프로젝트와 팀 프리랜서 활동으로 자료구조와 OS를 이용한 프로그램 개발을 여럿 했습니다. 주로 트레이딩 프로그램을 개발했으며 
+      Threading과 Queue, Lock과 REST API를 이용했고, 레이스컨디션, 데드락 등의 문제 상황을 겪고 해결한 경험이 있습니다.
+      <br><br>
+      저는 도메인 목적에 따른 개발을 생각합니다. 이를 위해 도메인과 출발점인 유저를 이해하는 역량을 쌓고자 노력해왔습니다.
+      또한 비즈니스는 혼자가 아닌 다양한 직무의 구성원들과 함께하는 것으로 생각하기에 적극적으로 커뮤니케이션하며 협업해왔습니다.
       
 
   - title: Skill.
@@ -49,7 +52,7 @@ content:
         <li>FrontEnd: Javascript, jQuery, Next.js, HTML/CSS</li>
         <li>BackEnd: Python, Django, Docker, Flask, AWS(EC2/OpenSearch/S3)</li>
         <li>Database: MySQL, MariaDB, Redis</li>
-        <li>OS: Async, Thread, Process</li>
+        <li>OS: Async, Thread, Process, Queue, Lock</li>
         <li>ETC: RESTAPI, Celery </li>
       </ul>
 
@@ -62,8 +65,8 @@ content:
         caption: 2019.02 -
         description: | # this will include new lines to allow paragraphs Description of role
           <div class="custom-title">Description.</div>
-          IT 아웃소싱 플랫폼 기업인 <a href="https://wishket.com" target="_blank">위시켓</a>에서 웹 개발을 포함한 기능 설계/개발/운영을 담당하고 있습니다.
-          
+          IT 아웃소싱 플랫폼 기업인 <a href="https://wishket.com" target="_blank">위시켓</a>에서 설계/개발/운영을 담당하고 있습니다.
+          Django를 베이스로 다양한 MTV를 설계하고 개발했으며 OpenSearch를 이용한 개발과 Docker를 이용한 개발 경험이 있습니다.
           <div class="custom-title">FootPrint.</div>
           - 스마트매칭 도메인 MTV 설계/개발/운영
           - 스마트매칭 알고리즘 설계/개발
@@ -93,7 +96,7 @@ content:
         description: | # 
           <div class="custom-title">Description.</div>
           크몽에서 사이버 사령부 동기와 함께 팀 단위 프리랜서 활동을 했으며 다양한 스택으로 개발을 진행했습니다.
-          다양한 트레이드 프로그램을 개발했으며, 이를 기반으로 레이스컨디션, 데드락에 대한 해결 경험과 쓰레딩과 비동기 프로그래밍을 경험했습니다.
+          다양한 트레이딩 프로그램을 개발했으며, 이를 기반으로 레이스컨디션, 데드락에 대한 해결 경험과 쓰레딩과 비동기 프로그래밍을 경험했습니다.
           <div class="custom-title">FootPrint.</div>
           - 업비트 알고리즘 거래 시스템 개발
           - 키움증권 시세추종 프로그램 개발
