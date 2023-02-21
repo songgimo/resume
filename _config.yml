@@ -25,7 +25,7 @@ about_profile_image: images/gm.jpg
 about_title: Hello.
 
 about_content: |
-  ## 4년 차, 목적으로 향하는 개발자 송기모입니다.
+  ## 5년차, 목적으로 향하는 개발자 송기모입니다.
   <br>
   <div class="custom-title">Contact&Channel.</div>
   Email. goodmoskito@gmail.com <br>
@@ -35,7 +35,7 @@ content:
   - title: Introduce.
     layout: text
     content: | # this will include new lines to allow paragraphs
-      4년 차 개발자로 위시켓에서 웹과 백엔드 서비스를 설계/개발/운영하였습니다. 주로 Django를 베이스로 한 웹 서비스 개발을 했으며,
+      5년차 개발자로 위시켓에서 웹과 백엔드 서비스를 설계/개발/운영하였습니다. 주로 Django를 베이스로 한 웹 서비스 개발을 했으며,
       필요에 따라 개발팀의 DevOps도 겸했습니다. 27명 규모의 회사에 입사하여 55명 규모의 회사로 성장할 때까지 여러 도메인을 담당하고 책임진 경험이 있습니다.
       <br><br>
       팀 프로젝트와 팀 프리랜서 활동으로 자료구조와 OS를 이용한 프로그램 개발을 여럿 했습니다. 주로 트레이딩 프로그램을 개발했으며 
