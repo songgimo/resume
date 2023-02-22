@@ -61,7 +61,6 @@ content:
     content:
       - layout: left
         title: 위시켓
-        sub_title: Software Developer
         caption: 2019.02 -
         description: | # this will include new lines to allow paragraphs Description of role
           <div class="custom-title">Description.</div>
@@ -91,7 +90,6 @@ content:
     content:
       - layout: left
         title: 프리랜서 활동
-        sub_title: Software Developer
         caption: 2017.02 - 2019.01
         description: | # 
           <div class="custom-title">Description.</div>
@@ -119,7 +117,6 @@ content:
 
       - layout: left
         title: 팀 프로젝트 활동
-        sub_title: Software Developer
         caption: 2017.02 - 2019.01
         description: | # 
           <div class="custom-title">Description.</div>
@@ -161,7 +158,6 @@ content:
     content:
       - layout: left
         title: 리뷰 도메인 개선
-        sub_title: Software Developer
         caption: 2022.12 -
         description: |
           <div class="custom-title">Description.</div>
@@ -181,7 +177,6 @@ content:
 
       - layout: left
         title: 요즘IT 검색 알고리즘 설계 및 개발
-        sub_title: Software Developer
         caption: 2022.08 - 2022.10
         description: |
           <div class="custom-title">Description.</div>
@@ -202,7 +197,6 @@ content:
 
       - layout: left
         title: 요즘IT 슬랙봇 구독 서비스 설계 및 개발
-        sub_title: Software Developer
         caption: 2022.07 - 2022.08
         description: |
           <div class="custom-title">Description.</div>
@@ -221,7 +215,6 @@ content:
           <mark>Django</mark>
       - layout: left
         title: 매칭 알고리즘 개발
-        sub_title: Software Developer
         caption: 2021.08 - 2021.10
         description: |
           <div class="custom-title">Description.</div>
@@ -240,7 +233,6 @@ content:
 
       - layout: left
         title: 스마트매칭 도메인 설계 및 개발
-        sub_title: Software Developer
         caption: 2020.10 - 2020.12
         description: |
           <div class="custom-title">Description.</div>
@@ -256,7 +248,6 @@ content:
 
       - layout: left
         title: 평가 도메인 재설계 및 개발
-        sub_title: Software Developer
         caption: 2020.06 - 2020.10
         description: |
           <div class="custom-title">Description.</div>
@@ -276,7 +267,6 @@ content:
           <mark>MariaDB</mark>
       - layout: left
         title: 위시켓 개발팀 DevOps
-        sub_title: Software Developer
         caption: 2019.02 -
         description: |
           <div class="custom-title">Description.</div>
@@ -292,7 +282,6 @@ content:
 
       - layout: left
         title: 위시켓 내부 시스템 개선
-        sub_title: Software Developer
         caption: 2019.02 -
         description: |
           <div class="custom-title">Description.</div>
@@ -312,7 +301,6 @@ content:
     content:
         - layout: left
           title: 암호화폐 재정거래 프로그램 개선
-          sub_title: Software Developer
           caption: 2022.02 - 2022.10
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
@@ -334,8 +322,6 @@ content:
 
         - layout: left
           title: 증권사 API 연동
-          sub_title: Software Developer
-
           caption: 2018.11 - 2019.01
           description: |
             <div class="custom-title">Description.</div>
@@ -353,7 +339,6 @@ content:
 
         - layout: left
           title: 암호화폐 지표 거래<br/>시스템
-          sub_title: Software Developer
           caption: 2018.10 - 2019.01
           description: |
             <div class="custom-title">Description.</div>
@@ -370,7 +355,6 @@ content:
 
         - layout: left
           title: 암호화폐 재정거래 프로그램 개발
-          sub_title: Software Developer
           caption: 2018.04 - 2018.09
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
@@ -387,7 +371,6 @@ content:
 
         - layout: left
           title: 암호화폐 거래소 API 연동
-          sub_title: Software Developer
           caption: 2018.01 - 2018.04
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
