@@ -405,9 +405,10 @@ content:
     layout: list
     content:
       - layout: left
-        title: AWS Certification
+        title: AWS
+        caption: 2022.01.03
         description: |
-          AWS Certified Solution Architect - Associate 자격증을 수료했습니다.
+          AWS Certified Solution Architect - Associate 자격증을 수료했습니다.<br>
           Number: 6LGBN0FJPNR4Q73J
 
   - title: Education.
