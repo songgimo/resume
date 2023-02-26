@@ -304,7 +304,6 @@ content:
           caption: 2022.02 - 2022.08
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
-            18년 개발된 재정거래 프로그램의 리뉴얼
             QT 기반의 GUI 방식에서 CLI 방식으로 변경하고 Processing 처리로 종속성을 제거하고 전반적인 기능을 리뉴얼함.
             <div class="custom-title">FootPrint.</div>
             - QT 기반 GUI 코드 제거 및 CLI 형태로 개선 및 코드 복잡성 개선
@@ -326,9 +325,8 @@ content:
           caption: 2022.02 - 2022.08
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
-            18년 개발된 암호화폐 거래소 API 리뉴얼
-            <a href="https://velog.io/@reversemq/tradeoff">생각하던 부분을</a>
-            바탕으로 개선했고, 기존의 불필요한 Subscriber 방식과 과도한 분리로 인한 탐색비용 증가 등의 문제를 개선했습니다.
+            기 개발된 암호화폐 거래소 API의 <a href="https://velog.io/@reversemq/tradeoff">문제점이라 생각한 부분인</a> 
+            기존의 불필요한 Subscriber 방식과 과도한 분리로 인한 탐색비용 증가 등의 문제를 개선했습니다.
             <div class="custom-title">FootPrint.</div>
             - Upbit, Binance, Bithumb API 간 파일 병합, 모호한 기능 분리 및 개선
             - 더 적합한 API로의 기능 개선 및 수정
