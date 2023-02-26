@@ -258,7 +258,7 @@ content:
           - 필터링 알고리즘 개발
           - 평가 상태에 따른 알림 시스템 개발하여 파트너를 후킹하고 평가를 유도
           - 기존 문제가 있는 레거시를 걷어내 코드 복잡성 개선
-          - 해당 도메인 개선 이전에 쌓은 평가 수 이상을 개발 이후에 확보하는 성과가 있었습니다. (약 3000건)
+          - 해당 도메인 개선 이전에 쌓은 평가 수 이상을 개발 이후에 확보하는 성과가 있었음. (약 3000건)
           <div class="custom-title">Tech Stack.</div>
           <mark>Celery</mark>
           <mark>Redis</mark>
@@ -326,7 +326,7 @@ content:
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
             기 개발된 암호화폐 거래소 API의 <a href="https://velog.io/@reversemq/tradeoff" target="_blank">문제점이라 생각한 부분인</a> 
-            기존의 불필요한 Subscriber 방식과 과도한 분리로 인한 탐색비용 증가 등의 문제를 개선했습니다.
+            기존의 불필요한 Subscriber 방식과 과도한 분리로 인한 탐색비용 증가 등의 문제를 개선함.
             <div class="custom-title">FootPrint.</div>
             - Upbit, Binance, Bithumb API 간 파일 병합, 모호한 기능 분리 및 개선
             - 더 적합한 API로의 기능 개선 및 수정
@@ -343,7 +343,7 @@ content:
           caption: 2018.11 - 2019.01
           description: |
             <div class="custom-title">Description.</div>
-            외주에서 여러번 요구하던 키움증권과 신한i에 대한 API 모듈을 작성했습니다.
+            외주에서 여러번 요구하던 키움증권과 신한i에 대한 API 모듈을 작성함.
             <div class="custom-title">FootPrint.</div>
             - 신한i에 대한 API 모듈 작성
             - 키움증권에 대한 API 모듈 작성
