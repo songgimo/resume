@@ -92,7 +92,7 @@ content:
         title: 프리랜서 활동
         caption: 2017.02 - 2019.01
         description: | # 
-          <div class="custom-title">Description.</div>
+          <div class="custom-tihttps://wishket.comtle">Description.</div>
           크몽에서 사이버 사령부 동기와 함께 팀 단위 프리랜서 활동을 했으며 다양한 스택으로 개발을 진행했습니다.
           다양한 트레이딩 프로그램을 개발했으며, 이를 기반으로 레이스컨디션, 데드락에 대한 해결 경험과 쓰레딩과 비동기 프로그래밍을 경험했습니다.
           <div class="custom-title">FootPrint.</div>
@@ -301,7 +301,7 @@ content:
     content:
         - layout: left
           title: 암호화폐 재정거래 프로그램 개선
-          caption: 2022.02 - 2022.10
+          caption: 2022.02 - 2022.08
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
             18년 개발된 재정거래 프로그램의 리뉴얼
@@ -319,6 +319,26 @@ content:
             <mark>Threading</mark>
             <mark>RESTFUL</mark>
             <mark>Websocket</mark>
+
+        - layout: left
+          title: 암호화폐 거래소 API 개선
+          sub_title: Software Developer
+          caption: 2022.02 - 2022.08
+          description: | # this will include new lines to allow paragraphs
+            <div class="custom-title">Description.</div>
+            18년 개발된 암호화폐 거래소 API 리뉴얼
+            <a href="https://velog.io/@reversemq/tradeoff">생각하던 부분을</a>
+            바탕으로 개선했고, 기존의 불필요한 Subscriber 방식과 과도한 분리로 인한 탐색비용 증가 등의 문제를 개선했습니다.
+            <div class="custom-title">FootPrint.</div>
+            - Upbit, Binance, Bithumb API 간 파일 병합, 모호한 기능 분리 및 개선
+            - 더 적합한 API로의 기능 개선 및 수정
+            <div class="custom-title">Tech Stack.</div>
+            <mark>Python</mark>
+            <mark>Async</mark>
+            <mark>Queue</mark>
+            <mark>RESTFUL</mark>
+            <mark>Websocket</mark>
+
 
         - layout: left
           title: 증권사 API 연동
