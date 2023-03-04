@@ -416,6 +416,7 @@ content:
     layout: list
     content:
       - layout: left
+        title: 학점은행제
         caption: 2018.07 - 2019.02
         description: |
           3년제 졸업 후 학사 학위를 취득하고자 6개월 가량 학점은행제를 이용했고 컴퓨터 공학을 수료했습니다.
