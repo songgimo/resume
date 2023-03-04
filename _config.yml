@@ -49,8 +49,8 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       <ul class="highlights">
-        <li>FrontEnd: Javascript, jQuery, Next.JS, HTML/CSS</li>
-        <li>BackEnd: Python, Django, Docker, Flask, AWS(EC2/OpenSearch/S3)</li>
+        <li>Frontend: JavaScript, jQuery, Next.JS, HTML/CSS</li>
+        <li>Backend: Python, Django, Docker, Flask, AWS(EC2/OpenSearch/S3)</li>
         <li>Database: MySQL, MariaDB, Redis</li>
         <li>OS: Async, Thread, Process, Queue, Lock</li>
         <li>ETC: RESTAPI, Celery </li>
@@ -66,7 +66,7 @@ content:
           <div class="custom-title">Description.</div>
           IT 아웃소싱 플랫폼 기업인 <a href="https://wishket.com" target="_blank">위시켓</a>에서 설계/개발/운영을 담당하고 있습니다.
           Django를 베이스로 다양한 MTV를 설계하고 개발했으며 OpenSearch를 이용한 개발과 Docker를 이용한 개발 경험이 있습니다.
-          <div class="custom-title">FootPrint.</div>
+          <div class="custom-title">Footprint.</div>
           - 스마트매칭 도메인 MTV 설계/개발/운영
           - 스마트매칭 알고리즘 설계/개발
           - 평가 도메인 MTV 설계/개발/운영
@@ -95,7 +95,7 @@ content:
           <div class="custom-title">Description.</div>
           크몽에서 사이버 사령부 동기와 함께 팀 단위 프리랜서 활동을 했으며 다양한 스택으로 개발을 진행했습니다.
           다양한 트레이딩 프로그램을 개발했으며, 이를 기반으로 레이스컨디션, 데드락에 대한 해결 경험과 쓰레딩과 비동기 프로그래밍을 경험했습니다.
-          <div class="custom-title">FootPrint.</div>
+          <div class="custom-title">Footprint.</div>
           - 업비트 알고리즘 거래 시스템 개발
           - 키움증권 시세추종 프로그램 개발
           - 바이낸스 마진거래 시스템 개발
@@ -111,7 +111,7 @@ content:
           <mark>SQLite</mark>
           <mark>RESTFUL</mark>
           <mark>Flask</mark>
-          <mark>Websocket</mark>
+          <mark>WebSocket</mark>
           <mark>QT</mark>
           <mark>Selenium</mark>
 
@@ -124,8 +124,8 @@ content:
           <a href="https://github.com/songsb13/Exchanges" target="_blank">API모듈</a>과
           <a href="https://github.com/songsb13/DiffTrader" target="_blank">재정거래</a>, 
           지표거래 프로그램을 개발하고 운영했습니다.
-          <div class="custom-title">FootPrint.</div>
-          - 업비트, 빗썸, 바이낸스 3개 거래소 API, Websocket 모듈 개발
+          <div class="custom-title">Footprint.</div>
+          - 업비트, 빗썸, 바이낸스 3개 거래소 API, WebSocket 모듈 개발
           - 암호화폐 재정거래 프로그램 개발
           - MSI, CCI, Stochastic 등 암호화폐 지표거래 프로그램 개발
           
@@ -146,7 +146,7 @@ content:
         description: | #
           <div class="custom-title">Description.</div>
           대한민국 국직부대 사이버사령부에서 정보보호병으로 근무했으며 국방망 서버 및 네트워크 관리, 필요에 따라 스크립트 작성을 했습니다.
-          <div class="custom-title">FootPrint.</div>
+          <div class="custom-title">Footprint.</div>
           - 국방망 서버 및 네트워크 관리 & 운영
           
           <div class="custom-title">Tech Stack.</div>
@@ -163,7 +163,7 @@ content:
           <div class="custom-title">Description.</div>
           일반 프로젝트뿐만이 아닌 상주 프로젝트로 확장되기 시작함에 따라 평가의 분리가 필요하다는 문제에서 시작한 프로젝트.
           리뷰 관련 레거시를 정리하고 상주 프로젝트에 대한 평가 MTV를 설계 및 개발 중.
-          <div class="custom-title">FootPrint.</div>
+          <div class="custom-title">Footprint.</div>
           - 기존 레거시 제거, 중복 함수 클린업
           - 새로운 리뷰 MTV 개발
           - 필터 로직 개선
@@ -183,7 +183,7 @@ content:
           요즘IT의 검색 기능을 커스텀하고 정확한 컨텐츠를 검색해야 하는 상황에서 시작한 프로젝트.
           AWS OpenSearch로 서버를 구축하여 검색 속도와 정확성을 개선했으며,
           특정 키워드에 대해 커스터마이징하고 검색되고, 검색어 조합이 가능하게 하는 등 알고리즘을 추가로 개발함.
-          <div class="custom-title">FootPrint.</div>
+          <div class="custom-title">Footprint.</div>
           - 기존 Django ORM 기반 검색을 OpenSearch로 수정
           - 제목과 내용뿐만 아니라 작가명도 포함하도록 수정
           - 일치율이 높은 결과 값이 우선되도록 개선
@@ -202,7 +202,7 @@ content:
           <div class="custom-title">Description.</div>
           요즘IT 플랫폼으로 유저를 후킹하고 컨텐츠 조회 수를 늘리기 위해 시작된 프로젝트.
           슬랙 연동 MTV 설계하고 개발하여 구독 서비스 런칭
-          <div class="custom-title">FootPrint.</div>
+          <div class="custom-title">Footprint.</div>
           - 슬랙봇 MTV 설계 및 개발
           - 슬랙봇 Webhook, API 연동
           - 병렬처리로 컨텐츠 발송 속도 개선
@@ -220,7 +220,7 @@ content:
           <div class="custom-title">Description.</div>
           전일 등록된 프로젝트와 파트너가 입력한 매칭 데이터를 기반으로 등록 프로젝트를 안내해주는 서비스
           매칭 알고리즘 개발하고 메일링 시스템을 개발해 파트너를 플랫폼으로 후킹, 프로젝트 조회 수 및 지원율 개선
-          <div class="custom-title">FootPrint.</div>
+          <div class="custom-title">Footprint.</div>
           - 매칭 데이터와 등록 프로젝트의 유사성을 비교하는 알고리즘 개발
           - 메일링 시스템을 개발하여 파트너를 플랫폼으로 후킹하고 조회 수 및 지원율 개선
           - 시스템 구축 후 매일 약 13,000건의 매칭 데이터와 프로젝트 매칭이 발생하고 지원을 유도
@@ -238,7 +238,7 @@ content:
           <div class="custom-title">Description.</div>
           파트너의 프로젝트 개인화된 프로젝트 요구 데이터 정립이 필요하다는 문제 인식에서 시작한 프로젝트.
           스마트매칭 MTV를 설계 및 개발하여 매칭 데이터를 저장함.
-          <div class="custom-title">FootPrint.</div>
+          <div class="custom-title">Footprint.</div>
           - 스마트매칭 MTV 설계 및 개발하여 53,000건의 매칭 데이터를 확보함.
           <div class="custom-title">Tech Stack.</div>
           <mark>Python</mark>
@@ -253,7 +253,7 @@ content:
           <div class="custom-title">Description.</div>
           기존 평가가 유효하지 않고 평가 작성이 잘 이루어지지 않는다는 문제 인식에서 시작한 프로젝트.
           평가 MTV 재설계 및 개발하여 유저 판단 근거인 평가 신뢰성 및 작성률을 개선함.
-          <div class="custom-title">FootPrint.</div>
+          <div class="custom-title">Footprint.</div>
           - 평가 항목을 확장하고 비공개 평가와 하자보수 평가를 도입해 평가의 신뢰성 개선
           - 필터링 알고리즘 개발
           - 평가 상태에 따른 알림 시스템 개발하여 파트너를 후킹하고 평가를 유도
@@ -271,7 +271,7 @@ content:
         description: |
           <div class="custom-title">Description.</div>
           DevOps 관련 스크립트 및 툴을 서칭하고 도입 및 구현
-          <div class="custom-title">FootPrint.</div>
+          <div class="custom-title">Footprint.</div>
           - Github Action을 이용한 스테이징 배포 자동화
           - 메인 서버 배포 자동화로 효율성을 획기적으로 개선함.
           <div class="custom-title">Tech Stack.</div>
@@ -286,7 +286,7 @@ content:
         description: |
           <div class="custom-title">Description.</div>
           위시켓 프로세스 자동화 및 어드민 기능 추가 개선, 유지보수 진행
-          <div class="custom-title">FootPrint.</div>
+          <div class="custom-title">Footprint.</div>
           - 밴 유저 관리 어드민 설계/개발로 유저 관리 업무를 자동화해 CRM팀의 업무 효율성을 개선함.
           - 평가 어드민 설계/개발로 평가를 일괄하고 자동화해 CS팀의 업무 효율성을 개선함.
           <div class="custom-title">Tech Stack.</div>
@@ -305,7 +305,7 @@ content:
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
             QT 기반의 GUI 방식에서 CLI 방식으로 변경하고 Processing 처리로 종속성을 제거하고 전반적인 기능을 리뉴얼함.
-            <div class="custom-title">FootPrint.</div>
+            <div class="custom-title">Footprint.</div>
             - QT 기반 GUI 코드 제거 및 CLI 형태로 개선 및 코드 복잡성 개선
             - Threading -> Processing으로 변경하고 프로세스별 코드 종속성을 제거
             - Redis를 도입해 프로세스 간 통신하도록 변경
@@ -317,7 +317,7 @@ content:
             <mark>Processing</mark>
             <mark>Threading</mark>
             <mark>RESTFUL</mark>
-            <mark>Websocket</mark>
+            <mark>WebSocket</mark>
 
         - layout: left
           title: 암호화폐 거래소 API 개선
@@ -327,7 +327,7 @@ content:
             <div class="custom-title">Description.</div>
             기 개발된 암호화폐 거래소 API의 <a href="https://velog.io/@reversemq/tradeoff" target="_blank">문제점이라 생각한 부분인</a> 
             기존의 불필요한 Subscriber 방식과 과도한 분리로 인한 탐색비용 증가 등의 문제를 개선함.
-            <div class="custom-title">FootPrint.</div>
+            <div class="custom-title">Footprint.</div>
             - Upbit, Binance, Bithumb API 간 파일 병합, 모호한 기능 분리 및 개선
             - 더 적합한 API로의 기능 개선 및 수정
             <div class="custom-title">Tech Stack.</div>
@@ -335,7 +335,7 @@ content:
             <mark>Async</mark>
             <mark>Queue</mark>
             <mark>RESTFUL</mark>
-            <mark>Websocket</mark>
+            <mark>WebSocket</mark>
 
 
         - layout: left
@@ -344,7 +344,7 @@ content:
           description: |
             <div class="custom-title">Description.</div>
             외주에서 여러번 요구하던 키움증권과 신한i에 대한 API 모듈을 작성함.
-            <div class="custom-title">FootPrint.</div>
+            <div class="custom-title">Footprint.</div>
             - 신한i에 대한 API 모듈 작성
             - 키움증권에 대한 API 모듈 작성
             <div class="custom-title">Tech Stack.</div>
@@ -362,7 +362,7 @@ content:
             <div class="custom-title">Description.</div>
             각종 지표의 조합을 통한 거래를 해보자는 의미에서 시작한 프로젝트
             지표를 오브젝트로 형성하고 입력한 조건에 부합한다면 거래하는 방식으로 개발됨.
-            <div class="custom-title">FootPrint.</div>
+            <div class="custom-title">Footprint.</div>
             - RSI, MACD, Stochastic, CCI에 대한 지표 함수 개발
             - QT로 지표를 조합할 수 있는 GUI 개발
             <div class="custom-title">Tech Stack.</div>
@@ -378,7 +378,7 @@ content:
             <div class="custom-title">Description.</div>
             국내외 암호화폐 거래소의 프리미엄을 통한 재정거래를 해보자는 의미에서 시작된 프로젝트.
             거래소와 요구 차익률을 받고 시장을 지속해서 감시 & 차익 조건이 충족되면 거래되는 형태의 프로그램.
-            <div class="custom-title">FootPrint.</div>
+            <div class="custom-title">Footprint.</div>
             - QT로 현재의 트레이딩 상태 로그, 입력받는 인풋 등 GUI 위젯 개발
             - 거래소 차익률을 도출하고 비교하는 함수 개발
             <div class="custom-title">Tech Stack.</div>
@@ -393,14 +393,14 @@ content:
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
             국내 거래소인 Bithumb과 Upbit, 국외거래소인 Binance에 대한 API 모듈을 작성함.
-            <div class="custom-title">FootPrint.</div>
+            <div class="custom-title">Footprint.</div>
             - Upbit, Binance, Bithumb API 모듈 개발
             <div class="custom-title">Tech Stack.</div>
             <mark>Python</mark>
             <mark>Async</mark>
             <mark>Queue</mark>
             <mark>RESTFUL</mark>
-            <mark>Websocket</mark>
+            <mark>WebSocket</mark>
 
   - title: Certificate.
     layout: list
@@ -416,19 +416,12 @@ content:
     layout: list
     content:
       - layout: left
-        title: 학점은행제
-        sub_title: The Academic Credit Bank System
         caption: 2018.07 - 2019.02
-        quote: |
-          공학사, Bachelor of Engineering
         description: |
           3년제 졸업 후 학사 학위를 취득하고자 6개월 가량 학점은행제를 이용했고 컴퓨터 공학을 수료했습니다.
       - layout: left
         title: 울산과학대학교
-        sub_title: Ulsan College
         caption: 2013.02 - 2018.02
-        quote: |
-          공업전문학사, Associate of Science in Engineering Technology
         description: | # this will include new lines to allow paragraphs
           컴퓨터 정보학을 수료했으며 공업 전문학사 학위를 취득했습니다.
 
