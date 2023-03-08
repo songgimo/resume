@@ -68,7 +68,7 @@ content:
                        
           <div class="custom-title">Footprint.</div>
           - 스마트매칭 도메인을 개발하여 53,000건의 스마트매칭 데이터 값을 수집, 매칭 알고리즘 개발하여 하루에 13,000건의 추천 메일 발송
-          - 평가 도메인을 재설계/개발하여 유저 평가 레거시 마이그레이션, 이후 약 30개월간 3000건의 추가 평가 
+          - 평가 도메인을 재설계/개발하여 30개월간 기존 평가 2배 이상의 평가 확보 (약 3000건)
           - 회사 ELB도입으로 다중 서버 배포 자동화, 마이그레이션 시스템 개발
           - 요즘IT의 검색 알고리즘을 OpenSearch를 이용해 재설계 및 개발. 검색의 정확도와 수 증가, 검색 최적화.
           - 내부 평가 삭제, 관리 도메인 장고 기반에서 nextJS로 컨버팅하여 서비스 자동화
@@ -114,42 +114,44 @@ content:
           - 기타 데이터 수집 자동화 앱 개발
           
           <div class="custom-title">Tech Stack.</div>
-          <mark>Python</mark>
-          <mark>MySQL</mark>
-          <mark>Async</mark>
-          <mark>Queue</mark>
-          <mark>Lock</mark>
-          <mark>Threading</mark>
-          <mark>SQLite</mark>
-          <mark>RESTFUL</mark>
-          <mark>Flask</mark>
-          <mark>WebSocket</mark>
-          <mark>QT</mark>
-          <mark>Selenium</mark>
+          Python, MySQL, Async, Queue, Lock, Thread, RESTFUL
+#          <mark>Python</mark>
+#          <mark>MySQL</mark>
+#          <mark>Async</mark>
+#          <mark>Queue</mark>
+#          <mark>Lock</mark>
+#          <mark>Threading</mark>
+#          <mark>SQLite</mark>
+#          <mark>RESTFUL</mark>
+#          <mark>Flask</mark>
+#          <mark>WebSocket</mark>
+#          <mark>QT</mark>
+#          <mark>Selenium</mark>
 
       - layout: left
         title: 팀 프로젝트 활동
         caption: 2017.02 - 2019.01
         description: | # 
           <div class="custom-title">Description.</div>
-          사이버사령부 동기와 개인 프로젝트 활동을 했으며 암호화폐 
+          사이버 사령부 동기와 함께 프로젝트 활동을 했으며 암호화폐 
           <a href="https://github.com/songsb13/Exchanges" target="_blank">API모듈</a>과
           <a href="https://github.com/songsb13/DiffTrader" target="_blank">재정거래</a>, 
-          지표거래 프로그램을 개발하고 운영했습니다.
+          지표거래 프로그램을 개발하고 운영했습니다. 아이디어와 일부 함수 설계는 동기가, 그 외 설계와 개발은 제가 담당했습니다.
           <div class="custom-title">Footprint.</div>
-          - 업비트, 빗썸, 바이낸스 3개 거래소 API, WebSocket 모듈 개발
-          - 암호화폐 재정거래 프로그램 개발
-          - MSI, CCI, Stochastic 등 암호화폐 지표거래 프로그램 개발
+          - 업비트, 빗썸, 바이낸스 3개 거래소에 대한 API, WebSocket 통신 모듈 개발
+          - 두 개 거래소의 암호화폐 프리미엄을 이용한 암호화폐 재정거래 프로그램 개발
+          - MSI, CCI, Stochastic 지표를 계산하고 거래하는 암호화페 지표거래 프로그램 개발
           
           <div class="custom-title">Tech Stack.</div>
-          <mark>Python</mark> 
-          <mark>MySQL</mark>
-          <mark>Flask</mark>
-          <mark>QT</mark>
-          <mark>Redis</mark>
-          <mark>Async</mark>
-          <mark>Threading</mark>
-          <mark>Processing</mark>
+          Python, MySQL, Flask, Redis, Async, Thread, Process
+#          <mark>Python</mark>
+#          <mark>MySQL</mark>
+#          <mark>Flask</mark>
+#          <mark>QT</mark>
+#          <mark>Redis</mark>
+#          <mark>Async</mark>
+#          <mark>Threading</mark>
+#          <mark>Processing</mark>
 
       - layout: left
         title: 사이버사령부
