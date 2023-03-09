@@ -81,7 +81,6 @@ content:
 
           <div class="custom-title">Tech Stack.</div>
 #          Python, Django, Docker, Redis, MariaDB, OpenSearch, EC2, nextJS, jQuery, HTML/CSS
-
           <mark>Python</mark>
           <mark>Django</mark>
           <mark>Docker</mark>
@@ -160,9 +159,9 @@ content:
           - CentOS, Ubuntu 등의 국방망 서버, 네트워크 관리 및 운영
           
           <div class="custom-title">Tech Stack.</div>
-          Python, Linux
-#          <mark>Python</mark>
-#          <mark>Linux</mark>
+#          Python, Linux
+          <mark>Python</mark>
+          <mark>Linux</mark>
 
   - title: Project.
     layout: list
