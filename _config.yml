@@ -80,7 +80,6 @@ content:
           - Git 형상관리, Github Action과 YML 파일을 이용한 배포 자동화
 
           <div class="custom-title">Tech Stack.</div>
-#          Python, Django, Docker, Redis, MariaDB, OpenSearch, EC2, nextJS, jQuery, HTML/CSS
           <mark>Python</mark>
           <mark>Django</mark>
           <mark>Docker</mark>
@@ -92,6 +91,7 @@ content:
           <mark>jQuery</mark>
           <mark>NextJS</mark>
           <mark>RESTFUL</mark>
+#          Python, Django, Docker, Redis, MariaDB, OpenSearch, EC2, nextJS, jQuery, HTML/CSS
 
   - title: Other Experience.
     layout: list
@@ -111,7 +111,6 @@ content:
           - 기타 데이터 수집 자동화 앱 개발
           
           <div class="custom-title">Tech Stack.</div>
-#          Python, MySQL, Async, Queue, Lock, Thread, RESTFUL
           <mark>Python</mark>
           <mark>MySQL</mark>
           <mark>Async</mark>
@@ -122,6 +121,7 @@ content:
           <mark>Flask</mark>
           <mark>QT</mark>
           <mark>Selenium</mark>
+#          Python, MySQL, Async, Queue, Lock, Thread, RESTFUL
 
       - layout: left
         title: 팀 프로젝트 활동
@@ -139,7 +139,6 @@ content:
           - MSI, CCI, Stochastic 지표를 계산하고 거래하는 암호화페 지표거래 프로그램을 Tree, DFS 구조로 개발
           
           <div class="custom-title">Tech Stack.</div>
-#          Python, MySQL, Flask, Redis, Async, Thread, Process
           <mark>Python</mark>
           <mark>MySQL</mark>
           <mark>Flask</mark>
@@ -147,6 +146,7 @@ content:
           <mark>Async</mark>
           <mark>Thread</mark>
           <mark>Process</mark>
+#          Python, MySQL, Flask, Redis, Async, Thread, Process
 
       - layout: left
         title: 사이버사령부
@@ -159,9 +159,9 @@ content:
           - CentOS, Ubuntu 등의 국방망 서버, 네트워크 관리 및 운영
           
           <div class="custom-title">Tech Stack.</div>
-#          Python, Linux
           <mark>Python</mark>
           <mark>Linux</mark>
+#          Python, Linux
 
   - title: Project.
     layout: list
