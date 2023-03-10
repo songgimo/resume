@@ -104,10 +104,11 @@ content:
           크몽에서 사이버 사령부 동기와 함께 팀 단위 프리랜서 활동을 했으며 주로 설계와 개발을 담당했습니다.
           주로 주식/암호화폐 트레이딩 프로그램을 개발했고, Thread, Async, Processing, Queue, Lock 등 자료구조와 OS를 적용하며 개발했습니다.
           <div class="custom-title">Footprint.</div>
-          - 업비트 RESTFUL, Queue, Thread, Lock을 이용한 그리드 트레이딩 시스템 개발
-          - PyQtGraph, Queue, Thread, Lock을 이용한 키움증권의 시세 확인 GUI 프로그램 개발
-          - 바이낸스 마진거래 시스템 개발
-          - WindowServer, Flask, RESTFUL을 사용한 오픈마켓 데이터 수집 서버-클라이언트 시스템 개발 등
+          - 현물<->마진 이동, 밸런스 정보, 마진 트레이딩 등 종합 대시보드 시스템 개발 (Binance)
+          - 윈도우 환경에서 SQLite, RESTFUL을 사용한 암호화폐 데이 트레이딩 시스템 개발 (Korbit)
+          - Qt GUI, Restful, Thread, Queue를 사용한 그리드 트레이딩 시스템 개발 (Upbit)
+          - Qt Graph, Win32, OpenAPI, Thread, Queue를 사용한 키움증권 주식 차트 프로그램 개발
+          - Qt, Win32, OpenAPI, Thread, Queue를 사용한 키움증권 그리드 트레이딩 시스템 개발
           
           
           <div class="custom-title">Tech Stack.</div>
