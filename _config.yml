@@ -75,7 +75,7 @@ content:
           - 평가 관리 도메인을 장고 기반에서 nextJS로 컨버팅하여 서비스 최적화
           - Slackbot의 Webhook, RESTFUL을 이용한 구독 서비스 설계 및 개발, 550개의 구독 채널 확보
           - Docker 플랫폼을 이용한 데이터 세팅, 테스트 최적화
-          - Python 2.7 -> 3.5, django 1.8 -> 3.1로 포팅을 일부 담당하여 코드 안정성 개선
+          - Python 2.7 -> 3.5, django 1.8 -> 3.2.11로 포팅을 일부 담당하여 코드 안정성 개선
           - 제품 목적에 따른 DB 마이그레이션, 레거시 데이터 처리를 위한 마이그레이션 코드 작성/배포
           - Git 형상관리, Github Action과 YML 파일을 이용한 배포 자동화
 
@@ -104,7 +104,7 @@ content:
           크몽에서 사이버 사령부 동기와 함께 팀 단위 프리랜서 활동을 했으며 주로 설계와 개발을 담당했습니다.
           주로 주식/암호화폐 트레이딩 프로그램을 개발했고, Thread, Async, Processing, Queue, Lock 등 자료구조와 OS를 적용하며 개발했습니다.
           <div class="custom-title">Footprint.</div>
-          - 현물<->마진 이동, 밸런스 정보, 마진 트레이딩 등 종합 대시보드 시스템 개발 (Binance)
+          - 현물<->마진 이동, 밸런스 정보, 마진 트레이딩 등 종합 트레이딩 시스템 개발 (Binance)
           - 윈도우 환경에서 SQLite, RESTFUL을 사용한 암호화폐 데이 트레이딩 시스템 개발 (Korbit)
           - Qt GUI, Restful, Thread, Queue를 사용한 그리드 트레이딩 시스템 개발 (Upbit)
           - Qt Graph, Win32, OpenAPI, Thread, Queue를 사용한 키움증권 주식 차트 프로그램 개발
