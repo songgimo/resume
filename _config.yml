@@ -192,7 +192,7 @@ content:
         description: |
           <div class="custom-title">Description.</div>
           Django ORM 기반의 요즘IT 검색 기능에 대한 개선이 필요한 상황에서 시작한 프로젝트
-          AWS OpenSearch로 서버를 구축하고 DSL과 백엔드 로직을 결합해 검색어 연관에 따른 정렬과 정확도, 유사한 언어에 대한 통합 검색(node.js, nodejs node js)을 지원하는 알고리즘을 개발하였습니다.
+          AWS OpenSearch로 서버를 구축하고 DSL과 백엔드 로직을 결합해 검색어 연관에 따른 정렬과 정확도, 유사한 언어에 대한 통합 검색(node.js, nodejs, node js)을 지원하는 알고리즘을 개발하였습니다.
           <div class="custom-title">Footprint.</div>
           - 기존 DJango ORM 기반에서 OpenSearch, DSL과 결합해서 검색하도록 수정
           - OpenSearch 고유 기능으로 일치율이 높은 결과 값이 우선 노출되도록 변경
