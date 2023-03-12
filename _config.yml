@@ -1,6 +1,6 @@
 # Site
 name: Gimo Song
-title: 목적으로 향하는 개발자
+title: Software Developer
 
 #repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
@@ -25,6 +25,7 @@ about_profile_image: images/gm.jpg
 about_title: Hello.
 
 about_content: |
+  ## 반갑습니다.
   ## 5년차, 목적으로 향하는 개발자 송기모입니다.
   <br>
   <div class="custom-title">Contact&Channel.</div>
