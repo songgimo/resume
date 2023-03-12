@@ -72,16 +72,16 @@
 
   .details {
     display: flex;
-    //flex-direction: column;
-    //text-align: ;
+    flex-direction: column;
     //justify-content: center;
     vertical-align: middle;
 
     p {
-      margin-bottom: 3px;
       font-size: 1.6rem;
       text-align: inherit;
       font-weight: 300;
+      position: relative;
+      left: 8px;
 
       b {
         font-weight: 500;
