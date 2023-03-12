@@ -25,8 +25,8 @@ about_profile_image: images/gm.jpg
 about_title: Hello.
 
 about_content: |
-  ## 반갑습니다.
-  ## 5년차, 목적으로 향하는 개발자 송기모입니다.
+  # 반갑습니다.
+  # 5년차, 목적으로 향하는 개발자 송기모입니다.
   <br>
   <div class="custom-title">Contact&Channel.</div>
   Email. goodmoskito@gmail.com <br>
