@@ -110,7 +110,7 @@ content:
           - 바이낸스 거래소, Qt GUI, Restful, Thread, Queue, Signal을 사용한 현물과 마진 이동, 밸런스 정보, 마진 트레이딩 등 종합 대시보드 시스템 개발
           - 코빗 거래소, SQLite, Restful을 사용한 암호화폐 데이 트레이딩 시스템 개발
           - 업비트 거래소, Qt GUI, Restful, Thread, Queue를 사용한 그리드 트레이딩 시스템 개발
-          - 키움증권, Qt Graph, Win32, OpenAPI, Thread, Queue, Signal을 사용한 주식 차트 프로그램 개발
+          - 키움증권, Qt Graph, Win32, OpenAPI, Process, Thread, Queue, Signal을 사용한 <a href="https://github.com/songgimo/gimo-freelance/tree/main/KiwoomHighChart" target="_blank">주식 차트 프로그램</a> 개발
           - 키움증권, Qt, Win32, OpenAPI, Thread, Queue, Signal을 사용한 그리드 트레이딩 시스템 개발
           
           <div class="custom-title">Tech Stack.</div>
@@ -136,7 +136,7 @@ content:
           지표거래 프로그램을 개발하고 운영하였습니다. 아이디어와 일부 함수 설계는 동기가 담당하였으며 그 외의 설계와 개발은 제가 담당하였습니다.
           <div class="custom-title">Footprint.</div>
           - 업비트, 빗썸, 바이낸스 거래소에 대해 Restful, WebSocket을 이용한 통신 모듈 작성
-          - 키움증권, 신한i에 대해 OpenAPI, Qt와 Thread, Queue, Signal을 이용한 통신 모듈 작성
+          - <a href="https://github.com/songgimo/gimo-freelance/tree/main/StockApis" target="_blank">키움증권, 신한i</a>에 대해 OpenAPI, Qt와 Thread, Queue, Signal을 이용한 통신 모듈 작성
           - 암호화폐 재정거래 시스템 개발, Thread, Process, Redis를 사용하여 Slippage 최소화
           - 유저 거래 데이터 관리를 위해 Flask, MySQL을 이용한 서버/클라이언트 개발 및 운영
           - MSI, CCI, Stochastic 지표를 계산하고 거래하는 암호화폐 지표거래 프로그램을 Tree, DFS 구조로 개발
