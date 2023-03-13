@@ -64,8 +64,8 @@ content:
         caption: 2019.02 -
         description: | # this will include new lines to allow paragraphs Description of role
           <div class="custom-title">Description.</div>
-          IT 아웃소싱 플랫폼 기업인 <a href="https://wishket.com" target="_blank">위시켓</a>에서 개발자로 입사하여, 
-          스토어/리뷰/스마트매칭 도메인의 설계와 개발, 마이그레이션과 배포 및 운영을 담당하였습니다.
+          IT 아웃소싱 플랫폼 기업인 <a href="https://wishket.com" target="_blank">위시켓</a> 개발자로 입사하여, 
+          스토어/평가/스마트매칭 도메인의 설계와 개발, 마이그레이션과 배포 및 운영을 담당하였습니다.
           애자일 방법론 일부를 채용하여 기획/디자인과 목적에 맞는 제품을 개발하기 위해 수시로 커뮤니케이션하며 협업하며 프로젝트를 진행했습니다.
           대부분의 프로젝트는 Python, Django, HTML, SCSS, jQuery, MariaDB를 사용하여 MTV를 개발했으며, 필요에 따라 
           데이터 마이그레이션도 진행했습니다.
@@ -133,7 +133,7 @@ content:
           사이버 사령부 동기와 함께 팀 프로젝트 활동을 하였고, 그 과정에서 암호화폐
           <a href="https://github.com/songsb13/Exchanges" target="_blank">API모듈</a>과
           <a href="https://github.com/songsb13/DiffTrader" target="_blank">재정거래</a>, 
-          지표거래 프로그램을 개발하고 운영하였습니다. 아이디어와 일부 함수 설계는 동기가, 그 외 설계와 개발은 제가 담당하였습니다.
+          지표거래 프로그램을 개발하고 운영하였습니다. 아이디어와 일부 함수 설계는 동기가 담당하였으며 그 외의 설계와 개발은 제가 담당하였습니다.
           <div class="custom-title">Footprint.</div>
           - 업비트, 빗썸, 바이낸스 거래소에 대해 Restful, WebSocket을 이용한 통신 모듈 작성
           - 키움증권, 신한i에 대해 OpenAPI, Qt와 Thread, Queue, Signal을 이용한 통신 모듈 작성
@@ -169,7 +169,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: 리뷰 도메인 개선
+        title: 평가 도메인 개선
         caption: 2022.12 -
         description: |
           <div class="custom-title">Description.</div>
@@ -177,7 +177,7 @@ content:
           뷰와 템플릿을 수정했으며 공개와 비공개 평가에 대한 관계 설정을 재정립하고 레거시에 대한 마이그레이션 코드를 작성하였습니다.
           <div class="custom-title">Footprint.</div>
           - 공개, 비공개 평가의 수직적 관계에서 수평적 관계로의 관계 재정립, 관련된 레거시 마이그레이션 진행
-          - 새로운 리뷰의 MTV 개발/수정
+          - 새로운 평가의 MTV 개발/수정
           - 평가 모델 재정립으로 파생되는 모든 서비스 수정 및 개선
           <div class="custom-title">Tech Stack.</div>
           <mark>Python</mark>
@@ -195,7 +195,7 @@ content:
           Django ORM 기반의 요즘IT 검색 기능 개선이 필요하다는 문제에서 시작한 프로젝트입니다.
           AWS OpenSearch로 서버를 구축하고 DSL과 백엔드 로직을 결합해 검색어 연관에 따른 정렬과 정확도, 유사한 키워드에 대한 통합 검색을 지원하는 알고리즘을 개발하였습니다.
           <div class="custom-title">Footprint.</div>
-          - 기존 DJango ORM 기반에서 OpenSearch, DSL과 결합해서 검색하도록 수정
+          - 기존 Django ORM 기반에서 OpenSearch, DSL과 결합해서 검색하도록 수정
           - OpenSearch 고유 기능으로 일치율이 높은 결과 값이 우선 노출되도록 변경
           - Django ORM & DSL을 사용해 유사한 키워드에 대한 통합 검색 지원 알고리즘 개발
           - space와 comma(,)로 검색어를 조합할 수 있는 기능 개발
