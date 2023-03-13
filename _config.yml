@@ -37,6 +37,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs      
       5년 차 개발자로 위시켓에서 웹과 백엔드 서비스를 설계와 개발, 배포 및 운영을 담당하였습니다.
+      주로 장고를 기반으로 한 웹 서비스를 개발하였으며, 필요에 따라 DevOps도 겸했습니다.
       27명, 개발팀 4명 규모의 회사에 입사하여 55명, 개발팀 8명의 규모로 성장할 때까지 필요한 개발 역량을 책임진 경험이 있습니다.
       
       도메인 목적에 따른 개발을 선호합니다. 이를 위해 도메인의 출발점인 유저를 이해하는 역량을 쌓고자 노력해왔고, 
@@ -64,7 +65,7 @@ content:
         description: | # this will include new lines to allow paragraphs Description of role
           <div class="custom-title">Description.</div>
           IT 아웃소싱 플랫폼 기업인 <a href="https://wishket.com" target="_blank">위시켓</a>에서 개발자로 입사하여, 
-          스토어/리뷰/스마트매칭 도메인을 담당하며 설계와 개발, 배포 및 운영을 담당하였습니다.
+          스토어/리뷰/스마트매칭 도메인의 설계와 개발, 배포 및 운영을 담당하였습니다.
           필요에 따라 Redis와 Celery를 사용한 스케줄링, Async도 사용하였습니다.
 
           <div class="custom-title">Footprint.</div>
