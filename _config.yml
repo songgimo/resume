@@ -65,8 +65,10 @@ content:
         description: | # this will include new lines to allow paragraphs Description of role
           <div class="custom-title">Description.</div>
           IT 아웃소싱 플랫폼 기업인 <a href="https://wishket.com" target="_blank">위시켓</a>에서 개발자로 입사하여, 
-          스토어/리뷰/스마트매칭 도메인의 설계와 개발, 배포 및 운영을 담당하였습니다.
-          필요에 따라 Redis와 Celery를 사용한 스케줄링, Async도 사용하였습니다.
+          스토어/리뷰/스마트매칭 도메인의 설계와 개발, 마이그레이션과 배포 및 운영을 담당하였습니다.
+          애자일 방법론 일부를 채용하여 기획/디자인과 목적에 맞는 제품을 개발하기 위해 수시로 커뮤니케이션하며 협업하며 프로젝트를 진행했습니다.
+          대부분의 프로젝트는 Python, Django, HTML, SCSS, jQuery, MariaDB를 사용하여 MTV를 개발했으며, 필요에 따라 
+          데이터 마이그레이션도 진행했습니다.
 
           <div class="custom-title">Footprint.</div>
           - 스마트매칭 MTV 개발하여 53,000건의 스마트매칭 데이터 수집.
