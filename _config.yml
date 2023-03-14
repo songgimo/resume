@@ -321,7 +321,7 @@ content:
           caption: 2022.02 - 2022.08
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
-            개인 프로젝트로 진행한 암호화폐 재정거래 코드가 지나치게 복잡하고, Thread 형태로 처리되어 각 시퀀스들이 서로 종속적이라는 문제를 해결하기 위해 시작하였습니다.
+            이전 프로젝트인 암호화폐 재정거래 코드가 지나치게 복잡하고, Thread 형태로 처리되어 각 시퀀스들이 서로 종속적이라는 문제를 개선하고자 개인적으로 리팩토링 작업을 진행했습니다.
             기존 Qt 기반의 GUI를 CLI 방식으로 변경하고, Process와 Redis를 사용해 각 시퀀스간 종속성을 제거하고 코드의 복잡성을 풀어냈습니다.
             <div class="custom-title">Footprint.</div>
             - Qt GUI -> CLI 형태로 수정하여 코드 복잡성 개선
@@ -342,8 +342,8 @@ content:
           caption: 2022.02 - 2022.08
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
-            개인 프로젝트로 진행한 암호화폐 거래소 API의 <a href="https://velog.io/@reversemq/tradeoff" target="_blank">문제점이라 생각한 부분인</a> 
-            불필요한 Subscriber 방식과 과도한 분리로 인한 탐색비용 증가 등의 문제를 개선하고자 시작한 프로젝트입니다.
+            이전 프로젝트인 암호화폐 거래소 API의 <a href="https://velog.io/@reversemq/tradeoff" target="_blank">문제점이라 생각한 부분인</a> 
+            불필요한 Subscriber 방식과 과도한 분리로 인한 탐색비용 증가 등의 문제를 개선하고자 개인적으로 리팩토링 작업을 진행했습니다.
             <div class="custom-title">Footprint.</div>
             - Upbit, Binance, Bithumb API 간 파일 병합, 모호한 기능 분리 및 개선
             - 더 적합한 API로의 기능 개선 및 수정
