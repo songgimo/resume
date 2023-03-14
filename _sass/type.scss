@@ -38,10 +38,10 @@ color: #616161;
 }
 
 a {
-  color: #616161;
+  color: #2099bb;
   text-decoration: underline;
   &.no-under {
-    text-decoration: none;
+    //text-decoration: none;
   }
 }
 
@@ -88,7 +88,7 @@ a i {
 .highlights {
     li {
       width: 100%;
-      font-size: 20px;
+      font-size: 16px;
       margin-bottom: 4px;
       //&:before {
       //  content: '\00B7';
