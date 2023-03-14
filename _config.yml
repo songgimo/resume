@@ -64,16 +64,17 @@ content:
         caption: 2019.02 -
         description: | # this will include new lines to allow paragraphs Description of role
           <div class="custom-title">Description.</div>
-          IT 아웃소싱 플랫폼 기업인 <a href="https://wishket.com" target="_blank">위시켓</a> 개발자로 입사하여, 
-          스토어/평가/스마트매칭 도메인 부문의 리딩을 맡고 있으며, 관련해서 설계와 개발, 배포와 운영을 담당하고 있습니다.
-          애자일 방법론 일부를 채용하여 기획&디자인 팀과 목적에 맞는 제품 개발을 위해 수시로 커뮤니케이션하며 프로젝트를 진행하였습니다.
+          IT 아웃소싱 플랫폼 기업인 <a href="https://wishket.com" target="_blank">위시켓</a>에서 
+          스토어/평가/스마트매칭 도메인 부문을 리딩하며, 해당 분야에서 설계, 개발, 배포, 운영을 담당하고 있습니다
+          
+          애자일 방법론을 일부 채용하여 기획&디자인 팀과 수시로 커뮤니케이션하여 목적에 맞는 제품 개발을 진행했으며,
           프로젝트는 Python, Django, HTML, SCSS, jQuery, MariaDB를 주로 사용하였고 필요에 따라서 데이터 마이그레이션도 진행하였습니다.
           
           <div class="custom-title">Footprint.</div>
           <b>위시켓 서비스의 전반적인 관리 및 기능 개발/개선</b>
-          - 매칭 데이터 수집을 위한 스마트매칭 MTV 설계/개발. 이후 53,000건의 스마트매칭 데이터 수집.
-          - 프로젝트-스마트매칭 데이터 일치율 계산하는 매칭 알고리즘 설계/개발. 하루에 13,000건의 추천 메일 발송
-          - 평가 도메인의 MTV 재설계/개발. 공개-비공개 평가, 하자보수 평가로 확장하여 평가 세분화, 유저 판단 근거 확보. (업데이트 이후 공개 평가 3,000개, 비공개 평가 2,700개 확보)
+          - 매칭 데이터 수집을 위한 스마트매칭 MTV 설계/개발.
+          - 프로젝트-스마트매칭 데이터 일치율 계산 및 추천 메일 발송하는 매칭 알고리즘 설계/개발.
+          - 공개와 비공개 평가, 하자보수 평가 세분화와 유저 판단 근거 확보를 위한 평가 도메인 MTV 재설계/개발
           - ELB도입으로 다중 서버 배포 자동화 및 마이그레이션 시스템 개발
           - 요즘IT 검색 알고리즘을 OpenSearch&DSL쿼리로 설계/개발. 유사 점수에 따른 정렬과 유사 키워드 검색, 정확도 개선
           - 평가 관리 어드민을 NextJS로 컨버팅하여 평가 관리 최적화
@@ -111,7 +112,7 @@ content:
         description: | # 
           <div class="custom-title">Description.</div>
           크몽에서 사이버 사령부 동기와 함께 팀 단위 프리랜서 활동을 했으며 설계/개발을 담당하였습니다.
-          주로 주식/암호화폐 트레이딩 프로그램을 개발했고, Thread, Async, Process, Queue, Lock 등 자료구조와 OS를 적용하며 개발하였습니다.
+          대부분 주식과 암호화폐 트레이딩 프로그램을 개발하였으며, Thread, Async, Process, Queue, Lock 등 다양한 자료구조와 OS를 활용하여 개발하였습니다.
           <div class="custom-title">Footprint.</div>
           - 바이낸스 거래소, Qt GUI, Restful, Thread, Queue, Signal을 사용한 현물과 마진 이동, 밸런스 정보, 마진 트레이딩 등 종합 대시보드 시스템 개발
           - 코빗 거래소, SQLite, Restful을 사용한 암호화폐 데이 트레이딩 시스템 개발
@@ -136,11 +137,11 @@ content:
         caption: 2017.02 - 2019.01
         description: | # 
           <div class="custom-title">Description.</div>
-          사이버 사령부 동기와 함께 트레이딩 프로그램을 만들어보자는 의미에서 시작한 프로젝트 활동입니다.
+          팀 프로젝트 활동은 사이버 사령부 동기와 함께 시작되어서 트레이딩 프로그램을 개발해보자는 목표로 진행되었습니다.
           이 활동에서 암호화폐
           <a href="https://github.com/songsb13/Exchanges" target="_blank">API모듈</a>과
           <a href="https://github.com/songsb13/DiffTrader" target="_blank">재정거래</a>, 
-          지표거래 프로그램을 개발하고 운영하였습니다. 아이디어와 일부 함수 설계는 동기가 담당하였으며 그 외의 설계와 개발은 제가 담당하였습니다.
+          지표거래 프로그램을 개발하고 운영하였습니다. 프로젝트의 아이디어와 일부 함수 설계는 동기가 담당하였으며, 그 외의 설계와 개발은 제가 담당하였습니다.
           <div class="custom-title">Footprint.</div>
           - 업비트, 빗썸, 바이낸스 거래소에 대해 Restful, WebSocket을 이용한 통신 모듈 작성
           - <a href="https://github.com/songgimo/gimo-freelance/tree/main/StockApis" target="_blank">키움증권, 신한i</a>에 대해 OpenAPI, Qt와 Thread, Queue, Signal을 이용한 통신 모듈 작성
