@@ -437,6 +437,12 @@ content:
         description: |
           AWS Certified Solution Architect - Associate 자격증을 수료하였습니다.<br>
           Number: 6LGBN0FJPNR4Q73J
+      - layout: left
+        title: 정보처리산업기사
+        caption: 2016.11.25
+        description: |
+          정보처리산업기사 자격증을 수료하였습니다.<br>
+          Number: 16652006652N
 
   - title: Education.
     layout: list
