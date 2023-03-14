@@ -53,7 +53,7 @@ content:
         <li>Frontend: JavaScript, jQuery, Next.JS, HTML/CSS, SCSS</li>
         <li>Backend: Python, Django, Flask</li>
         <li>Database: MySQL, MariaDB, Redis</li>
-        <li>Deployment: AWS(EC2/OpenSearch/S3), Vercel, Docker
+        <li>Deployment: AWS(EC2/OpenSearch/S3), Vercel, Docker</li>
         <li>Communication: Trello, Zeplin, Slack</li>
         <li>Version Control: Git, Github, Bitbucket</li>
       </ul>
@@ -72,12 +72,12 @@ content:
           프로젝트는 Python, Django, HTML, SCSS, jQuery, MariaDB를 주로 사용하였고 필요에 따라서 데이터 마이그레이션도 진행하였습니다.
           
           <div class="custom-title">Footprint.</div>
-          위시켓 서비스의 전반적인 관리 및 기능 개발/개선
+          <b>위시켓 서비스의 전반적인 관리 및 기능 개발/개선</b>
           - 매칭 데이터 수집을 위한 스마트매칭 MTV 설계/개발. 이후 53,000건의 스마트매칭 데이터 수집.
           - 프로젝트-스마트매칭 데이터 일치율 계산하는 매칭 알고리즘 설계/개발. 하루에 13,000건의 추천 메일 발송
           - 평가 도메인의 MTV 재설계/개발. 공개-비공개 평가, 하자보수 평가로 확장하여 평가 세분화, 유저 판단 근거 확보. (업데이트 이후 공개 평가 3,000개, 비공개 평가 2,700개 확보)
           - ELB도입으로 다중 서버 배포 자동화 및 마이그레이션 시스템 개발
-          - 요즘IT 검색 알고리즘을 OpenSearch&DSL쿼리로 설계/개발. 유사 점수에 따른 정렬과 유사 키워드 검색 그리고 정확도 개선
+          - 요즘IT 검색 알고리즘을 OpenSearch&DSL쿼리로 설계/개발. 유사 점수에 따른 정렬과 유사 키워드 검색, 정확도 개선
           - 평가 관리 어드민을 NextJS로 컨버팅하여 평가 관리 최적화
           - 슬랙봇 구독 신청 MTV 설계/개발. 구독 서비스를 Webhook, Restful을 사용하여 설계 및 개발. 550개의 구독 채널 확보 및 플랫폼 유입 유도
           - Docker 플랫폼을 이용한 데이터 세팅, 테스트 최적화
@@ -85,7 +85,7 @@ content:
           - 제품 목적에 따른 DB 마이그레이션, 레거시 데이터 처리를 위한 마이그레이션 코드 작성/배포
           - Git 형상관리, Github Action과 YML 파일을 이용한 배포 자동화
           
-          개발 업무 외 기타 담당
+          <b>개발 업무 외 기타 담당</b>
           - KT Cloud -> AWS 이전을 위한 서버 이전 업체 선정 보조, 컨텍 담당
           - 위시켓 스토어 입점업체 미디버스의 개발 지원, 컨텍 담당
           - 개발자 채용과 면접 담당 (서류 평가, 코딩 테스트, 실무 면접)
