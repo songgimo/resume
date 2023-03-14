@@ -50,10 +50,12 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       <ul class="highlights">
-        <li>Frontend: JavaScript, jQuery, Next.JS, HTML/CSS</li>
-        <li>Backend: Python, Django, Docker, Flask, AWS(EC2/OpenSearch/S3)</li>
+        <li>Frontend: JavaScript, jQuery, Next.JS, HTML/CSS, SCSS</li>
+        <li>Backend: Python, Django, Flask</li>
         <li>Database: MySQL, MariaDB, Redis</li>
-        <li>OS: Async, Thread, Process, Queue, Lock</li>
+        <li>Deployment: AWS(EC2/OpenSearch/S3), Vercel, Docker
+        <li>Communication: Trello, Zeplin, Slack</li>
+        <li>Version Control: Git, Github, Bitbucket</li>
       </ul>
 
   - title: Work Experience.
@@ -66,23 +68,29 @@ content:
           <div class="custom-title">Description.</div>
           IT 아웃소싱 플랫폼 기업인 <a href="https://wishket.com" target="_blank">위시켓</a> 개발자로 입사하여, 
           스토어/평가/스마트매칭 도메인의 설계와 개발, 마이그레이션과 배포 및 운영을 담당하였습니다.
-          애자일 방법론 일부를 채용하여 기획/디자인과 목적에 맞는 제품을 개발하기 위해 수시로 커뮤니케이션하며 협업하며 프로젝트를 진행했습니다.
-          대부분의 프로젝트는 Python, Django, HTML, SCSS, jQuery, MariaDB를 사용하여 MTV를 개발했으며, 필요에 따라 
-          데이터 마이그레이션도 진행했습니다.
-
+          애자일 방법론 일부를 채용하여 기획&디자인 팀과 목적에 맞는 제품 개발을 위해 수시로 커뮤니케이션하며 프로젝트를 진행하였습니다.
+          프로젝트는 Python, Django, HTML, SCSS, jQuery, MariaDB를 주로 사용하였고 필요에 따라서 데이터 마이그레이션도 진행하였습니다.
+          
           <div class="custom-title">Footprint.</div>
-          - 스마트매칭 MTV 개발하여 53,000건의 스마트매칭 데이터 수집.
-          - 매칭 알고리즘 개발하여 프로젝트-스마트매칭 데이터 일치율 계산. Redis, Celery서버를 통해 하루에 13,000건의 추천 메일 발송
-          - 평가 도메인의 MTV 재설계 및 개발. 공개-비공개 평가, 하자보수 평가로 확장하여 평가 세분화, 유저 판단 근거 확보. (업데이트 이후 공개 평가 3,000개, 비공개 평가 2,700개 확보)
+          위시켓 서비스의 전반적인 관리 및 기능 개발/개선
+          - 매칭 데이터 수집을 위한 스마트매칭 MTV 설계/개발. 이후 53,000건의 스마트매칭 데이터 수집.
+          - 프로젝트-스마트매칭 데이터 일치율 계산하는 매칭 알고리즘 설계/개발. 하루에 13,000건의 추천 메일 발송
+          - 평가 도메인의 MTV 재설계/개발. 공개-비공개 평가, 하자보수 평가로 확장하여 평가 세분화, 유저 판단 근거 확보. (업데이트 이후 공개 평가 3,000개, 비공개 평가 2,700개 확보)
           - ELB도입으로 다중 서버 배포 자동화 및 마이그레이션 시스템 개발
-          - 요즘IT 검색 알고리즘을 OpenSearch&DSL쿼리로 설계 및 개발. 유사 점수에 따른 정렬과 유사 키워드 검색 그리고 정확도 개선
+          - 요즘IT 검색 알고리즘을 OpenSearch&DSL쿼리로 설계/개발. 유사 점수에 따른 정렬과 유사 키워드 검색 그리고 정확도 개선
           - 평가 관리 어드민을 NextJS로 컨버팅하여 평가 관리 최적화
-          - 슬랙봇 구독 신청 MTV 개발. 구독 서비스를 Webhook, Restful을 사용하여 설계 및 개발. 550개의 구독 채널 확보했으며  Redis, Celery로 컨텐츠 URL 발송
+          - 슬랙봇 구독 신청 MTV 설계/개발. 구독 서비스를 Webhook, Restful을 사용하여 설계 및 개발. 550개의 구독 채널 확보 및 플랫폼 유입 유도
           - Docker 플랫폼을 이용한 데이터 세팅, 테스트 최적화
-          - Python 2.7 -> 3.5, django 1.8 -> 3.2.11로 포팅을 일부 담당하여 코드 안정성 개선
+          - Python 2.7 -> 3.5, django 1.8 -> 3.2.11로 포팅을 일부 담당. 코드 안정성 개선
           - 제품 목적에 따른 DB 마이그레이션, 레거시 데이터 처리를 위한 마이그레이션 코드 작성/배포
           - Git 형상관리, Github Action과 YML 파일을 이용한 배포 자동화
-
+          
+          개발 업무 외 기타 담당
+          - KT Cloud -> AWS 이전을 위한 서버 이전 업체 선정 보조, 컨텍 담당
+          - 위시켓 스토어 입점업체 미디버스의 개발 지원, 컨텍 담당
+          - 개발자 채용과 면접 담당 (서류 평가, 코딩 테스트, 실무 면접)
+          - 동료 개발자 코드 리뷰 등
+          
           <div class="custom-title">Tech Stack.</div>
           <mark>Python</mark>
           <mark>Django</mark>
@@ -166,7 +174,7 @@ content:
           <mark>Linux</mark>
 #          Python, Linux
 
-  - title: Project.
+  - title: Project Detail.
     layout: list
     content:
       - layout: left
@@ -353,7 +361,6 @@ content:
             <mark>Queue</mark>
             <mark>Restful</mark>
             <mark>WebSocket</mark>
-
 
         - layout: left
           title: 증권사 API 연동
