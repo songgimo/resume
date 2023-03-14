@@ -130,7 +130,8 @@ content:
         caption: 2017.02 - 2019.01
         description: | # 
           <div class="custom-title">Description.</div>
-          사이버 사령부 동기와 함께 팀 프로젝트 활동을 하였고, 그 과정에서 암호화폐
+          사이버 사령부 동기와 함께 트레이딩 프로그램을 만들어보자는 의미에서 시작한 프로젝트 활동입니다.
+          이 활동에서 암호화폐
           <a href="https://github.com/songsb13/Exchanges" target="_blank">API모듈</a>과
           <a href="https://github.com/songsb13/DiffTrader" target="_blank">재정거래</a>, 
           지표거래 프로그램을 개발하고 운영하였습니다. 아이디어와 일부 함수 설계는 동기가 담당하였으며 그 외의 설계와 개발은 제가 담당하였습니다.
@@ -320,7 +321,7 @@ content:
           caption: 2022.02 - 2022.08
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
-            기존 암호화폐 재정거래 코드가 지나치게 복잡하고, Thread 형태로 처리되어 각 시퀀스들이 서로 종속적이라는 문제를 해결하기 위해 시작하였습니다.
+            개인 프로젝트로 진행한 암호화폐 재정거래 코드가 지나치게 복잡하고, Thread 형태로 처리되어 각 시퀀스들이 서로 종속적이라는 문제를 해결하기 위해 시작하였습니다.
             기존 Qt 기반의 GUI를 CLI 방식으로 변경하고, Process와 Redis를 사용해 각 시퀀스간 종속성을 제거하고 코드의 복잡성을 풀어냈습니다.
             <div class="custom-title">Footprint.</div>
             - Qt GUI -> CLI 형태로 수정하여 코드 복잡성 개선
@@ -341,7 +342,7 @@ content:
           caption: 2022.02 - 2022.08
           description: | # this will include new lines to allow paragraphs
             <div class="custom-title">Description.</div>
-            이미 개발된 암호화폐 거래소 API의 <a href="https://velog.io/@reversemq/tradeoff" target="_blank">문제점이라 생각한 부분인</a> 
+            개인 프로젝트로 진행한 암호화폐 거래소 API의 <a href="https://velog.io/@reversemq/tradeoff" target="_blank">문제점이라 생각한 부분인</a> 
             불필요한 Subscriber 방식과 과도한 분리로 인한 탐색비용 증가 등의 문제를 개선하고자 시작한 프로젝트입니다.
             <div class="custom-title">Footprint.</div>
             - Upbit, Binance, Bithumb API 간 파일 병합, 모호한 기능 분리 및 개선
