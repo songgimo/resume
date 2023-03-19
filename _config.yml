@@ -147,7 +147,7 @@ content:
           - <a href="https://github.com/songgimo/gimo-freelance/tree/main/StockApis" target="_blank">키움증권, 신한i</a>에 대해 OpenAPI, Qt와 Thread, Queue, Signal을 이용한 통신 모듈 작성
           - 암호화폐 재정거래 시스템 개발, Thread, Process, Redis를 사용하여 Slippage 최소화
           - 유저 거래 데이터 관리를 위해 Flask, MySQL을 이용한 서버/클라이언트 개발 및 운영
-          - MACD, CCI, RSI, Stochastic 지표를 계산하고 거래하는 암호화폐 지표거래 프로그램을 Tree 구조로 개발
+          - MACD, CCI, RSI, Stochastic 지표를 계산하는 함수와 이를 Tree 구조로 변경하는 함수를 만들어 지표거래 프로그램 개발에 일조
           
           <div class="custom-title">Tech Stack.</div>
           <mark>Python</mark>
