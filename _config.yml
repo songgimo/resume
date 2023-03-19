@@ -147,7 +147,7 @@ content:
           - <a href="https://github.com/songgimo/gimo-freelance/tree/main/StockApis" target="_blank">키움증권, 신한i</a>에 대해 OpenAPI, Qt와 Thread, Queue, Signal을 이용한 통신 모듈 작성
           - 암호화폐 재정거래 시스템 개발, Thread, Process, Redis를 사용하여 Slippage 최소화
           - 유저 거래 데이터 관리를 위해 Flask, MySQL을 이용한 서버/클라이언트 개발 및 운영
-          - MSI, CCI, Stochastic 지표를 계산하고 거래하는 암호화폐 지표거래 프로그램을 Tree, DFS 구조로 개발
+          - MACD, CCI, Stochastic 지표를 계산하고 거래하는 암호화폐 지표거래 프로그램을 Tree, DFS 구조로 개발
           
           <div class="custom-title">Tech Stack.</div>
           <mark>Python</mark>
@@ -334,7 +334,7 @@ content:
             - Qt GUI -> CLI 형태로 수정하여 코드 복잡성 개선
             - Thread, Queue 기반에서 Process, Redis로 변경하여 프로세스별 코드 종속성 제거
             - Redis, set/get, pub/sub 도입하여 프로세스 간 데이터 통신
-            - 모호한 Depth를 가지는 파일과 코드들에 대한 통합/분리
+            - 모호한 Depth를 가지는 파일과 코드를 통합/분리
             <div class="custom-title">Tech Stack.</div>
             <mark>Python</mark>
             <mark>Redis</mark>
