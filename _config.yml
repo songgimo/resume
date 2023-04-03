@@ -141,7 +141,7 @@ content:
           이 활동에서 암호화폐
           <a href="https://github.com/songsb13/Exchanges" target="_blank">API모듈</a>과
           <a href="https://github.com/songsb13/DiffTrader" target="_blank">재정거래</a>, 
-          지표거래 프로그램을 개발하고 운영하였습니다. 프로젝트의 아이디어와 일부 함수 설계는 동기가 담당하였으며, 그 외의 설계와 개발은 제가 담당하였습니다.
+          <a href="https://github.com/songgimo/AlgoTrader" target="_blank">지표거래</a> 프로그램을 개발하고 운영하였습니다. 프로젝트의 아이디어와 일부 함수 설계는 동기가 담당하였으며, 그 외의 설계와 개발은 제가 담당하였습니다.
           <div class="custom-title">Footprint.</div>
           - 업비트, 빗썸, 바이낸스 거래소에 대해 Restful, WebSocket을 이용한 통신 모듈 작성
           - <a href="https://github.com/songgimo/gimo-freelance/tree/main/StockApis" target="_blank">키움증권, 신한i</a>에 대해 OpenAPI, Qt와 Thread, Queue, Signal을 이용한 통신 모듈 작성
