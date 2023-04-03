@@ -61,7 +61,7 @@ content:
     content:
       - layout: left
         title: 위시켓
-        caption: 2019.02 -
+        caption: 2019.02 - 2023.03
         description: | # this will include new lines to allow paragraphs Description of role
           <div class="custom-title">Description.</div>
           IT 아웃소싱 플랫폼 기업인 <a href="https://wishket.com" target="_blank">위시켓</a>에서 
@@ -178,7 +178,7 @@ content:
     content:
       - layout: left
         title: 평가 도메인 개선
-        caption: 2022.12 -
+        caption: 2022.12 - 2023.02
         description: |
           <div class="custom-title">Description.</div>
           위시켓에서 상주 프로젝트의 비중이 늘어남에 따라 외주/상주에 대한 평가 분리가 필요하다는 문제에서 시작한 프로젝트입니다.
