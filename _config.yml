@@ -288,7 +288,7 @@ content:
           <mark>MariaDB</mark>
       - layout: left
         title: 위시켓 개발팀 DevOps
-        caption: 2019.02 -
+        caption: 2019.02 - 2023.03
         description: |
           <div class="custom-title">Description.</div>
           위시켓 개발팀에서 요구하는 DevOps에 대한 시스템을 구현하고, 때에 따라 데이터 마이그레이션을 진행하였습니다.
@@ -305,7 +305,7 @@ content:
 
       - layout: left
         title: 위시켓 내부 시스템 개선
-        caption: 2019.02 -
+        caption: 2019.02 - 2023.03
         description: |
           <div class="custom-title">Description.</div>
           위시켓 내부 프로세스 자동화와 어드민 기능을 추가/개선 및 배포와 운영을 하였습니다.
@@ -453,7 +453,7 @@ content:
           3년제 졸업 후 학사 학위를 취득하고자 6개월 가량 학점은행제를 이용했고 컴퓨터 공학을 수료하였습니다.
       - layout: left
         title: 울산과학대학교
-        caption: 2013.02 - 2018.02
+        caption: 2013.03 - 2018.02
         description: | # this will include new lines to allow paragraphs
           컴퓨터 정보학을 수료했으며 공업 전문학사 학위를 취득하였습니다.
 
