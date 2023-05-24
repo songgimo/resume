@@ -37,9 +37,8 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs      
       웹/백엔드 서비스 개발 및 스타트업 개발자로서 다양한 경험을 가지고 있습니다.
-      Python, Django, HTML, SCSS, jQuery, MariaDB, Git, Linux 등을 사용하며, 목적에 따른 아키텍처를 개발하고자 언제나 고민하고 있습니다.
-      
-      또한 스스로 부족한 역량을 쌓고자 항상 고민하고 있으며, 이전에 개발한 프로젝트를 리팩토링하거나 개발에 대한 간략한 생각을 작성하여 새로운 인사이트를 얻으며 부족한 역량을 쌓기 위해 노력하고 있습니다.
+      스스로 부족한 역량을 쌓고자 항상 고민하고 있으며, 
+      이전에 개발한 프로젝트를 리팩토링하거나 개발에 대한 간략한 생각을 작성하여 새로운 인사이트를 얻으며 부족한 역량을 쌓기 위해 노력하고 있습니다.
       
       프로젝트 개발이란 제품 팀이 공통된 목적을 달성하기 위해 함께 나아가는 것이라고 생각하며, 그렇기에 효율적인 커뮤니케이션이 중요하다고 믿고 행동합니다.
       이러한 신념을 기반으로 회사가 성장하는 과정에서 다양한 상황을 학습하고 경험하였습니다. 지금도 끊임없이 발전하며, 더 나은 개발자가 되기 위해 노력하고 있습니다.
@@ -48,7 +47,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       <ul class="highlights">
-        <li>Frontend: JavaScript, jQuery, Next.JS, HTML/CSS, SCSS</li>
+        <li>Frontend: JavaScript, jQuery, Next.JS, HTML/CSS</li>
         <li>Backend: Python, Django, Flask</li>
         <li>Database: MySQL, MariaDB, Redis</li>
         <li>Deployment: AWS(EC2/OpenSearch/S3), Vercel, Docker</li>
@@ -65,28 +64,23 @@ content:
         description: | # this will include new lines to allow paragraphs Description of role
           <div class="custom-title">Description.</div>
           IT 아웃소싱 플랫폼 기업인 <a href="https://wishket.com" target="_blank">위시켓</a>에서 
-          스토어/평가/스마트매칭 도메인 부문을 리딩하며, 해당 분야에서 설계, 개발, 배포, 운영을 담당하였습니다.
-          
-          애자일 방법론을 일부 채용하여 기획&디자인 팀과 수시로 커뮤니케이션하여 목적에 맞는 제품 개발을 진행했으며,
-          프로젝트는 Python, Django, HTML, SCSS, jQuery, MariaDB를 주로 사용하였고 필요에 따라서 데이터 마이그레이션도 진행하였습니다.
+          스토어/평가/스마트매칭 도메인 부문을 리딩하였고 설계, 개발, 배포, 운영을 담당하였습니다.
           
           <div class="custom-title">Footprint.</div>
           <b>위시켓 서비스의 전반적인 관리 및 기능 개발/개선</b>
-          - 매칭 데이터 수집을 위한 스마트매칭 MTV 설계/개발.
-          - 프로젝트-스마트매칭 데이터 일치율 계산 및 추천 메일 발송하는 매칭 알고리즘 설계/개발.
-          - 공개와 비공개 평가, 하자보수 평가 세분화와 유저 판단 근거 확보를 위한 평가 도메인 MTV 재설계/개발
-          - ELB도입으로 다중 서버 배포 자동화 및 마이그레이션 시스템 개발
-          - 요즘IT 검색 알고리즘을 OpenSearch&DSL쿼리로 설계/개발. 유사 점수에 따른 정렬과 유사 키워드 검색, 정확도 개선
-          - 평가 관리 어드민을 NextJS로 컨버팅하여 평가 관리 최적화
-          - 슬랙봇 구독 신청 MTV 설계/개발. 구독 서비스를 Webhook, Restful을 사용하여 설계 및 개발. 550개의 구독 채널 확보 및 플랫폼 유입 유도
-          - Docker 플랫폼을 이용한 데이터 세팅, 테스트 최적화
-          - Python 2.7 -> 3.5, django 1.8 -> 3.2.11로 포팅을 일부 담당. 코드 안정성 개선
-          - 제품 목적에 따른 DB 마이그레이션, 레거시 데이터 처리를 위한 마이그레이션 코드 작성/배포
+          - 다양한 도메인 MTV 설계/개발
+          - 스마트매칭 데이터 분석을 통한 추천 메일 알고리즘을 설계/개발
+          - 서버 배포 자동화 및 마이그레이션 시스템 개발
+          - OpenSearch/DSL을 사용한 요즘IT 검색 알고리즘 개발
+          - 내부 어드민 NextJS 컨버팅
+          - Python3 버전 업데이트&장고 버전 업데이트 포팅 일부 담당
+          - DB 마이그레이션 코드 작성 및 배포
+          - Github Action/YML을 사용한 배포 자동화
           - Git 형상관리, Github Action과 YML 파일을 이용한 배포 자동화
           
           <b>개발 업무 외 기타 담당</b>
-          - KT Cloud -> AWS 이전을 위한 서버 이전 업체 선정 보조, 컨텍 담당
-          - 위시켓 스토어 입점업체 미디버스의 개발 지원, 컨텍 담당
+          - AWS 서버 이전 업체 선정 보조 및 컨택 담당
+          - 스토어 입점 업체 개발 지원 및 컨텍 담당
           - 개발자 채용과 면접 담당 (서류 평가, 코딩 테스트, 실무 면접)
           - 동료 개발자 코드 리뷰 등
           
@@ -101,7 +95,6 @@ content:
           <mark>jQuery</mark>
           <mark>NextJS</mark>
           <mark>Restful</mark>
-#          Python, Django, Docker, Redis, MariaDB, OpenSearch, EC2, nextJS, jQuery, HTML/CSS
 
   - title: Other Experience.
     layout: list
@@ -111,14 +104,13 @@ content:
         caption: 2017.02 - 2019.01
         description: | # 
           <div class="custom-title">Description.</div>
-          크몽에서 사이버 사령부 동기와 함께 팀 단위 프리랜서 활동을 했으며 설계/개발을 담당하였습니다.
-          대부분 주식과 암호화폐 트레이딩 프로그램을 개발하였으며, Thread, Async, Process, Queue, Lock 등 다양한 자료구조와 OS를 활용하여 개발하였습니다.
+          사이버 사령부 동기 1명과 함께 2인 프리랜서 활동을 했으며 설계/개발을 담당하였습니다.
           <div class="custom-title">Footprint.</div>
-          - 바이낸스 거래소, Qt GUI, Restful, Thread, Queue, Signal을 사용한 현물과 마진 이동, 밸런스 정보, 마진 트레이딩 등 종합 대시보드 시스템 개발
-          - 코빗 거래소, SQLite, Restful을 사용한 암호화폐 데이 트레이딩 시스템 개발
-          - 업비트 거래소, Qt GUI, Restful, Thread, Queue를 사용한 그리드 트레이딩 시스템 개발
-          - 키움증권, Qt Graph, Win32, OpenAPI, Process, Thread, Queue, Signal을 사용한 <a href="https://github.com/songgimo/gimo-freelance/tree/main/KiwoomHighChart" target="_blank">주식 차트 프로그램</a> 개발
-          - 키움증권, Qt, Win32, OpenAPI, Thread, Queue, Signal을 사용한 그리드 트레이딩 시스템 개발
+          - 바이낸스 종합 대시보드 시스템 개발
+          - 코빗 데이 트레이딩 시스템 개발
+          - 업비트 그리드 트레이딩 시스템 개발
+          - 키움증권 <a href="https://github.com/songgimo/gimo-freelance/tree/main/KiwoomHighChart" target="_blank">주식 차트 프로그램</a> 개발
+          - 키움증권 그리드 트레이딩 시스템 개발
           
           <div class="custom-title">Tech Stack.</div>
           <mark>Python</mark>
@@ -137,17 +129,12 @@ content:
         caption: 2017.02 - 2019.01
         description: | # 
           <div class="custom-title">Description.</div>
-          팀 프로젝트 활동은 사이버 사령부 동기와 함께 시작되어서 트레이딩 프로그램을 개발해보자는 목표로 진행되었습니다.
-          이 활동에서 암호화폐
-          <a href="https://github.com/songsb13/Exchanges" target="_blank">API모듈</a>과
-          <a href="https://github.com/songsb13/DiffTrader" target="_blank">재정거래</a>, 
-          <a href="https://github.com/songgimo/AlgoTrader" target="_blank">지표거래</a> 프로그램을 개발하고 운영하였습니다. 프로젝트의 아이디어와 일부 함수 설계는 동기가 담당하였으며, 그 외의 설계와 개발은 제가 담당하였습니다.
+          사이버 사령부 동기 2명과 함께 트레이딩 프로그램 개발을 목표로 진행된 활동입니다.
           <div class="custom-title">Footprint.</div>
-          - 업비트, 빗썸, 바이낸스 거래소에 대해 Restful, WebSocket을 이용한 통신 모듈 작성
-          - <a href="https://github.com/songgimo/gimo-freelance/tree/main/StockApis" target="_blank">키움증권, 신한i</a>에 대해 OpenAPI, Qt와 Thread, Queue, Signal을 이용한 통신 모듈 작성
-          - 암호화폐 재정거래 시스템 개발, Thread, Process, Redis를 사용하여 Slippage 최소화
-          - 유저 거래 데이터 관리를 위해 Flask, MySQL을 이용한 서버/클라이언트 개발 및 운영
-          - MACD, CCI, RSI, Stochastic 지표를 계산하는 함수와 이를 Tree 구조로 변경하는 함수를 만들어 지표거래 프로그램 개발에 일조
+          - 업비트, 빗썸, 바이낸스 거래소<a href="https://github.com/songsb13/Exchanges" target="_blank">API 모듈</a> 작성 
+          - <a href="https://github.com/songsb13/DiffTrader" target="_blank">암호화폐 재정거래 시스템</a> 개발
+          - <a href="https://github.com/songgimo/gimo-freelance/tree/main/StockApis" target="_blank">키움증권, 신한i</a> API 모듈 작성
+          - 보조지표를 활용한 <a href="https://github.com/songgimo/AlgoTrader" target="_blank">지표거래 프로그램</a> 일부 개발
           
           <div class="custom-title">Tech Stack.</div>
           <mark>Python</mark>
@@ -181,6 +168,9 @@ content:
         caption: 2022.12 - 2023.02
         description: |
           <div class="custom-title">Description.</div>
+          외주/상주에 대한 평가 분리가 필요하다는 문제 인식에서 출발한 프로젝트입니다.
+          UI/UX를 포함한 DB 관계를 재정립하고 코드를 수정하는 작업을 진행하였습니다.
+          
           위시켓에서 상주 프로젝트의 비중이 늘어남에 따라 외주/상주에 대한 평가 분리가 필요하다는 문제에서 시작한 프로젝트입니다.
           뷰와 템플릿을 수정했으며 공개와 비공개 평가에 대한 관계 설정을 재정립하고 레거시에 대한 마이그레이션 코드를 작성하였습니다.
           <div class="custom-title">Footprint.</div>
